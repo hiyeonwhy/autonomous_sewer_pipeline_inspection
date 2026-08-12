@@ -1,0 +1,6 @@
+path: /home/ricegrass/ssafy/2pjt/data/yolo_det
+train: images/train
+val: images/val
+test: images/test
+nc: 2
+names: ['EX', 'CL']

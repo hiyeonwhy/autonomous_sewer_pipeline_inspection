@@ -1,0 +1,2063 @@
+[
+  {
+    "sgg_code": "11110",
+    "population": 136318,
+    "households": 72503,
+    "one_person_households": 38946,
+    "dong_count": 17,
+    "one_person_share": 0.5372,
+    "persons_per_household": 1.88
+  },
+  {
+    "sgg_code": "11140",
+    "population": 117558,
+    "households": 63882,
+    "one_person_households": 34397,
+    "dong_count": 15,
+    "one_person_share": 0.5384,
+    "persons_per_household": 1.84
+  },
+  {
+    "sgg_code": "11170",
+    "population": 199648,
+    "households": 101982,
+    "one_person_households": 50663,
+    "dong_count": 16,
+    "one_person_share": 0.4968,
+    "persons_per_household": 1.96
+  },
+  {
+    "sgg_code": "11200",
+    "population": 274517,
+    "households": 133771,
+    "one_person_households": 59170,
+    "dong_count": 17,
+    "one_person_share": 0.4423,
+    "persons_per_household": 2.05
+  },
+  {
+    "sgg_code": "11215",
+    "population": 330905,
+    "households": 172165,
+    "one_person_households": 88016,
+    "dong_count": 15,
+    "one_person_share": 0.5112,
+    "persons_per_household": 1.92
+  },
+  {
+    "sgg_code": "11230",
+    "population": 352848,
+    "households": 180852,
+    "one_person_households": 89612,
+    "dong_count": 15,
+    "one_person_share": 0.4955,
+    "persons_per_household": 1.95
+  },
+  {
+    "sgg_code": "11260",
+    "population": 376386,
+    "households": 190348,
+    "one_person_households": 88488,
+    "dong_count": 16,
+    "one_person_share": 0.4649,
+    "persons_per_household": 1.98
+  },
+  {
+    "sgg_code": "11290",
+    "population": 421762,
+    "households": 199807,
+    "one_person_households": 86146,
+    "dong_count": 20,
+    "one_person_share": 0.4311,
+    "persons_per_household": 2.11
+  },
+  {
+    "sgg_code": "11305",
+    "population": 278041,
+    "households": 142815,
+    "one_person_households": 68381,
+    "dong_count": 13,
+    "one_person_share": 0.4788,
+    "persons_per_household": 1.95
+  },
+  {
+    "sgg_code": "11320",
+    "population": 298225,
+    "households": 139118,
+    "one_person_households": 54207,
+    "dong_count": 14,
+    "one_person_share": 0.3896,
+    "persons_per_household": 2.14
+  },
+  {
+    "sgg_code": "11350",
+    "population": 481053,
+    "households": 217498,
+    "one_person_households": 82126,
+    "dong_count": 19,
+    "one_person_share": 0.3776,
+    "persons_per_household": 2.21
+  },
+  {
+    "sgg_code": "11380",
+    "population": 453212,
+    "households": 214777,
+    "one_person_households": 89315,
+    "dong_count": 16,
+    "one_person_share": 0.4158,
+    "persons_per_household": 2.11
+  },
+  {
+    "sgg_code": "11410",
+    "population": 299810,
+    "households": 147178,
+    "one_person_households": 67795,
+    "dong_count": 14,
+    "one_person_share": 0.4606,
+    "persons_per_household": 2.04
+  },
+  {
+    "sgg_code": "11440",
+    "population": 356487,
+    "households": 180580,
+    "one_person_households": 88330,
+    "dong_count": 16,
+    "one_person_share": 0.4891,
+    "persons_per_household": 1.97
+  },
+  {
+    "sgg_code": "11470",
+    "population": 421247,
+    "households": 179105,
+    "one_person_households": 59977,
+    "dong_count": 18,
+    "one_person_share": 0.3349,
+    "persons_per_household": 2.35
+  },
+  {
+    "sgg_code": "11500",
+    "population": 548515,
+    "households": 274577,
+    "one_person_households": 129080,
+    "dong_count": 20,
+    "one_person_share": 0.4701,
+    "persons_per_household": 2.0
+  },
+  {
+    "sgg_code": "11530",
+    "population": 382633,
+    "households": 185143,
+    "one_person_households": 80027,
+    "dong_count": 16,
+    "one_person_share": 0.4322,
+    "persons_per_household": 2.07
+  },
+  {
+    "sgg_code": "11545",
+    "population": 222503,
+    "households": 122059,
+    "one_person_households": 65834,
+    "dong_count": 10,
+    "one_person_share": 0.5394,
+    "persons_per_household": 1.82
+  },
+  {
+    "sgg_code": "11560",
+    "population": 371867,
+    "households": 193619,
+    "one_person_households": 98396,
+    "dong_count": 18,
+    "one_person_share": 0.5082,
+    "persons_per_household": 1.92
+  },
+  {
+    "sgg_code": "11590",
+    "population": 371999,
+    "households": 188064,
+    "one_person_households": 91814,
+    "dong_count": 15,
+    "one_person_share": 0.4882,
+    "persons_per_household": 1.98
+  },
+  {
+    "sgg_code": "11620",
+    "population": 477797,
+    "households": 291311,
+    "one_person_households": 186289,
+    "dong_count": 21,
+    "one_person_share": 0.6395,
+    "persons_per_household": 1.64
+  },
+  {
+    "sgg_code": "11650",
+    "population": 414383,
+    "households": 173895,
+    "one_person_households": 60715,
+    "dong_count": 18,
+    "one_person_share": 0.3491,
+    "persons_per_household": 2.38
+  },
+  {
+    "sgg_code": "11680",
+    "population": 552830,
+    "households": 244779,
+    "one_person_households": 97658,
+    "dong_count": 22,
+    "one_person_share": 0.399,
+    "persons_per_household": 2.26
+  },
+  {
+    "sgg_code": "11710",
+    "population": 650258,
+    "households": 289693,
+    "one_person_households": 110567,
+    "dong_count": 27,
+    "one_person_share": 0.3817,
+    "persons_per_household": 2.24
+  },
+  {
+    "sgg_code": "11740",
+    "population": 499011,
+    "households": 223649,
+    "one_person_households": 84379,
+    "dong_count": 19,
+    "one_person_share": 0.3773,
+    "persons_per_household": 2.23
+  },
+  {
+    "sgg_code": "26110",
+    "population": 36306,
+    "households": 23361,
+    "one_person_households": 15137,
+    "dong_count": 9,
+    "one_person_share": 0.648,
+    "persons_per_household": 1.55
+  },
+  {
+    "sgg_code": "26140",
+    "population": 101216,
+    "households": 53408,
+    "one_person_households": 26390,
+    "dong_count": 13,
+    "one_person_share": 0.4941,
+    "persons_per_household": 1.9
+  },
+  {
+    "sgg_code": "26170",
+    "population": 83354,
+    "households": 46378,
+    "one_person_households": 24473,
+    "dong_count": 12,
+    "one_person_share": 0.5277,
+    "persons_per_household": 1.8
+  },
+  {
+    "sgg_code": "26200",
+    "population": 100570,
+    "households": 53232,
+    "one_person_households": 25441,
+    "dong_count": 11,
+    "one_person_share": 0.4779,
+    "persons_per_household": 1.89
+  },
+  {
+    "sgg_code": "26230",
+    "population": 364912,
+    "households": 189725,
+    "one_person_households": 91103,
+    "dong_count": 20,
+    "one_person_share": 0.4802,
+    "persons_per_household": 1.92
+  },
+  {
+    "sgg_code": "26260",
+    "population": 271097,
+    "households": 122524,
+    "one_person_households": 44870,
+    "dong_count": 13,
+    "one_person_share": 0.3662,
+    "persons_per_household": 2.21
+  },
+  {
+    "sgg_code": "26290",
+    "population": 254413,
+    "households": 121732,
+    "one_person_households": 50244,
+    "dong_count": 17,
+    "one_person_share": 0.4127,
+    "persons_per_household": 2.09
+  },
+  {
+    "sgg_code": "26320",
+    "population": 260736,
+    "households": 122201,
+    "one_person_households": 45911,
+    "dong_count": 13,
+    "one_person_share": 0.3757,
+    "persons_per_household": 2.13
+  },
+  {
+    "sgg_code": "26350",
+    "population": 370739,
+    "households": 170203,
+    "one_person_households": 63252,
+    "dong_count": 18,
+    "one_person_share": 0.3716,
+    "persons_per_household": 2.18
+  },
+  {
+    "sgg_code": "26380",
+    "population": 282159,
+    "households": 139149,
+    "one_person_households": 59301,
+    "dong_count": 16,
+    "one_person_share": 0.4262,
+    "persons_per_household": 2.03
+  },
+  {
+    "sgg_code": "26410",
+    "population": 205672,
+    "households": 105381,
+    "one_person_households": 49437,
+    "dong_count": 16,
+    "one_person_share": 0.4691,
+    "persons_per_household": 1.95
+  },
+  {
+    "sgg_code": "26440",
+    "population": 153555,
+    "households": 66669,
+    "one_person_households": 24260,
+    "dong_count": 9,
+    "one_person_share": 0.3639,
+    "persons_per_household": 2.3
+  },
+  {
+    "sgg_code": "26470",
+    "population": 211464,
+    "households": 100900,
+    "one_person_households": 40955,
+    "dong_count": 12,
+    "one_person_share": 0.4059,
+    "persons_per_household": 2.1
+  },
+  {
+    "sgg_code": "26500",
+    "population": 168440,
+    "households": 87903,
+    "one_person_households": 42471,
+    "dong_count": 10,
+    "one_person_share": 0.4832,
+    "persons_per_household": 1.92
+  },
+  {
+    "sgg_code": "26530",
+    "population": 192475,
+    "households": 98688,
+    "one_person_households": 45319,
+    "dong_count": 12,
+    "one_person_share": 0.4592,
+    "persons_per_household": 1.95
+  },
+  {
+    "sgg_code": "26710",
+    "population": 175262,
+    "households": 80774,
+    "one_person_households": 31864,
+    "dong_count": 5,
+    "one_person_share": 0.3945,
+    "persons_per_household": 2.17
+  },
+  {
+    "sgg_code": "27110",
+    "population": 101754,
+    "households": 51204,
+    "one_person_households": 24178,
+    "dong_count": 12,
+    "one_person_share": 0.4722,
+    "persons_per_household": 1.99
+  },
+  {
+    "sgg_code": "27140",
+    "population": 338476,
+    "households": 166588,
+    "one_person_households": 71266,
+    "dong_count": 22,
+    "one_person_share": 0.4278,
+    "persons_per_household": 2.03
+  },
+  {
+    "sgg_code": "27170",
+    "population": 163508,
+    "households": 85634,
+    "one_person_households": 40345,
+    "dong_count": 17,
+    "one_person_share": 0.4711,
+    "persons_per_household": 1.91
+  },
+  {
+    "sgg_code": "27200",
+    "population": 141344,
+    "households": 78898,
+    "one_person_households": 42163,
+    "dong_count": 13,
+    "one_person_share": 0.5344,
+    "persons_per_household": 1.79
+  },
+  {
+    "sgg_code": "27230",
+    "population": 406915,
+    "households": 194317,
+    "one_person_households": 80657,
+    "dong_count": 23,
+    "one_person_share": 0.4151,
+    "persons_per_household": 2.09
+  },
+  {
+    "sgg_code": "27260",
+    "population": 408147,
+    "households": 177891,
+    "one_person_households": 60356,
+    "dong_count": 23,
+    "one_person_share": 0.3393,
+    "persons_per_household": 2.29
+  },
+  {
+    "sgg_code": "27290",
+    "population": 513399,
+    "households": 239961,
+    "one_person_households": 93748,
+    "dong_count": 23,
+    "one_person_share": 0.3907,
+    "persons_per_household": 2.14
+  },
+  {
+    "sgg_code": "27710",
+    "population": 252000,
+    "households": 113898,
+    "one_person_households": 42248,
+    "dong_count": 11,
+    "one_person_share": 0.3709,
+    "persons_per_household": 2.21
+  },
+  {
+    "sgg_code": "27720",
+    "population": 22622,
+    "households": 13534,
+    "one_person_households": 7324,
+    "dong_count": 8,
+    "one_person_share": 0.5412,
+    "persons_per_household": 1.67
+  },
+  {
+    "sgg_code": "28110",
+    "population": 179030,
+    "households": 90359,
+    "one_person_households": 44330,
+    "dong_count": 13,
+    "one_person_share": 0.4906,
+    "persons_per_household": 1.98
+  },
+  {
+    "sgg_code": "28140",
+    "population": 57926,
+    "households": 28124,
+    "one_person_households": 11581,
+    "dong_count": 11,
+    "one_person_share": 0.4118,
+    "persons_per_household": 2.06
+  },
+  {
+    "sgg_code": "28177",
+    "population": 418211,
+    "households": 207277,
+    "one_person_households": 92937,
+    "dong_count": 21,
+    "one_person_share": 0.4484,
+    "persons_per_household": 2.02
+  },
+  {
+    "sgg_code": "28185",
+    "population": 410290,
+    "households": 169419,
+    "one_person_households": 52936,
+    "dong_count": 15,
+    "one_person_share": 0.3125,
+    "persons_per_household": 2.42
+  },
+  {
+    "sgg_code": "28200",
+    "population": 479149,
+    "households": 227197,
+    "one_person_households": 94504,
+    "dong_count": 20,
+    "one_person_share": 0.416,
+    "persons_per_household": 2.11
+  },
+  {
+    "sgg_code": "28237",
+    "population": 488191,
+    "households": 226813,
+    "one_person_households": 87266,
+    "dong_count": 22,
+    "one_person_share": 0.3847,
+    "persons_per_household": 2.15
+  },
+  {
+    "sgg_code": "28245",
+    "population": 276309,
+    "households": 129215,
+    "one_person_households": 50640,
+    "dong_count": 12,
+    "one_person_share": 0.3919,
+    "persons_per_household": 2.14
+  },
+  {
+    "sgg_code": "28260",
+    "population": 662875,
+    "households": 287080,
+    "one_person_households": 99853,
+    "dong_count": 24,
+    "one_person_share": 0.3478,
+    "persons_per_household": 2.31
+  },
+  {
+    "sgg_code": "28710",
+    "population": 69681,
+    "households": 36353,
+    "one_person_households": 16640,
+    "dong_count": 14,
+    "one_person_share": 0.4577,
+    "persons_per_household": 1.92
+  },
+  {
+    "sgg_code": "28720",
+    "population": 19340,
+    "households": 12181,
+    "one_person_households": 7682,
+    "dong_count": 10,
+    "one_person_share": 0.6307,
+    "persons_per_household": 1.59
+  },
+  {
+    "sgg_code": "29110",
+    "population": 105200,
+    "households": 55770,
+    "one_person_households": 28430,
+    "dong_count": 13,
+    "one_person_share": 0.5098,
+    "persons_per_household": 1.89
+  },
+  {
+    "sgg_code": "29140",
+    "population": 274624,
+    "households": 133701,
+    "one_person_households": 58519,
+    "dong_count": 18,
+    "one_person_share": 0.4377,
+    "persons_per_household": 2.05
+  },
+  {
+    "sgg_code": "29155",
+    "population": 205647,
+    "households": 96333,
+    "one_person_households": 38695,
+    "dong_count": 17,
+    "one_person_share": 0.4017,
+    "persons_per_household": 2.13
+  },
+  {
+    "sgg_code": "29170",
+    "population": 416783,
+    "households": 203502,
+    "one_person_households": 89708,
+    "dong_count": 27,
+    "one_person_share": 0.4408,
+    "persons_per_household": 2.05
+  },
+  {
+    "sgg_code": "29200",
+    "population": 383206,
+    "households": 173126,
+    "one_person_households": 68183,
+    "dong_count": 21,
+    "one_person_share": 0.3938,
+    "persons_per_household": 2.21
+  },
+  {
+    "sgg_code": "30110",
+    "population": 218251,
+    "households": 113795,
+    "one_person_households": 55938,
+    "dong_count": 16,
+    "one_person_share": 0.4916,
+    "persons_per_household": 1.92
+  },
+  {
+    "sgg_code": "30140",
+    "population": 224273,
+    "households": 109893,
+    "one_person_households": 48105,
+    "dong_count": 17,
+    "one_person_share": 0.4377,
+    "persons_per_household": 2.04
+  },
+  {
+    "sgg_code": "30170",
+    "population": 464359,
+    "households": 224912,
+    "one_person_households": 99237,
+    "dong_count": 24,
+    "one_person_share": 0.4412,
+    "persons_per_household": 2.06
+  },
+  {
+    "sgg_code": "30200",
+    "population": 371104,
+    "households": 174839,
+    "one_person_households": 75522,
+    "dong_count": 13,
+    "one_person_share": 0.432,
+    "persons_per_household": 2.12
+  },
+  {
+    "sgg_code": "30230",
+    "population": 164047,
+    "households": 81131,
+    "one_person_households": 35372,
+    "dong_count": 12,
+    "one_person_share": 0.436,
+    "persons_per_household": 2.02
+  },
+  {
+    "sgg_code": "31110",
+    "population": 203026,
+    "households": 95151,
+    "one_person_households": 36952,
+    "dong_count": 12,
+    "one_person_share": 0.3884,
+    "persons_per_household": 2.13
+  },
+  {
+    "sgg_code": "31140",
+    "population": 304337,
+    "households": 144056,
+    "one_person_households": 58276,
+    "dong_count": 14,
+    "one_person_share": 0.4045,
+    "persons_per_household": 2.11
+  },
+  {
+    "sgg_code": "31170",
+    "population": 147756,
+    "households": 68433,
+    "one_person_households": 26512,
+    "dong_count": 9,
+    "one_person_share": 0.3874,
+    "persons_per_household": 2.16
+  },
+  {
+    "sgg_code": "31200",
+    "population": 213685,
+    "households": 90454,
+    "one_person_households": 28258,
+    "dong_count": 8,
+    "one_person_share": 0.3124,
+    "persons_per_household": 2.36
+  },
+  {
+    "sgg_code": "31710",
+    "population": 218285,
+    "households": 103560,
+    "one_person_households": 41920,
+    "dong_count": 12,
+    "one_person_share": 0.4048,
+    "persons_per_household": 2.11
+  },
+  {
+    "sgg_code": "36110",
+    "population": 390923,
+    "households": 165979,
+    "one_person_households": 57883,
+    "dong_count": 24,
+    "one_person_share": 0.3487,
+    "persons_per_household": 2.36
+  },
+  {
+    "sgg_code": "41110",
+    "population": 1185770,
+    "households": 545547,
+    "one_person_households": 222865,
+    "dong_count": 44,
+    "one_person_share": 0.4085,
+    "persons_per_household": 2.17
+  },
+  {
+    "sgg_code": "41130",
+    "population": 902344,
+    "households": 409398,
+    "one_person_households": 160086,
+    "dong_count": 50,
+    "one_person_share": 0.391,
+    "persons_per_household": 2.2
+  },
+  {
+    "sgg_code": "41150",
+    "population": 461917,
+    "households": 213910,
+    "one_person_households": 83995,
+    "dong_count": 15,
+    "one_person_share": 0.3927,
+    "persons_per_household": 2.16
+  },
+  {
+    "sgg_code": "41170",
+    "population": 562305,
+    "households": 240860,
+    "one_person_households": 78252,
+    "dong_count": 31,
+    "one_person_share": 0.3249,
+    "persons_per_household": 2.33
+  },
+  {
+    "sgg_code": "41190",
+    "population": 755453,
+    "households": 344091,
+    "one_person_households": 129300,
+    "dong_count": 37,
+    "one_person_share": 0.3758,
+    "persons_per_household": 2.2
+  },
+  {
+    "sgg_code": "41210",
+    "population": 303666,
+    "households": 127889,
+    "one_person_households": 39453,
+    "dong_count": 19,
+    "one_person_share": 0.3085,
+    "persons_per_household": 2.37
+  },
+  {
+    "sgg_code": "41220",
+    "population": 619670,
+    "households": 299301,
+    "one_person_households": 133502,
+    "dong_count": 25,
+    "one_person_share": 0.446,
+    "persons_per_household": 2.07
+  },
+  {
+    "sgg_code": "41250",
+    "population": 86265,
+    "households": 43811,
+    "one_person_households": 20482,
+    "dong_count": 8,
+    "one_person_share": 0.4675,
+    "persons_per_household": 1.97
+  },
+  {
+    "sgg_code": "41270",
+    "population": 609240,
+    "households": 289171,
+    "one_person_households": 122883,
+    "dong_count": 25,
+    "one_person_share": 0.4249,
+    "persons_per_household": 2.11
+  },
+  {
+    "sgg_code": "41280",
+    "population": 1057438,
+    "households": 468277,
+    "one_person_households": 168870,
+    "dong_count": 44,
+    "one_person_share": 0.3606,
+    "persons_per_household": 2.26
+  },
+  {
+    "sgg_code": "41290",
+    "population": 80832,
+    "households": 29465,
+    "one_person_households": 6345,
+    "dong_count": 7,
+    "one_person_share": 0.2153,
+    "persons_per_household": 2.74
+  },
+  {
+    "sgg_code": "41310",
+    "population": 187782,
+    "households": 83251,
+    "one_person_households": 30126,
+    "dong_count": 8,
+    "one_person_share": 0.3619,
+    "persons_per_household": 2.26
+  },
+  {
+    "sgg_code": "41360",
+    "population": 727440,
+    "households": 309418,
+    "one_person_households": 102002,
+    "dong_count": 18,
+    "one_person_share": 0.3297,
+    "persons_per_household": 2.35
+  },
+  {
+    "sgg_code": "41370",
+    "population": 253590,
+    "households": 117813,
+    "one_person_households": 49936,
+    "dong_count": 8,
+    "one_person_share": 0.4239,
+    "persons_per_household": 2.15
+  },
+  {
+    "sgg_code": "41390",
+    "population": 514831,
+    "households": 231531,
+    "one_person_households": 90125,
+    "dong_count": 20,
+    "one_person_share": 0.3893,
+    "persons_per_household": 2.22
+  },
+  {
+    "sgg_code": "41410",
+    "population": 249462,
+    "households": 111755,
+    "one_person_households": 41310,
+    "dong_count": 12,
+    "one_person_share": 0.3696,
+    "persons_per_household": 2.23
+  },
+  {
+    "sgg_code": "41430",
+    "population": 164221,
+    "households": 67939,
+    "one_person_households": 19331,
+    "dong_count": 6,
+    "one_person_share": 0.2845,
+    "persons_per_household": 2.42
+  },
+  {
+    "sgg_code": "41450",
+    "population": 327495,
+    "households": 141063,
+    "one_person_households": 50033,
+    "dong_count": 14,
+    "one_person_share": 0.3547,
+    "persons_per_household": 2.32
+  },
+  {
+    "sgg_code": "41460",
+    "population": 1090211,
+    "households": 450560,
+    "one_person_households": 140965,
+    "dong_count": 39,
+    "one_person_share": 0.3129,
+    "persons_per_household": 2.42
+  },
+  {
+    "sgg_code": "41480",
+    "population": 533387,
+    "households": 237556,
+    "one_person_households": 89181,
+    "dong_count": 20,
+    "one_person_share": 0.3754,
+    "persons_per_household": 2.25
+  },
+  {
+    "sgg_code": "41500",
+    "population": 224740,
+    "households": 109128,
+    "one_person_households": 48986,
+    "dong_count": 14,
+    "one_person_share": 0.4489,
+    "persons_per_household": 2.06
+  },
+  {
+    "sgg_code": "41550",
+    "population": 198785,
+    "households": 98812,
+    "one_person_households": 45133,
+    "dong_count": 15,
+    "one_person_share": 0.4568,
+    "persons_per_household": 2.01
+  },
+  {
+    "sgg_code": "41570",
+    "population": 484042,
+    "households": 208059,
+    "one_person_households": 72917,
+    "dong_count": 14,
+    "one_person_share": 0.3505,
+    "persons_per_household": 2.33
+  },
+  {
+    "sgg_code": "41590",
+    "population": 998746,
+    "households": 433399,
+    "one_person_households": 161267,
+    "dong_count": 29,
+    "one_person_share": 0.3721,
+    "persons_per_household": 2.3
+  },
+  {
+    "sgg_code": "41610",
+    "population": 399111,
+    "households": 177343,
+    "one_person_households": 63424,
+    "dong_count": 16,
+    "one_person_share": 0.3576,
+    "persons_per_household": 2.25
+  },
+  {
+    "sgg_code": "41630",
+    "population": 297226,
+    "households": 133369,
+    "one_person_households": 49252,
+    "dong_count": 12,
+    "one_person_share": 0.3693,
+    "persons_per_household": 2.23
+  },
+  {
+    "sgg_code": "41650",
+    "population": 140468,
+    "households": 74361,
+    "one_person_households": 36892,
+    "dong_count": 14,
+    "one_person_share": 0.4961,
+    "persons_per_household": 1.89
+  },
+  {
+    "sgg_code": "41670",
+    "population": 113506,
+    "households": 57156,
+    "one_person_households": 25741,
+    "dong_count": 12,
+    "one_person_share": 0.4504,
+    "persons_per_household": 1.99
+  },
+  {
+    "sgg_code": "41800",
+    "population": 42977,
+    "households": 22885,
+    "one_person_households": 11451,
+    "dong_count": 10,
+    "one_person_share": 0.5004,
+    "persons_per_household": 1.88
+  },
+  {
+    "sgg_code": "41820",
+    "population": 62041,
+    "households": 33305,
+    "one_person_households": 17046,
+    "dong_count": 6,
+    "one_person_share": 0.5118,
+    "persons_per_household": 1.86
+  },
+  {
+    "sgg_code": "41830",
+    "population": 126822,
+    "households": 63993,
+    "one_person_households": 28788,
+    "dong_count": 12,
+    "one_person_share": 0.4499,
+    "persons_per_household": 1.98
+  },
+  {
+    "sgg_code": "43110",
+    "population": 859571,
+    "households": 414596,
+    "one_person_households": 181400,
+    "dong_count": 43,
+    "one_person_share": 0.4375,
+    "persons_per_household": 2.07
+  },
+  {
+    "sgg_code": "43130",
+    "population": 205978,
+    "households": 105290,
+    "one_person_households": 47913,
+    "dong_count": 25,
+    "one_person_share": 0.4551,
+    "persons_per_household": 1.96
+  },
+  {
+    "sgg_code": "43150",
+    "population": 128192,
+    "households": 67207,
+    "one_person_households": 31913,
+    "dong_count": 17,
+    "one_person_share": 0.4748,
+    "persons_per_household": 1.91
+  },
+  {
+    "sgg_code": "43720",
+    "population": 31181,
+    "households": 17304,
+    "one_person_households": 8640,
+    "dong_count": 11,
+    "one_person_share": 0.4993,
+    "persons_per_household": 1.8
+  },
+  {
+    "sgg_code": "43730",
+    "population": 50547,
+    "households": 26627,
+    "one_person_households": 12484,
+    "dong_count": 9,
+    "one_person_share": 0.4688,
+    "persons_per_household": 1.9
+  },
+  {
+    "sgg_code": "43740",
+    "population": 43011,
+    "households": 23884,
+    "one_person_households": 12044,
+    "dong_count": 11,
+    "one_person_share": 0.5043,
+    "persons_per_household": 1.8
+  },
+  {
+    "sgg_code": "43745",
+    "population": 36741,
+    "households": 19191,
+    "one_person_households": 9401,
+    "dong_count": 2,
+    "one_person_share": 0.4899,
+    "persons_per_household": 1.91
+  },
+  {
+    "sgg_code": "43750",
+    "population": 85569,
+    "households": 43392,
+    "one_person_households": 20464,
+    "dong_count": 7,
+    "one_person_share": 0.4716,
+    "persons_per_household": 1.97
+  },
+  {
+    "sgg_code": "43760",
+    "population": 37415,
+    "households": 22098,
+    "one_person_households": 11994,
+    "dong_count": 11,
+    "one_person_share": 0.5428,
+    "persons_per_household": 1.69
+  },
+  {
+    "sgg_code": "43770",
+    "population": 95954,
+    "households": 52451,
+    "one_person_households": 27509,
+    "dong_count": 9,
+    "one_person_share": 0.5245,
+    "persons_per_household": 1.83
+  },
+  {
+    "sgg_code": "43800",
+    "population": 26628,
+    "households": 15223,
+    "one_person_households": 7947,
+    "dong_count": 8,
+    "one_person_share": 0.522,
+    "persons_per_household": 1.75
+  },
+  {
+    "sgg_code": "44130",
+    "population": 666182,
+    "households": 321680,
+    "one_person_households": 143402,
+    "dong_count": 31,
+    "one_person_share": 0.4458,
+    "persons_per_household": 2.07
+  },
+  {
+    "sgg_code": "44150",
+    "population": 99757,
+    "households": 54084,
+    "one_person_households": 27391,
+    "dong_count": 16,
+    "one_person_share": 0.5065,
+    "persons_per_household": 1.84
+  },
+  {
+    "sgg_code": "44180",
+    "population": 91260,
+    "households": 48954,
+    "one_person_households": 23823,
+    "dong_count": 18,
+    "one_person_share": 0.4866,
+    "persons_per_household": 1.86
+  },
+  {
+    "sgg_code": "44200",
+    "population": 363678,
+    "households": 171310,
+    "one_person_households": 74285,
+    "dong_count": 17,
+    "one_person_share": 0.4336,
+    "persons_per_household": 2.12
+  },
+  {
+    "sgg_code": "44210",
+    "population": 171136,
+    "households": 84250,
+    "one_person_households": 36301,
+    "dong_count": 15,
+    "one_person_share": 0.4309,
+    "persons_per_household": 2.03
+  },
+  {
+    "sgg_code": "44230",
+    "population": 105977,
+    "households": 56940,
+    "one_person_households": 28216,
+    "dong_count": 15,
+    "one_person_share": 0.4955,
+    "persons_per_household": 1.86
+  },
+  {
+    "sgg_code": "44250",
+    "population": 45959,
+    "households": 19660,
+    "one_person_households": 6445,
+    "dong_count": 4,
+    "one_person_share": 0.3278,
+    "persons_per_household": 2.34
+  },
+  {
+    "sgg_code": "44270",
+    "population": 172400,
+    "households": 86747,
+    "one_person_households": 40281,
+    "dong_count": 14,
+    "one_person_share": 0.4644,
+    "persons_per_household": 1.99
+  },
+  {
+    "sgg_code": "44710",
+    "population": 48939,
+    "households": 26769,
+    "one_person_households": 13538,
+    "dong_count": 10,
+    "one_person_share": 0.5057,
+    "persons_per_household": 1.83
+  },
+  {
+    "sgg_code": "44760",
+    "population": 57762,
+    "households": 31992,
+    "one_person_households": 15753,
+    "dong_count": 16,
+    "one_person_share": 0.4924,
+    "persons_per_household": 1.81
+  },
+  {
+    "sgg_code": "44770",
+    "population": 46761,
+    "households": 26082,
+    "one_person_households": 13058,
+    "dong_count": 13,
+    "one_person_share": 0.5007,
+    "persons_per_household": 1.79
+  },
+  {
+    "sgg_code": "44790",
+    "population": 30051,
+    "households": 17020,
+    "one_person_households": 8866,
+    "dong_count": 10,
+    "one_person_share": 0.5209,
+    "persons_per_household": 1.77
+  },
+  {
+    "sgg_code": "44800",
+    "population": 101566,
+    "households": 51279,
+    "one_person_households": 23044,
+    "dong_count": 11,
+    "one_person_share": 0.4494,
+    "persons_per_household": 1.98
+  },
+  {
+    "sgg_code": "44810",
+    "population": 78318,
+    "households": 41202,
+    "one_person_households": 18908,
+    "dong_count": 12,
+    "one_person_share": 0.4589,
+    "persons_per_household": 1.9
+  },
+  {
+    "sgg_code": "44825",
+    "population": 59039,
+    "households": 33438,
+    "one_person_households": 17147,
+    "dong_count": 8,
+    "one_person_share": 0.5128,
+    "persons_per_household": 1.77
+  },
+  {
+    "sgg_code": "46110",
+    "population": 199524,
+    "households": 102526,
+    "one_person_households": 49453,
+    "dong_count": 23,
+    "one_person_share": 0.4823,
+    "persons_per_household": 1.95
+  },
+  {
+    "sgg_code": "46130",
+    "population": 260502,
+    "households": 127237,
+    "one_person_households": 54154,
+    "dong_count": 30,
+    "one_person_share": 0.4256,
+    "persons_per_household": 2.05
+  },
+  {
+    "sgg_code": "46150",
+    "population": 274131,
+    "households": 128207,
+    "one_person_households": 51494,
+    "dong_count": 26,
+    "one_person_share": 0.4016,
+    "persons_per_household": 2.14
+  },
+  {
+    "sgg_code": "46170",
+    "population": 116691,
+    "households": 60233,
+    "one_person_households": 29543,
+    "dong_count": 20,
+    "one_person_share": 0.4905,
+    "persons_per_household": 1.94
+  },
+  {
+    "sgg_code": "46230",
+    "population": 155975,
+    "households": 74148,
+    "one_person_households": 30979,
+    "dong_count": 12,
+    "one_person_share": 0.4178,
+    "persons_per_household": 2.1
+  },
+  {
+    "sgg_code": "46710",
+    "population": 44031,
+    "households": 23865,
+    "one_person_households": 11995,
+    "dong_count": 12,
+    "one_person_share": 0.5026,
+    "persons_per_household": 1.85
+  },
+  {
+    "sgg_code": "46720",
+    "population": 27657,
+    "households": 16116,
+    "one_person_households": 8980,
+    "dong_count": 11,
+    "one_person_share": 0.5572,
+    "persons_per_household": 1.72
+  },
+  {
+    "sgg_code": "46730",
+    "population": 24337,
+    "households": 13725,
+    "one_person_households": 7223,
+    "dong_count": 8,
+    "one_person_share": 0.5263,
+    "persons_per_household": 1.77
+  },
+  {
+    "sgg_code": "46770",
+    "population": 58976,
+    "households": 35087,
+    "one_person_households": 19294,
+    "dong_count": 18,
+    "one_person_share": 0.5499,
+    "persons_per_household": 1.68
+  },
+  {
+    "sgg_code": "46780",
+    "population": 37559,
+    "households": 21997,
+    "one_person_households": 12300,
+    "dong_count": 13,
+    "one_person_share": 0.5592,
+    "persons_per_household": 1.71
+  },
+  {
+    "sgg_code": "46790",
+    "population": 59909,
+    "households": 31579,
+    "one_person_households": 15621,
+    "dong_count": 14,
+    "one_person_share": 0.4947,
+    "persons_per_household": 1.9
+  },
+  {
+    "sgg_code": "46800",
+    "population": 33952,
+    "households": 19660,
+    "one_person_households": 10775,
+    "dong_count": 10,
+    "one_person_share": 0.5481,
+    "persons_per_household": 1.73
+  },
+  {
+    "sgg_code": "46810",
+    "population": 31666,
+    "households": 18123,
+    "one_person_households": 9770,
+    "dong_count": 11,
+    "one_person_share": 0.5391,
+    "persons_per_household": 1.75
+  },
+  {
+    "sgg_code": "46820",
+    "population": 62027,
+    "households": 34543,
+    "one_person_households": 18004,
+    "dong_count": 14,
+    "one_person_share": 0.5212,
+    "persons_per_household": 1.8
+  },
+  {
+    "sgg_code": "46830",
+    "population": 50076,
+    "households": 28488,
+    "one_person_households": 15723,
+    "dong_count": 12,
+    "one_person_share": 0.5519,
+    "persons_per_household": 1.76
+  },
+  {
+    "sgg_code": "46840",
+    "population": 95659,
+    "households": 46692,
+    "one_person_households": 21215,
+    "dong_count": 10,
+    "one_person_share": 0.4544,
+    "persons_per_household": 2.05
+  },
+  {
+    "sgg_code": "46860",
+    "population": 29601,
+    "households": 17785,
+    "one_person_households": 10402,
+    "dong_count": 9,
+    "one_person_share": 0.5849,
+    "persons_per_household": 1.66
+  },
+  {
+    "sgg_code": "46870",
+    "population": 53902,
+    "households": 28690,
+    "one_person_households": 14770,
+    "dong_count": 12,
+    "one_person_share": 0.5148,
+    "persons_per_household": 1.88
+  },
+  {
+    "sgg_code": "46880",
+    "population": 43095,
+    "households": 23602,
+    "one_person_households": 12241,
+    "dong_count": 11,
+    "one_person_share": 0.5186,
+    "persons_per_household": 1.83
+  },
+  {
+    "sgg_code": "46890",
+    "population": 44175,
+    "households": 24962,
+    "one_person_households": 13166,
+    "dong_count": 14,
+    "one_person_share": 0.5274,
+    "persons_per_household": 1.77
+  },
+  {
+    "sgg_code": "46900",
+    "population": 27882,
+    "households": 16358,
+    "one_person_households": 9211,
+    "dong_count": 9,
+    "one_person_share": 0.5631,
+    "persons_per_household": 1.7
+  },
+  {
+    "sgg_code": "46910",
+    "population": 42319,
+    "households": 22512,
+    "one_person_households": 11662,
+    "dong_count": 24,
+    "one_person_share": 0.518,
+    "persons_per_household": 1.88
+  },
+  {
+    "sgg_code": "47110",
+    "population": 487008,
+    "households": 240127,
+    "one_person_households": 101621,
+    "dong_count": 30,
+    "one_person_share": 0.4232,
+    "persons_per_household": 2.03
+  },
+  {
+    "sgg_code": "47130",
+    "population": 243051,
+    "households": 127119,
+    "one_person_households": 59547,
+    "dong_count": 22,
+    "one_person_share": 0.4684,
+    "persons_per_household": 1.91
+  },
+  {
+    "sgg_code": "47150",
+    "population": 132740,
+    "households": 69151,
+    "one_person_households": 32802,
+    "dong_count": 22,
+    "one_person_share": 0.4744,
+    "persons_per_household": 1.92
+  },
+  {
+    "sgg_code": "47170",
+    "population": 151864,
+    "households": 81511,
+    "one_person_households": 40873,
+    "dong_count": 24,
+    "one_person_share": 0.5014,
+    "persons_per_household": 1.86
+  },
+  {
+    "sgg_code": "47190",
+    "population": 402726,
+    "households": 195072,
+    "one_person_households": 85299,
+    "dong_count": 25,
+    "one_person_share": 0.4373,
+    "persons_per_household": 2.06
+  },
+  {
+    "sgg_code": "47210",
+    "population": 96440,
+    "households": 51422,
+    "one_person_households": 24699,
+    "dong_count": 19,
+    "one_person_share": 0.4803,
+    "persons_per_household": 1.88
+  },
+  {
+    "sgg_code": "47230",
+    "population": 94107,
+    "households": 53710,
+    "one_person_households": 29097,
+    "dong_count": 16,
+    "one_person_share": 0.5417,
+    "persons_per_household": 1.75
+  },
+  {
+    "sgg_code": "47250",
+    "population": 89228,
+    "households": 48934,
+    "one_person_households": 24492,
+    "dong_count": 28,
+    "one_person_share": 0.5005,
+    "persons_per_household": 1.82
+  },
+  {
+    "sgg_code": "47280",
+    "population": 64774,
+    "households": 36087,
+    "one_person_households": 18585,
+    "dong_count": 16,
+    "one_person_share": 0.515,
+    "persons_per_household": 1.79
+  },
+  {
+    "sgg_code": "47290",
+    "population": 263406,
+    "households": 133470,
+    "one_person_households": 62134,
+    "dong_count": 15,
+    "one_person_share": 0.4655,
+    "persons_per_household": 1.97
+  },
+  {
+    "sgg_code": "47730",
+    "population": 47952,
+    "households": 29228,
+    "one_person_households": 16487,
+    "dong_count": 18,
+    "one_person_share": 0.5641,
+    "persons_per_household": 1.64
+  },
+  {
+    "sgg_code": "47750",
+    "population": 24020,
+    "households": 14275,
+    "one_person_households": 7782,
+    "dong_count": 8,
+    "one_person_share": 0.5451,
+    "persons_per_household": 1.68
+  },
+  {
+    "sgg_code": "47760",
+    "population": 15972,
+    "households": 9203,
+    "one_person_households": 4870,
+    "dong_count": 6,
+    "one_person_share": 0.5292,
+    "persons_per_household": 1.74
+  },
+  {
+    "sgg_code": "47770",
+    "population": 32560,
+    "households": 19390,
+    "one_person_households": 10780,
+    "dong_count": 11,
+    "one_person_share": 0.556,
+    "persons_per_household": 1.68
+  },
+  {
+    "sgg_code": "47820",
+    "population": 40021,
+    "households": 23714,
+    "one_person_households": 13094,
+    "dong_count": 11,
+    "one_person_share": 0.5522,
+    "persons_per_household": 1.69
+  },
+  {
+    "sgg_code": "47830",
+    "population": 29545,
+    "households": 17398,
+    "one_person_households": 9715,
+    "dong_count": 8,
+    "one_person_share": 0.5584,
+    "persons_per_household": 1.7
+  },
+  {
+    "sgg_code": "47840",
+    "population": 40461,
+    "households": 23954,
+    "one_person_households": 13285,
+    "dong_count": 10,
+    "one_person_share": 0.5546,
+    "persons_per_household": 1.69
+  },
+  {
+    "sgg_code": "47850",
+    "population": 103537,
+    "households": 53472,
+    "one_person_households": 25319,
+    "dong_count": 8,
+    "one_person_share": 0.4735,
+    "persons_per_household": 1.94
+  },
+  {
+    "sgg_code": "47900",
+    "population": 53422,
+    "households": 27897,
+    "one_person_households": 13028,
+    "dong_count": 12,
+    "one_person_share": 0.467,
+    "persons_per_household": 1.91
+  },
+  {
+    "sgg_code": "47920",
+    "population": 28122,
+    "households": 16471,
+    "one_person_households": 8837,
+    "dong_count": 10,
+    "one_person_share": 0.5365,
+    "persons_per_household": 1.71
+  },
+  {
+    "sgg_code": "47930",
+    "population": 46195,
+    "households": 26182,
+    "one_person_households": 14143,
+    "dong_count": 11,
+    "one_person_share": 0.5402,
+    "persons_per_household": 1.76
+  },
+  {
+    "sgg_code": "47940",
+    "population": 8768,
+    "households": 5531,
+    "one_person_households": 3515,
+    "dong_count": 4,
+    "one_person_share": 0.6355,
+    "persons_per_household": 1.59
+  },
+  {
+    "sgg_code": "48120",
+    "population": 986273,
+    "households": 464306,
+    "one_person_households": 183696,
+    "dong_count": 55,
+    "one_person_share": 0.3956,
+    "persons_per_household": 2.12
+  },
+  {
+    "sgg_code": "48170",
+    "population": 334651,
+    "households": 163589,
+    "one_person_households": 71685,
+    "dong_count": 30,
+    "one_person_share": 0.4382,
+    "persons_per_household": 2.05
+  },
+  {
+    "sgg_code": "48220",
+    "population": 115890,
+    "households": 59428,
+    "one_person_households": 27528,
+    "dong_count": 15,
+    "one_person_share": 0.4632,
+    "persons_per_household": 1.95
+  },
+  {
+    "sgg_code": "48240",
+    "population": 107882,
+    "households": 56634,
+    "one_person_households": 27302,
+    "dong_count": 15,
+    "one_person_share": 0.4821,
+    "persons_per_household": 1.9
+  },
+  {
+    "sgg_code": "48250",
+    "population": 532777,
+    "households": 241006,
+    "one_person_households": 88831,
+    "dong_count": 19,
+    "one_person_share": 0.3686,
+    "persons_per_household": 2.21
+  },
+  {
+    "sgg_code": "48270",
+    "population": 98591,
+    "households": 54352,
+    "one_person_households": 27523,
+    "dong_count": 17,
+    "one_person_share": 0.5064,
+    "persons_per_household": 1.81
+  },
+  {
+    "sgg_code": "48310",
+    "population": 229029,
+    "households": 107351,
+    "one_person_households": 43227,
+    "dong_count": 21,
+    "one_person_share": 0.4027,
+    "persons_per_household": 2.13
+  },
+  {
+    "sgg_code": "48330",
+    "population": 361389,
+    "households": 167131,
+    "one_person_households": 64258,
+    "dong_count": 13,
+    "one_person_share": 0.3845,
+    "persons_per_household": 2.16
+  },
+  {
+    "sgg_code": "48720",
+    "population": 24531,
+    "households": 14855,
+    "one_person_households": 8676,
+    "dong_count": 13,
+    "one_person_share": 0.584,
+    "persons_per_household": 1.65
+  },
+  {
+    "sgg_code": "48730",
+    "population": 56867,
+    "households": 29873,
+    "one_person_households": 14148,
+    "dong_count": 10,
+    "one_person_share": 0.4736,
+    "persons_per_household": 1.9
+  },
+  {
+    "sgg_code": "48740",
+    "population": 54445,
+    "households": 31749,
+    "one_person_households": 17330,
+    "dong_count": 14,
+    "one_person_share": 0.5458,
+    "persons_per_household": 1.71
+  },
+  {
+    "sgg_code": "48820",
+    "population": 46808,
+    "households": 26405,
+    "one_person_households": 13895,
+    "dong_count": 14,
+    "one_person_share": 0.5262,
+    "persons_per_household": 1.77
+  },
+  {
+    "sgg_code": "48840",
+    "population": 41143,
+    "households": 23157,
+    "one_person_households": 11768,
+    "dong_count": 10,
+    "one_person_share": 0.5082,
+    "persons_per_household": 1.78
+  },
+  {
+    "sgg_code": "48850",
+    "population": 39596,
+    "households": 23254,
+    "one_person_households": 12687,
+    "dong_count": 13,
+    "one_person_share": 0.5456,
+    "persons_per_household": 1.7
+  },
+  {
+    "sgg_code": "48860",
+    "population": 32638,
+    "households": 19603,
+    "one_person_households": 11016,
+    "dong_count": 11,
+    "one_person_share": 0.562,
+    "persons_per_household": 1.66
+  },
+  {
+    "sgg_code": "48870",
+    "population": 35141,
+    "households": 20184,
+    "one_person_households": 10781,
+    "dong_count": 11,
+    "one_person_share": 0.5341,
+    "persons_per_household": 1.74
+  },
+  {
+    "sgg_code": "48880",
+    "population": 58846,
+    "households": 31407,
+    "one_person_households": 15430,
+    "dong_count": 12,
+    "one_person_share": 0.4913,
+    "persons_per_household": 1.87
+  },
+  {
+    "sgg_code": "48890",
+    "population": 38854,
+    "households": 23399,
+    "one_person_households": 13269,
+    "dong_count": 17,
+    "one_person_share": 0.5671,
+    "persons_per_household": 1.66
+  },
+  {
+    "sgg_code": "50110",
+    "population": 484123,
+    "households": 228236,
+    "one_person_households": 98290,
+    "dong_count": 26,
+    "one_person_share": 0.4307,
+    "persons_per_household": 2.12
+  },
+  {
+    "sgg_code": "50130",
+    "population": 178669,
+    "households": 89081,
+    "one_person_households": 40909,
+    "dong_count": 17,
+    "one_person_share": 0.4592,
+    "persons_per_household": 2.01
+  },
+  {
+    "sgg_code": "51110",
+    "population": 285027,
+    "households": 139380,
+    "one_person_households": 61250,
+    "dong_count": 25,
+    "one_person_share": 0.4394,
+    "persons_per_household": 2.04
+  },
+  {
+    "sgg_code": "51130",
+    "population": 364811,
+    "households": 178430,
+    "one_person_households": 77284,
+    "dong_count": 25,
+    "one_person_share": 0.4331,
+    "persons_per_household": 2.04
+  },
+  {
+    "sgg_code": "51150",
+    "population": 205666,
+    "households": 105804,
+    "one_person_households": 48474,
+    "dong_count": 21,
+    "one_person_share": 0.4581,
+    "persons_per_household": 1.94
+  },
+  {
+    "sgg_code": "51170",
+    "population": 85589,
+    "households": 43496,
+    "one_person_households": 19437,
+    "dong_count": 10,
+    "one_person_share": 0.4469,
+    "persons_per_household": 1.97
+  },
+  {
+    "sgg_code": "51190",
+    "population": 36811,
+    "households": 20121,
+    "one_person_households": 10172,
+    "dong_count": 8,
+    "one_person_share": 0.5055,
+    "persons_per_household": 1.83
+  },
+  {
+    "sgg_code": "51210",
+    "population": 78893,
+    "households": 41110,
+    "one_person_households": 19152,
+    "dong_count": 8,
+    "one_person_share": 0.4659,
+    "persons_per_household": 1.92
+  },
+  {
+    "sgg_code": "51230",
+    "population": 60294,
+    "households": 33442,
+    "one_person_households": 17408,
+    "dong_count": 13,
+    "one_person_share": 0.5205,
+    "persons_per_household": 1.8
+  },
+  {
+    "sgg_code": "51720",
+    "population": 65849,
+    "households": 35077,
+    "one_person_households": 16675,
+    "dong_count": 10,
+    "one_person_share": 0.4754,
+    "persons_per_household": 1.88
+  },
+  {
+    "sgg_code": "51730",
+    "population": 45575,
+    "households": 24229,
+    "one_person_households": 11439,
+    "dong_count": 9,
+    "one_person_share": 0.4721,
+    "persons_per_household": 1.88
+  },
+  {
+    "sgg_code": "51750",
+    "population": 35714,
+    "households": 20780,
+    "one_person_households": 11314,
+    "dong_count": 10,
+    "one_person_share": 0.5445,
+    "persons_per_household": 1.72
+  },
+  {
+    "sgg_code": "51760",
+    "population": 39897,
+    "households": 22226,
+    "one_person_households": 11355,
+    "dong_count": 9,
+    "one_person_share": 0.5109,
+    "persons_per_household": 1.8
+  },
+  {
+    "sgg_code": "51770",
+    "population": 35128,
+    "households": 20373,
+    "one_person_households": 11256,
+    "dong_count": 10,
+    "one_person_share": 0.5525,
+    "persons_per_household": 1.72
+  },
+  {
+    "sgg_code": "51780",
+    "population": 39711,
+    "households": 20296,
+    "one_person_households": 9474,
+    "dong_count": 8,
+    "one_person_share": 0.4668,
+    "persons_per_household": 1.96
+  },
+  {
+    "sgg_code": "51790",
+    "population": 22579,
+    "households": 12140,
+    "one_person_households": 6351,
+    "dong_count": 5,
+    "one_person_share": 0.5231,
+    "persons_per_household": 1.86
+  },
+  {
+    "sgg_code": "51800",
+    "population": 20372,
+    "households": 10444,
+    "one_person_households": 5104,
+    "dong_count": 5,
+    "one_person_share": 0.4887,
+    "persons_per_household": 1.95
+  },
+  {
+    "sgg_code": "51810",
+    "population": 30771,
+    "households": 16692,
+    "one_person_households": 8672,
+    "dong_count": 7,
+    "one_person_share": 0.5195,
+    "persons_per_household": 1.84
+  },
+  {
+    "sgg_code": "51820",
+    "population": 27204,
+    "households": 15583,
+    "one_person_households": 8461,
+    "dong_count": 5,
+    "one_person_share": 0.543,
+    "persons_per_household": 1.75
+  },
+  {
+    "sgg_code": "51830",
+    "population": 27326,
+    "households": 15091,
+    "one_person_households": 7678,
+    "dong_count": 6,
+    "one_person_share": 0.5088,
+    "persons_per_household": 1.81
+  },
+  {
+    "sgg_code": "52110",
+    "population": 620874,
+    "households": 297784,
+    "one_person_households": 128339,
+    "dong_count": 35,
+    "one_person_share": 0.431,
+    "persons_per_household": 2.08
+  },
+  {
+    "sgg_code": "52130",
+    "population": 255591,
+    "households": 127007,
+    "one_person_households": 56619,
+    "dong_count": 27,
+    "one_person_share": 0.4458,
+    "persons_per_household": 2.01
+  },
+  {
+    "sgg_code": "52140",
+    "population": 266758,
+    "households": 134124,
+    "one_person_households": 61417,
+    "dong_count": 29,
+    "one_person_share": 0.4579,
+    "persons_per_household": 1.99
+  },
+  {
+    "sgg_code": "52180",
+    "population": 100738,
+    "households": 54663,
+    "one_person_households": 27858,
+    "dong_count": 23,
+    "one_person_share": 0.5096,
+    "persons_per_household": 1.84
+  },
+  {
+    "sgg_code": "52190",
+    "population": 73812,
+    "households": 39886,
+    "one_person_households": 20021,
+    "dong_count": 23,
+    "one_person_share": 0.502,
+    "persons_per_household": 1.85
+  },
+  {
+    "sgg_code": "52210",
+    "population": 81631,
+    "households": 44758,
+    "one_person_households": 23453,
+    "dong_count": 19,
+    "one_person_share": 0.524,
+    "persons_per_household": 1.82
+  },
+  {
+    "sgg_code": "52710",
+    "population": 100102,
+    "households": 50377,
+    "one_person_households": 22894,
+    "dong_count": 13,
+    "one_person_share": 0.4545,
+    "persons_per_household": 1.99
+  },
+  {
+    "sgg_code": "52720",
+    "population": 24689,
+    "households": 14062,
+    "one_person_households": 7580,
+    "dong_count": 11,
+    "one_person_share": 0.539,
+    "persons_per_household": 1.76
+  },
+  {
+    "sgg_code": "52730",
+    "population": 23326,
+    "households": 13373,
+    "one_person_households": 7280,
+    "dong_count": 6,
+    "one_person_share": 0.5444,
+    "persons_per_household": 1.74
+  },
+  {
+    "sgg_code": "52740",
+    "population": 21169,
+    "households": 11931,
+    "one_person_households": 6301,
+    "dong_count": 7,
+    "one_person_share": 0.5281,
+    "persons_per_household": 1.77
+  },
+  {
+    "sgg_code": "52750",
+    "population": 25342,
+    "households": 14844,
+    "one_person_households": 8290,
+    "dong_count": 12,
+    "one_person_share": 0.5585,
+    "persons_per_household": 1.71
+  },
+  {
+    "sgg_code": "52770",
+    "population": 27584,
+    "households": 15062,
+    "one_person_households": 7717,
+    "dong_count": 11,
+    "one_person_share": 0.5123,
+    "persons_per_household": 1.83
+  },
+  {
+    "sgg_code": "52790",
+    "population": 50071,
+    "households": 28373,
+    "one_person_households": 15234,
+    "dong_count": 14,
+    "one_person_share": 0.5369,
+    "persons_per_household": 1.76
+  },
+  {
+    "sgg_code": "52800",
+    "population": 46946,
+    "households": 27361,
+    "one_person_households": 15215,
+    "dong_count": 13,
+    "one_person_share": 0.5561,
+    "persons_per_household": 1.72
+  }
+]

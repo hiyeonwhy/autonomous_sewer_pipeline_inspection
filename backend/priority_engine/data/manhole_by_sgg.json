@@ -1,0 +1,1376 @@
+[
+  {
+    "sgg_code": "11110",
+    "manhole_total": 10126,
+    "heavy_rain_zone_manholes": 480,
+    "heavy_rain_zone_ratio": 0.047403
+  },
+  {
+    "sgg_code": "11140",
+    "manhole_total": 8304,
+    "heavy_rain_zone_manholes": 729,
+    "heavy_rain_zone_ratio": 0.087789
+  },
+  {
+    "sgg_code": "11170",
+    "manhole_total": 9970,
+    "heavy_rain_zone_manholes": 17,
+    "heavy_rain_zone_ratio": 0.001705
+  },
+  {
+    "sgg_code": "11200",
+    "manhole_total": 8694,
+    "heavy_rain_zone_manholes": 74,
+    "heavy_rain_zone_ratio": 0.008512
+  },
+  {
+    "sgg_code": "11215",
+    "manhole_total": 10693,
+    "heavy_rain_zone_manholes": 1870,
+    "heavy_rain_zone_ratio": 0.174881
+  },
+  {
+    "sgg_code": "11230",
+    "manhole_total": 12305,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "11260",
+    "manhole_total": 13025,
+    "heavy_rain_zone_manholes": 605,
+    "heavy_rain_zone_ratio": 0.046449
+  },
+  {
+    "sgg_code": "11290",
+    "manhole_total": 15211,
+    "heavy_rain_zone_manholes": 3381,
+    "heavy_rain_zone_ratio": 0.222273
+  },
+  {
+    "sgg_code": "11305",
+    "manhole_total": 11199,
+    "heavy_rain_zone_manholes": 217,
+    "heavy_rain_zone_ratio": 0.019377
+  },
+  {
+    "sgg_code": "11320",
+    "manhole_total": 9694,
+    "heavy_rain_zone_manholes": 593,
+    "heavy_rain_zone_ratio": 0.061172
+  },
+  {
+    "sgg_code": "11350",
+    "manhole_total": 11643,
+    "heavy_rain_zone_manholes": 531,
+    "heavy_rain_zone_ratio": 0.045607
+  },
+  {
+    "sgg_code": "11380",
+    "manhole_total": 14315,
+    "heavy_rain_zone_manholes": 40,
+    "heavy_rain_zone_ratio": 0.002794
+  },
+  {
+    "sgg_code": "11410",
+    "manhole_total": 9619,
+    "heavy_rain_zone_manholes": 129,
+    "heavy_rain_zone_ratio": 0.013411
+  },
+  {
+    "sgg_code": "11440",
+    "manhole_total": 12485,
+    "heavy_rain_zone_manholes": 73,
+    "heavy_rain_zone_ratio": 0.005847
+  },
+  {
+    "sgg_code": "11470",
+    "manhole_total": 10078,
+    "heavy_rain_zone_manholes": 835,
+    "heavy_rain_zone_ratio": 0.082854
+  },
+  {
+    "sgg_code": "11500",
+    "manhole_total": 13475,
+    "heavy_rain_zone_manholes": 841,
+    "heavy_rain_zone_ratio": 0.062412
+  },
+  {
+    "sgg_code": "11530",
+    "manhole_total": 11332,
+    "heavy_rain_zone_manholes": 49,
+    "heavy_rain_zone_ratio": 0.004324
+  },
+  {
+    "sgg_code": "11545",
+    "manhole_total": 6891,
+    "heavy_rain_zone_manholes": 263,
+    "heavy_rain_zone_ratio": 0.038166
+  },
+  {
+    "sgg_code": "11560",
+    "manhole_total": 13316,
+    "heavy_rain_zone_manholes": 1054,
+    "heavy_rain_zone_ratio": 0.079153
+  },
+  {
+    "sgg_code": "11590",
+    "manhole_total": 10575,
+    "heavy_rain_zone_manholes": 959,
+    "heavy_rain_zone_ratio": 0.090686
+  },
+  {
+    "sgg_code": "11620",
+    "manhole_total": 12177,
+    "heavy_rain_zone_manholes": 1037,
+    "heavy_rain_zone_ratio": 0.085161
+  },
+  {
+    "sgg_code": "11650",
+    "manhole_total": 13402,
+    "heavy_rain_zone_manholes": 2565,
+    "heavy_rain_zone_ratio": 0.191389
+  },
+  {
+    "sgg_code": "11680",
+    "manhole_total": 16399,
+    "heavy_rain_zone_manholes": 109,
+    "heavy_rain_zone_ratio": 0.006647
+  },
+  {
+    "sgg_code": "11710",
+    "manhole_total": 14378,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "11740",
+    "manhole_total": 10412,
+    "heavy_rain_zone_manholes": 159,
+    "heavy_rain_zone_ratio": 0.015271
+  },
+  {
+    "sgg_code": "26110",
+    "manhole_total": 3483,
+    "heavy_rain_zone_manholes": 267,
+    "heavy_rain_zone_ratio": 0.076658
+  },
+  {
+    "sgg_code": "26140",
+    "manhole_total": 7262,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "26170",
+    "manhole_total": 8398,
+    "heavy_rain_zone_manholes": 811,
+    "heavy_rain_zone_ratio": 0.096571
+  },
+  {
+    "sgg_code": "26200",
+    "manhole_total": 6773,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "26230",
+    "manhole_total": 21756,
+    "heavy_rain_zone_manholes": 3077,
+    "heavy_rain_zone_ratio": 0.141432
+  },
+  {
+    "sgg_code": "26260",
+    "manhole_total": 11700,
+    "heavy_rain_zone_manholes": 481,
+    "heavy_rain_zone_ratio": 0.041111
+  },
+  {
+    "sgg_code": "26290",
+    "manhole_total": 11366,
+    "heavy_rain_zone_manholes": 2483,
+    "heavy_rain_zone_ratio": 0.218459
+  },
+  {
+    "sgg_code": "26320",
+    "manhole_total": 9692,
+    "heavy_rain_zone_manholes": 11,
+    "heavy_rain_zone_ratio": 0.001135
+  },
+  {
+    "sgg_code": "26350",
+    "manhole_total": 14369,
+    "heavy_rain_zone_manholes": 3881,
+    "heavy_rain_zone_ratio": 0.270095
+  },
+  {
+    "sgg_code": "26380",
+    "manhole_total": 16581,
+    "heavy_rain_zone_manholes": 1500,
+    "heavy_rain_zone_ratio": 0.090465
+  },
+  {
+    "sgg_code": "26410",
+    "manhole_total": 11767,
+    "heavy_rain_zone_manholes": 134,
+    "heavy_rain_zone_ratio": 0.011388
+  },
+  {
+    "sgg_code": "26440",
+    "manhole_total": 19402,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "26470",
+    "manhole_total": 8504,
+    "heavy_rain_zone_manholes": 3140,
+    "heavy_rain_zone_ratio": 0.369238
+  },
+  {
+    "sgg_code": "26500",
+    "manhole_total": 5651,
+    "heavy_rain_zone_manholes": 526,
+    "heavy_rain_zone_ratio": 0.093081
+  },
+  {
+    "sgg_code": "26530",
+    "manhole_total": 12739,
+    "heavy_rain_zone_manholes": 1212,
+    "heavy_rain_zone_ratio": 0.095141
+  },
+  {
+    "sgg_code": "26710",
+    "manhole_total": 18737,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "27110",
+    "manhole_total": 3098,
+    "heavy_rain_zone_manholes": 165,
+    "heavy_rain_zone_ratio": 0.05326
+  },
+  {
+    "sgg_code": "27140",
+    "manhole_total": 11133,
+    "heavy_rain_zone_manholes": 234,
+    "heavy_rain_zone_ratio": 0.021019
+  },
+  {
+    "sgg_code": "27170",
+    "manhole_total": 5244,
+    "heavy_rain_zone_manholes": 634,
+    "heavy_rain_zone_ratio": 0.1209
+  },
+  {
+    "sgg_code": "27200",
+    "manhole_total": 23095,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "27230",
+    "manhole_total": 11833,
+    "heavy_rain_zone_manholes": 469,
+    "heavy_rain_zone_ratio": 0.039635
+  },
+  {
+    "sgg_code": "27260",
+    "manhole_total": 10493,
+    "heavy_rain_zone_manholes": 691,
+    "heavy_rain_zone_ratio": 0.065853
+  },
+  {
+    "sgg_code": "27290",
+    "manhole_total": 15004,
+    "heavy_rain_zone_manholes": 491,
+    "heavy_rain_zone_ratio": 0.032725
+  },
+  {
+    "sgg_code": "27710",
+    "manhole_total": 17482,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "27720",
+    "manhole_total": 14029,
+    "heavy_rain_zone_manholes": 172,
+    "heavy_rain_zone_ratio": 0.01226
+  },
+  {
+    "sgg_code": "28110",
+    "manhole_total": 10962,
+    "heavy_rain_zone_manholes": 10962,
+    "heavy_rain_zone_ratio": 1.0
+  },
+  {
+    "sgg_code": "28140",
+    "manhole_total": 2606,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "28177",
+    "manhole_total": 8772,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "28185",
+    "manhole_total": 14518,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "28200",
+    "manhole_total": 17448,
+    "heavy_rain_zone_manholes": 979,
+    "heavy_rain_zone_ratio": 0.05611
+  },
+  {
+    "sgg_code": "28237",
+    "manhole_total": 10715,
+    "heavy_rain_zone_manholes": 837,
+    "heavy_rain_zone_ratio": 0.078115
+  },
+  {
+    "sgg_code": "28245",
+    "manhole_total": 6321,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "28260",
+    "manhole_total": 23892,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "28710",
+    "manhole_total": 2994,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "28720",
+    "manhole_total": 2542,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "29110",
+    "manhole_total": 15854,
+    "heavy_rain_zone_manholes": 80,
+    "heavy_rain_zone_ratio": 0.005046
+  },
+  {
+    "sgg_code": "29140",
+    "manhole_total": 18924,
+    "heavy_rain_zone_manholes": 158,
+    "heavy_rain_zone_ratio": 0.008349
+  },
+  {
+    "sgg_code": "29155",
+    "manhole_total": 20275,
+    "heavy_rain_zone_manholes": 721,
+    "heavy_rain_zone_ratio": 0.035561
+  },
+  {
+    "sgg_code": "29170",
+    "manhole_total": 20561,
+    "heavy_rain_zone_manholes": 2437,
+    "heavy_rain_zone_ratio": 0.118525
+  },
+  {
+    "sgg_code": "29200",
+    "manhole_total": 27843,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "30110",
+    "manhole_total": 10284,
+    "heavy_rain_zone_manholes": 2316,
+    "heavy_rain_zone_ratio": 0.225204
+  },
+  {
+    "sgg_code": "30140",
+    "manhole_total": 9272,
+    "heavy_rain_zone_manholes": 1878,
+    "heavy_rain_zone_ratio": 0.202545
+  },
+  {
+    "sgg_code": "30170",
+    "manhole_total": 14376,
+    "heavy_rain_zone_manholes": 1952,
+    "heavy_rain_zone_ratio": 0.135782
+  },
+  {
+    "sgg_code": "30200",
+    "manhole_total": 14181,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "30230",
+    "manhole_total": 24872,
+    "heavy_rain_zone_manholes": 34,
+    "heavy_rain_zone_ratio": 0.001367
+  },
+  {
+    "sgg_code": "31110",
+    "manhole_total": 13748,
+    "heavy_rain_zone_manholes": 228,
+    "heavy_rain_zone_ratio": 0.016584
+  },
+  {
+    "sgg_code": "31140",
+    "manhole_total": 17028,
+    "heavy_rain_zone_manholes": 243,
+    "heavy_rain_zone_ratio": 0.014271
+  },
+  {
+    "sgg_code": "31170",
+    "manhole_total": 6285,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "31200",
+    "manhole_total": 16250,
+    "heavy_rain_zone_manholes": 17,
+    "heavy_rain_zone_ratio": 0.001046
+  },
+  {
+    "sgg_code": "31710",
+    "manhole_total": 38209,
+    "heavy_rain_zone_manholes": 181,
+    "heavy_rain_zone_ratio": 0.004737
+  },
+  {
+    "sgg_code": "36110",
+    "manhole_total": 33528,
+    "heavy_rain_zone_manholes": 4381,
+    "heavy_rain_zone_ratio": 0.130667
+  },
+  {
+    "sgg_code": "41110",
+    "manhole_total": 42350,
+    "heavy_rain_zone_manholes": 4221,
+    "heavy_rain_zone_ratio": 0.099669
+  },
+  {
+    "sgg_code": "41130",
+    "manhole_total": 32964,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41150",
+    "manhole_total": 18814,
+    "heavy_rain_zone_manholes": 657,
+    "heavy_rain_zone_ratio": 0.034921
+  },
+  {
+    "sgg_code": "41170",
+    "manhole_total": 14217,
+    "heavy_rain_zone_manholes": 2412,
+    "heavy_rain_zone_ratio": 0.169656
+  },
+  {
+    "sgg_code": "41190",
+    "manhole_total": 18536,
+    "heavy_rain_zone_manholes": 2187,
+    "heavy_rain_zone_ratio": 0.117987
+  },
+  {
+    "sgg_code": "41210",
+    "manhole_total": 9610,
+    "heavy_rain_zone_manholes": 1454,
+    "heavy_rain_zone_ratio": 0.151301
+  },
+  {
+    "sgg_code": "41220",
+    "manhole_total": 55036,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41250",
+    "manhole_total": 12433,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41270",
+    "manhole_total": 34895,
+    "heavy_rain_zone_manholes": 1134,
+    "heavy_rain_zone_ratio": 0.032497
+  },
+  {
+    "sgg_code": "41280",
+    "manhole_total": 38516,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41290",
+    "manhole_total": 5105,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41310",
+    "manhole_total": 9269,
+    "heavy_rain_zone_manholes": 7151,
+    "heavy_rain_zone_ratio": 0.771496
+  },
+  {
+    "sgg_code": "41360",
+    "manhole_total": 41563,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41370",
+    "manhole_total": 12797,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41390",
+    "manhole_total": 23704,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41410",
+    "manhole_total": 7407,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41430",
+    "manhole_total": 9223,
+    "heavy_rain_zone_manholes": 1336,
+    "heavy_rain_zone_ratio": 0.144855
+  },
+  {
+    "sgg_code": "41450",
+    "manhole_total": 14457,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41460",
+    "manhole_total": 65205,
+    "heavy_rain_zone_manholes": 5717,
+    "heavy_rain_zone_ratio": 0.087677
+  },
+  {
+    "sgg_code": "41480",
+    "manhole_total": 31392,
+    "heavy_rain_zone_manholes": 958,
+    "heavy_rain_zone_ratio": 0.030517
+  },
+  {
+    "sgg_code": "41500",
+    "manhole_total": 39967,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41550",
+    "manhole_total": 10527,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41570",
+    "manhole_total": 27603,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41590",
+    "manhole_total": 45979,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41610",
+    "manhole_total": 57791,
+    "heavy_rain_zone_manholes": 205,
+    "heavy_rain_zone_ratio": 0.003547
+  },
+  {
+    "sgg_code": "41630",
+    "manhole_total": 21640,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41650",
+    "manhole_total": 33038,
+    "heavy_rain_zone_manholes": 506,
+    "heavy_rain_zone_ratio": 0.015316
+  },
+  {
+    "sgg_code": "41670",
+    "manhole_total": 13651,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "41800",
+    "manhole_total": 26878,
+    "heavy_rain_zone_manholes": 2345,
+    "heavy_rain_zone_ratio": 0.087246
+  },
+  {
+    "sgg_code": "41820",
+    "manhole_total": 13800,
+    "heavy_rain_zone_manholes": 3720,
+    "heavy_rain_zone_ratio": 0.269565
+  },
+  {
+    "sgg_code": "41830",
+    "manhole_total": 36419,
+    "heavy_rain_zone_manholes": 5,
+    "heavy_rain_zone_ratio": 0.000137
+  },
+  {
+    "sgg_code": "43110",
+    "manhole_total": 40012,
+    "heavy_rain_zone_manholes": 9245,
+    "heavy_rain_zone_ratio": 0.231056
+  },
+  {
+    "sgg_code": "43130",
+    "manhole_total": 20684,
+    "heavy_rain_zone_manholes": 5033,
+    "heavy_rain_zone_ratio": 0.243328
+  },
+  {
+    "sgg_code": "43150",
+    "manhole_total": 4892,
+    "heavy_rain_zone_manholes": 219,
+    "heavy_rain_zone_ratio": 0.044767
+  },
+  {
+    "sgg_code": "43720",
+    "manhole_total": 15041,
+    "heavy_rain_zone_manholes": 6682,
+    "heavy_rain_zone_ratio": 0.444252
+  },
+  {
+    "sgg_code": "43730",
+    "manhole_total": 5097,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "43740",
+    "manhole_total": 17855,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "43745",
+    "manhole_total": 13498,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "43750",
+    "manhole_total": 11527,
+    "heavy_rain_zone_manholes": 131,
+    "heavy_rain_zone_ratio": 0.011365
+  },
+  {
+    "sgg_code": "43760",
+    "manhole_total": 6639,
+    "heavy_rain_zone_manholes": 200,
+    "heavy_rain_zone_ratio": 0.030125
+  },
+  {
+    "sgg_code": "43770",
+    "manhole_total": 12647,
+    "heavy_rain_zone_manholes": 1471,
+    "heavy_rain_zone_ratio": 0.116312
+  },
+  {
+    "sgg_code": "43800",
+    "manhole_total": 4460,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "44130",
+    "manhole_total": 52685,
+    "heavy_rain_zone_manholes": 3522,
+    "heavy_rain_zone_ratio": 0.06685
+  },
+  {
+    "sgg_code": "44150",
+    "manhole_total": 13875,
+    "heavy_rain_zone_manholes": 160,
+    "heavy_rain_zone_ratio": 0.011532
+  },
+  {
+    "sgg_code": "44180",
+    "manhole_total": 26244,
+    "heavy_rain_zone_manholes": 1199,
+    "heavy_rain_zone_ratio": 0.045687
+  },
+  {
+    "sgg_code": "44200",
+    "manhole_total": 38023,
+    "heavy_rain_zone_manholes": 4126,
+    "heavy_rain_zone_ratio": 0.108513
+  },
+  {
+    "sgg_code": "44210",
+    "manhole_total": 14926,
+    "heavy_rain_zone_manholes": 1067,
+    "heavy_rain_zone_ratio": 0.071486
+  },
+  {
+    "sgg_code": "44230",
+    "manhole_total": 29151,
+    "heavy_rain_zone_manholes": 2122,
+    "heavy_rain_zone_ratio": 0.072793
+  },
+  {
+    "sgg_code": "44250",
+    "manhole_total": 4574,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "44270",
+    "manhole_total": 16921,
+    "heavy_rain_zone_manholes": 800,
+    "heavy_rain_zone_ratio": 0.047279
+  },
+  {
+    "sgg_code": "44710",
+    "manhole_total": 5569,
+    "heavy_rain_zone_manholes": 302,
+    "heavy_rain_zone_ratio": 0.054229
+  },
+  {
+    "sgg_code": "44760",
+    "manhole_total": 16260,
+    "heavy_rain_zone_manholes": 2381,
+    "heavy_rain_zone_ratio": 0.146433
+  },
+  {
+    "sgg_code": "44770",
+    "manhole_total": 6770,
+    "heavy_rain_zone_manholes": 4004,
+    "heavy_rain_zone_ratio": 0.591433
+  },
+  {
+    "sgg_code": "44790",
+    "manhole_total": 8262,
+    "heavy_rain_zone_manholes": 517,
+    "heavy_rain_zone_ratio": 0.062576
+  },
+  {
+    "sgg_code": "44800",
+    "manhole_total": 13376,
+    "heavy_rain_zone_manholes": 871,
+    "heavy_rain_zone_ratio": 0.065117
+  },
+  {
+    "sgg_code": "44810",
+    "manhole_total": 5690,
+    "heavy_rain_zone_manholes": 2205,
+    "heavy_rain_zone_ratio": 0.387522
+  },
+  {
+    "sgg_code": "44825",
+    "manhole_total": 3765,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "46110",
+    "manhole_total": 18586,
+    "heavy_rain_zone_manholes": 8819,
+    "heavy_rain_zone_ratio": 0.474497
+  },
+  {
+    "sgg_code": "46130",
+    "manhole_total": 18909,
+    "heavy_rain_zone_manholes": 2801,
+    "heavy_rain_zone_ratio": 0.148131
+  },
+  {
+    "sgg_code": "46150",
+    "manhole_total": 32857,
+    "heavy_rain_zone_manholes": 4183,
+    "heavy_rain_zone_ratio": 0.127309
+  },
+  {
+    "sgg_code": "46170",
+    "manhole_total": 17466,
+    "heavy_rain_zone_manholes": 5691,
+    "heavy_rain_zone_ratio": 0.325833
+  },
+  {
+    "sgg_code": "46230",
+    "manhole_total": 21949,
+    "heavy_rain_zone_manholes": 2969,
+    "heavy_rain_zone_ratio": 0.135268
+  },
+  {
+    "sgg_code": "46710",
+    "manhole_total": 17147,
+    "heavy_rain_zone_manholes": 2796,
+    "heavy_rain_zone_ratio": 0.163061
+  },
+  {
+    "sgg_code": "46720",
+    "manhole_total": 9541,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "46730",
+    "manhole_total": 4525,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "46770",
+    "manhole_total": 13332,
+    "heavy_rain_zone_manholes": 3009,
+    "heavy_rain_zone_ratio": 0.225698
+  },
+  {
+    "sgg_code": "46780",
+    "manhole_total": 6392,
+    "heavy_rain_zone_manholes": 3867,
+    "heavy_rain_zone_ratio": 0.604975
+  },
+  {
+    "sgg_code": "46790",
+    "manhole_total": 10372,
+    "heavy_rain_zone_manholes": 1149,
+    "heavy_rain_zone_ratio": 0.110779
+  },
+  {
+    "sgg_code": "46800",
+    "manhole_total": 11606,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "46810",
+    "manhole_total": 6443,
+    "heavy_rain_zone_manholes": 990,
+    "heavy_rain_zone_ratio": 0.153655
+  },
+  {
+    "sgg_code": "46820",
+    "manhole_total": 5583,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "46830",
+    "manhole_total": 13580,
+    "heavy_rain_zone_manholes": 1354,
+    "heavy_rain_zone_ratio": 0.099705
+  },
+  {
+    "sgg_code": "46840",
+    "manhole_total": 9575,
+    "heavy_rain_zone_manholes": 722,
+    "heavy_rain_zone_ratio": 0.075405
+  },
+  {
+    "sgg_code": "46860",
+    "manhole_total": 13270,
+    "heavy_rain_zone_manholes": 7110,
+    "heavy_rain_zone_ratio": 0.535795
+  },
+  {
+    "sgg_code": "46870",
+    "manhole_total": 8375,
+    "heavy_rain_zone_manholes": 3687,
+    "heavy_rain_zone_ratio": 0.440239
+  },
+  {
+    "sgg_code": "46880",
+    "manhole_total": 14251,
+    "heavy_rain_zone_manholes": 3319,
+    "heavy_rain_zone_ratio": 0.232896
+  },
+  {
+    "sgg_code": "46890",
+    "manhole_total": 4847,
+    "heavy_rain_zone_manholes": 1319,
+    "heavy_rain_zone_ratio": 0.272127
+  },
+  {
+    "sgg_code": "46900",
+    "manhole_total": 11979,
+    "heavy_rain_zone_manholes": 1550,
+    "heavy_rain_zone_ratio": 0.129393
+  },
+  {
+    "sgg_code": "46910",
+    "manhole_total": 4406,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47110",
+    "manhole_total": 28223,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47130",
+    "manhole_total": 62560,
+    "heavy_rain_zone_manholes": 6403,
+    "heavy_rain_zone_ratio": 0.10235
+  },
+  {
+    "sgg_code": "47150",
+    "manhole_total": 24150,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47170",
+    "manhole_total": 20048,
+    "heavy_rain_zone_manholes": 1268,
+    "heavy_rain_zone_ratio": 0.063248
+  },
+  {
+    "sgg_code": "47190",
+    "manhole_total": 44505,
+    "heavy_rain_zone_manholes": 4917,
+    "heavy_rain_zone_ratio": 0.110482
+  },
+  {
+    "sgg_code": "47210",
+    "manhole_total": 11359,
+    "heavy_rain_zone_manholes": 1519,
+    "heavy_rain_zone_ratio": 0.133727
+  },
+  {
+    "sgg_code": "47230",
+    "manhole_total": 22700,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47250",
+    "manhole_total": 13107,
+    "heavy_rain_zone_manholes": 5244,
+    "heavy_rain_zone_ratio": 0.400092
+  },
+  {
+    "sgg_code": "47280",
+    "manhole_total": 15236,
+    "heavy_rain_zone_manholes": 2567,
+    "heavy_rain_zone_ratio": 0.168483
+  },
+  {
+    "sgg_code": "47290",
+    "manhole_total": 45297,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47730",
+    "manhole_total": 11112,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47750",
+    "manhole_total": 3802,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47760",
+    "manhole_total": 3096,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47770",
+    "manhole_total": 2637,
+    "heavy_rain_zone_manholes": 2394,
+    "heavy_rain_zone_ratio": 0.90785
+  },
+  {
+    "sgg_code": "47820",
+    "manhole_total": 5457,
+    "heavy_rain_zone_manholes": 149,
+    "heavy_rain_zone_ratio": 0.027304
+  },
+  {
+    "sgg_code": "47830",
+    "manhole_total": 8427,
+    "heavy_rain_zone_manholes": 1069,
+    "heavy_rain_zone_ratio": 0.126854
+  },
+  {
+    "sgg_code": "47840",
+    "manhole_total": 17645,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47850",
+    "manhole_total": 17816,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47900",
+    "manhole_total": 4847,
+    "heavy_rain_zone_manholes": 622,
+    "heavy_rain_zone_ratio": 0.128327
+  },
+  {
+    "sgg_code": "47920",
+    "manhole_total": 4414,
+    "heavy_rain_zone_manholes": 2198,
+    "heavy_rain_zone_ratio": 0.497961
+  },
+  {
+    "sgg_code": "47930",
+    "manhole_total": 7219,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "47940",
+    "manhole_total": 710,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "48120",
+    "manhole_total": 106072,
+    "heavy_rain_zone_manholes": 754,
+    "heavy_rain_zone_ratio": 0.007108
+  },
+  {
+    "sgg_code": "48170",
+    "manhole_total": 60671,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "48220",
+    "manhole_total": 18307,
+    "heavy_rain_zone_manholes": 1738,
+    "heavy_rain_zone_ratio": 0.094936
+  },
+  {
+    "sgg_code": "48240",
+    "manhole_total": 31815,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "48250",
+    "manhole_total": 38267,
+    "heavy_rain_zone_manholes": 4641,
+    "heavy_rain_zone_ratio": 0.121279
+  },
+  {
+    "sgg_code": "48270",
+    "manhole_total": 21505,
+    "heavy_rain_zone_manholes": 3042,
+    "heavy_rain_zone_ratio": 0.141455
+  },
+  {
+    "sgg_code": "48310",
+    "manhole_total": 17562,
+    "heavy_rain_zone_manholes": 4025,
+    "heavy_rain_zone_ratio": 0.229188
+  },
+  {
+    "sgg_code": "48330",
+    "manhole_total": 42286,
+    "heavy_rain_zone_manholes": 11083,
+    "heavy_rain_zone_ratio": 0.262096
+  },
+  {
+    "sgg_code": "48720",
+    "manhole_total": 3518,
+    "heavy_rain_zone_manholes": 1263,
+    "heavy_rain_zone_ratio": 0.359011
+  },
+  {
+    "sgg_code": "48730",
+    "manhole_total": 13291,
+    "heavy_rain_zone_manholes": 603,
+    "heavy_rain_zone_ratio": 0.045369
+  },
+  {
+    "sgg_code": "48740",
+    "manhole_total": 12361,
+    "heavy_rain_zone_manholes": 155,
+    "heavy_rain_zone_ratio": 0.012539
+  },
+  {
+    "sgg_code": "48820",
+    "manhole_total": 6201,
+    "heavy_rain_zone_manholes": 2638,
+    "heavy_rain_zone_ratio": 0.425415
+  },
+  {
+    "sgg_code": "48840",
+    "manhole_total": 8367,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "48850",
+    "manhole_total": 9056,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "48860",
+    "manhole_total": 3460,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "48870",
+    "manhole_total": 7936,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "48880",
+    "manhole_total": 8144,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "48890",
+    "manhole_total": 5776,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "50110",
+    "manhole_total": 73165,
+    "heavy_rain_zone_manholes": 5854,
+    "heavy_rain_zone_ratio": 0.080011
+  },
+  {
+    "sgg_code": "50130",
+    "manhole_total": 46611,
+    "heavy_rain_zone_manholes": 1585,
+    "heavy_rain_zone_ratio": 0.034005
+  },
+  {
+    "sgg_code": "51110",
+    "manhole_total": 23014,
+    "heavy_rain_zone_manholes": 2339,
+    "heavy_rain_zone_ratio": 0.101634
+  },
+  {
+    "sgg_code": "51130",
+    "manhole_total": 25783,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51150",
+    "manhole_total": 28045,
+    "heavy_rain_zone_manholes": 6723,
+    "heavy_rain_zone_ratio": 0.239722
+  },
+  {
+    "sgg_code": "51170",
+    "manhole_total": 13443,
+    "heavy_rain_zone_manholes": 1854,
+    "heavy_rain_zone_ratio": 0.137916
+  },
+  {
+    "sgg_code": "51190",
+    "manhole_total": 7911,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51210",
+    "manhole_total": 10788,
+    "heavy_rain_zone_manholes": 4703,
+    "heavy_rain_zone_ratio": 0.435947
+  },
+  {
+    "sgg_code": "51230",
+    "manhole_total": 6821,
+    "heavy_rain_zone_manholes": 2050,
+    "heavy_rain_zone_ratio": 0.300542
+  },
+  {
+    "sgg_code": "51720",
+    "manhole_total": 8521,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51730",
+    "manhole_total": 6249,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51750",
+    "manhole_total": 7214,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51760",
+    "manhole_total": 9625,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51770",
+    "manhole_total": 9290,
+    "heavy_rain_zone_manholes": 178,
+    "heavy_rain_zone_ratio": 0.01916
+  },
+  {
+    "sgg_code": "51780",
+    "manhole_total": 8315,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51790",
+    "manhole_total": 6845,
+    "heavy_rain_zone_manholes": 2353,
+    "heavy_rain_zone_ratio": 0.343755
+  },
+  {
+    "sgg_code": "51800",
+    "manhole_total": 5956,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51810",
+    "manhole_total": 3516,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "51820",
+    "manhole_total": 5793,
+    "heavy_rain_zone_manholes": 395,
+    "heavy_rain_zone_ratio": 0.068186
+  },
+  {
+    "sgg_code": "51830",
+    "manhole_total": 6389,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52110",
+    "manhole_total": 51010,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52130",
+    "manhole_total": 24362,
+    "heavy_rain_zone_manholes": 3384,
+    "heavy_rain_zone_ratio": 0.138905
+  },
+  {
+    "sgg_code": "52140",
+    "manhole_total": 27769,
+    "heavy_rain_zone_manholes": 431,
+    "heavy_rain_zone_ratio": 0.015521
+  },
+  {
+    "sgg_code": "52180",
+    "manhole_total": 23260,
+    "heavy_rain_zone_manholes": 1774,
+    "heavy_rain_zone_ratio": 0.076268
+  },
+  {
+    "sgg_code": "52190",
+    "manhole_total": 6272,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52210",
+    "manhole_total": 8928,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52710",
+    "manhole_total": 19728,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52720",
+    "manhole_total": 7501,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52730",
+    "manhole_total": 4968,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52740",
+    "manhole_total": 6431,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52750",
+    "manhole_total": 7094,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52770",
+    "manhole_total": 9846,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52790",
+    "manhole_total": 25136,
+    "heavy_rain_zone_manholes": 0,
+    "heavy_rain_zone_ratio": 0.0
+  },
+  {
+    "sgg_code": "52800",
+    "manhole_total": 33286,
+    "heavy_rain_zone_manholes": 21145,
+    "heavy_rain_zone_ratio": 0.635252
+  }
+]

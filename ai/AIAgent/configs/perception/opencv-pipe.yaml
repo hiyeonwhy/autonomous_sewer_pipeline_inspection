@@ -1,0 +1,6 @@
+name: opencv-pipe
+role: perception
+runtime: opencv
+weights: null
+safe_for_motor_control: false
+note: 중심 추종 알고리즘 검증용 baseline이며 현재는 simulation-no-motor 전용이다.

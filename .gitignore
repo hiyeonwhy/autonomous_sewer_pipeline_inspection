@@ -1,0 +1,67 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+deploy/out/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+backend/.env
+*.pem
+
+# Python / FastAPI
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and local tools
+.DS_Store
+.vscode/
+.idea/
+.ssh/
+.hermes/
+*.log
+camera-test.jpg
+
+# 하수관로 공공데이터
+backend/priority_engine/raw/
+
+# Claude Code (AI 어시스턴트 로컬 설정 — 프로젝트와 무관)
+.claude/
+CLAUDE.local.md
+
+# Models and generated captures
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
+*.h5
+*.ckpt
+*.gguf
+ai/models/*/weights/
+ai/models/*/weights
+ai/AIAgent/models/*/weights/
+ai/AIAgent/models/*/weights
+frontend/find_images/manual_capture_*
+
+# AI 모듈 로컬 데이터 / 대용량 학습 산출물
+# (배포용 best 가중치는 ai/yolo_detection/models/ 에 복사본이 있으므로 runs 내 중복 제외)
+ai/yolo_detection/data/
+ai/yolo_detection/runs/**/weights/
+ai/3d_gsplat/examples/data/
+ai/3d_gsplat/examples/results/
+
+# 사전학습 가중치 자동 다운로드 파일 (ultralytics)
+yolo*.pt
+sam2*.pt

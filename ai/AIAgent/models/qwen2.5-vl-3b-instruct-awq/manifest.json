@@ -1,0 +1,11 @@
+{
+  "name": "qwen2.5-vl-3b-instruct-awq",
+  "role": "decision",
+  "repoId": "Qwen/Qwen2.5-VL-3B-Instruct-AWQ",
+  "revision": "e7b623934290c5a4da0ee3c6e1e57bfb6b5abbf2",
+  "runtime": "transformers-awq",
+  "quantization": "AWQ 4-bit",
+  "weightsDirectory": "weights",
+  "primaryWeightBytes": 3401785760,
+  "primaryWeightSha256": "72014d68fe47d4974e21fcab0cabef2e90de711f9fb1a179c5fa1400e71672d7"
+}

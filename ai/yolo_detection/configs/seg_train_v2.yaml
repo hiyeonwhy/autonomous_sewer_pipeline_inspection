@@ -1,0 +1,5 @@
+path: /home/ricegrass/ssafy/2pjt/data/yolo_seg_v2
+train: images/train
+val: images/val
+nc: 2
+names: ['EX', 'CL']

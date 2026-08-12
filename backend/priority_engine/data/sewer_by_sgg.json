@@ -1,0 +1,4124 @@
+[
+ {
+  "sgg_code": "11110",
+  "full_name": "서울특별시 종로구",
+  "plant_count": 2,
+  "treatment_capacity": 2450000.0,
+  "pipe_total_length": 357575.4,
+  "combined_sewer_ratio": 0.9506868233912465,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.0662251655629139,
+  "_raw": {
+   "branch_total": 332219.32,
+   "branch_combined": 315836.53,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 15.100000000000001,
+   "area_separate": 1.0
+  }
+ },
+ {
+  "sgg_code": "11140",
+  "full_name": "서울특별시 중구",
+  "plant_count": 2,
+  "treatment_capacity": 2450000.0,
+  "pipe_total_length": 270903.93,
+  "combined_sewer_ratio": 0.9778089841216884,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.0,
+  "_raw": {
+   "branch_total": 264419.17,
+   "branch_combined": 258551.44,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 9.9,
+   "area_separate": 0.0
+  }
+ },
+ {
+  "sgg_code": "11170",
+  "full_name": "서울특별시 용산구",
+  "plant_count": 1,
+  "treatment_capacity": 860000.0,
+  "pipe_total_length": 376830.6,
+  "combined_sewer_ratio": 0.9499802066564824,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.005847953216374269,
+  "_raw": {
+   "branch_total": 359186.41,
+   "branch_combined": 341219.98,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 17.1,
+   "area_separate": 0.1
+  }
+ },
+ {
+  "sgg_code": "11200",
+  "full_name": "서울특별시 성동구",
+  "plant_count": 2,
+  "treatment_capacity": 2450000.0,
+  "pipe_total_length": 307040.06,
+  "combined_sewer_ratio": 0.967844231607748,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.023076923076923075,
+  "_raw": {
+   "branch_total": 290898.04000000004,
+   "branch_combined": 281543.99,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.0,
+   "area_separate": 0.3
+  }
+ },
+ {
+  "sgg_code": "11215",
+  "full_name": "서울특별시 광진구",
+  "plant_count": 1,
+  "treatment_capacity": 1590000.0,
+  "pipe_total_length": 371080.4,
+  "combined_sewer_ratio": 0.9695158123134388,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.04918032786885246,
+  "_raw": {
+   "branch_total": 364350.86,
+   "branch_combined": 353243.92,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 12.2,
+   "area_separate": 0.6
+  }
+ },
+ {
+  "sgg_code": "11230",
+  "full_name": "서울특별시 동대문구",
+  "plant_count": 1,
+  "treatment_capacity": 1590000.0,
+  "pipe_total_length": 404534.47,
+  "combined_sewer_ratio": 0.9824290674213743,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.13970588235294118,
+  "_raw": {
+   "branch_total": 390653.71,
+   "branch_combined": 383789.56,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.6,
+   "area_separate": 1.9
+  }
+ },
+ {
+  "sgg_code": "11260",
+  "full_name": "서울특별시 중랑구",
+  "plant_count": 1,
+  "treatment_capacity": 1590000.0,
+  "pipe_total_length": 431916.17,
+  "combined_sewer_ratio": 0.9231328956855073,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.11627906976744186,
+  "_raw": {
+   "branch_total": 414515.94,
+   "branch_combined": 382653.3,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 12.9,
+   "area_separate": 1.5
+  }
+ },
+ {
+  "sgg_code": "11290",
+  "full_name": "서울특별시 성북구",
+  "plant_count": 1,
+  "treatment_capacity": 1590000.0,
+  "pipe_total_length": 505999.03,
+  "combined_sewer_ratio": 0.9508416821679198,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.18181818181818182,
+  "_raw": {
+   "branch_total": 476757.16,
+   "branch_combined": 453320.58,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 18.7,
+   "area_separate": 3.4
+  }
+ },
+ {
+  "sgg_code": "11305",
+  "full_name": "서울특별시 강북구",
+  "plant_count": 1,
+  "treatment_capacity": 1590000.0,
+  "pipe_total_length": 356768.19,
+  "combined_sewer_ratio": 0.9891518623420105,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.20353982300884954,
+  "_raw": {
+   "branch_total": 334910.02,
+   "branch_combined": 331276.87,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 11.3,
+   "area_separate": 2.3
+  }
+ },
+ {
+  "sgg_code": "11320",
+  "full_name": "서울특별시 도봉구",
+  "plant_count": 1,
+  "treatment_capacity": 1590000.0,
+  "pipe_total_length": 330406.64,
+  "combined_sewer_ratio": 0.9202006688808012,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.2410714285714286,
+  "_raw": {
+   "branch_total": 301695.01,
+   "branch_combined": 277619.95,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 11.2,
+   "area_separate": 2.7
+  }
+ },
+ {
+  "sgg_code": "11350",
+  "full_name": "서울특별시 노원구",
+  "plant_count": 1,
+  "treatment_capacity": 1590000.0,
+  "pipe_total_length": 452354.81,
+  "combined_sewer_ratio": 0.7816950572738952,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.628415300546448,
+  "_raw": {
+   "branch_total": 408919.28,
+   "branch_combined": 319650.18,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 18.3,
+   "area_separate": 11.5
+  }
+ },
+ {
+  "sgg_code": "11380",
+  "full_name": "서울특별시 은평구",
+  "plant_count": 1,
+  "treatment_capacity": 860000.0,
+  "pipe_total_length": 480035.37,
+  "combined_sewer_ratio": 0.849519968515723,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.22448979591836735,
+  "_raw": {
+   "branch_total": 456913.78,
+   "branch_combined": 388157.38,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 19.6,
+   "area_separate": 4.4
+  }
+ },
+ {
+  "sgg_code": "11410",
+  "full_name": "서울특별시 서대문구",
+  "plant_count": 1,
+  "treatment_capacity": 860000.0,
+  "pipe_total_length": 342560.12,
+  "combined_sewer_ratio": 0.9277334595896695,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.12121212121212122,
+  "_raw": {
+   "branch_total": 322771.92,
+   "branch_combined": 299446.31,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 16.5,
+   "area_separate": 2.0
+  }
+ },
+ {
+  "sgg_code": "11440",
+  "full_name": "서울특별시 마포구",
+  "plant_count": 1,
+  "treatment_capacity": 860000.0,
+  "pipe_total_length": 461436.7,
+  "combined_sewer_ratio": 0.88411533243259,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.17679558011049723,
+  "_raw": {
+   "branch_total": 439903.32,
+   "branch_combined": 388925.27,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 18.1,
+   "area_separate": 3.2
+  }
+ },
+ {
+  "sgg_code": "11470",
+  "full_name": "서울특별시 양천구",
+  "plant_count": 1,
+  "treatment_capacity": 1630000.0,
+  "pipe_total_length": 392373.07,
+  "combined_sewer_ratio": 0.8166275676191471,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.3875,
+  "_raw": {
+   "branch_total": 388798.9,
+   "branch_combined": 317503.9,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 16.0,
+   "area_separate": 6.2
+  }
+ },
+ {
+  "sgg_code": "11500",
+  "full_name": "서울특별시 강서구",
+  "plant_count": 1,
+  "treatment_capacity": 1630000.0,
+  "pipe_total_length": 567862.69,
+  "combined_sewer_ratio": 0.7005410233675712,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.4358334323863861,
+  "_raw": {
+   "branch_total": 552959.48,
+   "branch_combined": 387370.8,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 25.239,
+   "area_separate": 11.0
+  }
+ },
+ {
+  "sgg_code": "11530",
+  "full_name": "서울특별시 구로구",
+  "plant_count": 1,
+  "treatment_capacity": 1630000.0,
+  "pipe_total_length": 407113.31,
+  "combined_sewer_ratio": 0.9060010201024052,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.024242424242424242,
+  "_raw": {
+   "branch_total": 399508.91,
+   "branch_combined": 361955.48,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 16.5,
+   "area_separate": 0.4
+  }
+ },
+ {
+  "sgg_code": "11545",
+  "full_name": "서울특별시 금천구",
+  "plant_count": 1,
+  "treatment_capacity": 1630000.0,
+  "pipe_total_length": 267871.29,
+  "combined_sewer_ratio": 0.9214032427088725,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.07692307692307693,
+  "_raw": {
+   "branch_total": 260088.72,
+   "branch_combined": 239646.59,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.4,
+   "area_separate": 0.8
+  }
+ },
+ {
+  "sgg_code": "11560",
+  "full_name": "서울특별시 영등포구",
+  "plant_count": 1,
+  "treatment_capacity": 1630000.0,
+  "pipe_total_length": 494666.99,
+  "combined_sewer_ratio": 0.9740440646079144,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.10179640718562874,
+  "_raw": {
+   "branch_total": 464681.77,
+   "branch_combined": 452620.52,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 16.7,
+   "area_separate": 1.7
+  }
+ },
+ {
+  "sgg_code": "11590",
+  "full_name": "서울특별시 동작구",
+  "plant_count": 1,
+  "treatment_capacity": 1630000.0,
+  "pipe_total_length": 333380.26,
+  "combined_sewer_ratio": 0.9708700989813833,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.10897435897435898,
+  "_raw": {
+   "branch_total": 328300.12,
+   "branch_combined": 318736.77,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 15.6,
+   "area_separate": 1.7
+  }
+ },
+ {
+  "sgg_code": "11620",
+  "full_name": "서울특별시 관악구",
+  "plant_count": 1,
+  "treatment_capacity": 1630000.0,
+  "pipe_total_length": 432591.15,
+  "combined_sewer_ratio": 0.9902747726132278,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.03482587064676616,
+  "_raw": {
+   "branch_total": 408491.22,
+   "branch_combined": 404518.55,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 20.1,
+   "area_separate": 0.7
+  }
+ },
+ {
+  "sgg_code": "11650",
+  "full_name": "서울특별시 서초구",
+  "plant_count": 2,
+  "treatment_capacity": 2530000.0,
+  "pipe_total_length": 605305.76,
+  "combined_sewer_ratio": 0.8290557557505619,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.020242914979757085,
+  "_raw": {
+   "branch_total": 571428.95,
+   "branch_combined": 473746.46,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 24.7,
+   "area_separate": 0.5
+  }
+ },
+ {
+  "sgg_code": "11680",
+  "full_name": "서울특별시 강남구",
+  "plant_count": 2,
+  "treatment_capacity": 2530000.0,
+  "pipe_total_length": 733375.3200000001,
+  "combined_sewer_ratio": 0.7896842312542428,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.32786885245901637,
+  "_raw": {
+   "branch_total": 695629.01,
+   "branch_combined": 549327.26,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 30.5,
+   "area_separate": 10.0
+  }
+ },
+ {
+  "sgg_code": "11710",
+  "full_name": "서울특별시 송파구",
+  "plant_count": 1,
+  "treatment_capacity": 900000.0,
+  "pipe_total_length": 718491.07,
+  "combined_sewer_ratio": 0.6166134968346211,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.4366197183098592,
+  "_raw": {
+   "branch_total": 679335.73,
+   "branch_combined": 418887.58,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 28.4,
+   "area_separate": 12.4
+  }
+ },
+ {
+  "sgg_code": "11740",
+  "full_name": "서울특별시 강동구",
+  "plant_count": 1,
+  "treatment_capacity": 900000.0,
+  "pipe_total_length": 481476.99,
+  "combined_sewer_ratio": 0.7863207208028432,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.4086021505376344,
+  "_raw": {
+   "branch_total": 461626.37,
+   "branch_combined": 362986.38,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 18.6,
+   "area_separate": 7.6
+  }
+ },
+ {
+  "sgg_code": "26110",
+  "full_name": "부산광역시 중구",
+  "plant_count": 1,
+  "treatment_capacity": 120000.0,
+  "pipe_total_length": 157599.0,
+  "combined_sewer_ratio": 0.5559987746730242,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9780865847140567,
+  "_raw": {
+   "branch_total": 150164.0,
+   "branch_combined": 83491.0,
+   "drain_separate_total": 4125.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 1.871,
+   "area_separate": 1.83
+  }
+ },
+ {
+  "sgg_code": "26140",
+  "full_name": "부산광역시 서구",
+  "plant_count": 1,
+  "treatment_capacity": 120000.0,
+  "pipe_total_length": 426677.0,
+  "combined_sewer_ratio": 0.818234870874221,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.06378689704823613,
+  "_raw": {
+   "branch_total": 426677.0,
+   "branch_combined": 349122.0,
+   "drain_separate_total": 1435.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 6.945,
+   "area_separate": 0.443
+  }
+ },
+ {
+  "sgg_code": "26170",
+  "full_name": "부산광역시 동구",
+  "plant_count": 1,
+  "treatment_capacity": 340000.0,
+  "pipe_total_length": 297953.5,
+  "combined_sewer_ratio": 0.7046697172152001,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9744776679594644,
+  "_raw": {
+   "branch_total": 285959.5,
+   "branch_combined": 201507.0,
+   "drain_separate_total": 8946.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 7.993,
+   "area_separate": 7.789
+  }
+ },
+ {
+  "sgg_code": "26200",
+  "full_name": "부산광역시 영도구",
+  "plant_count": 1,
+  "treatment_capacity": 95000.0,
+  "pipe_total_length": 315737.0,
+  "combined_sewer_ratio": 0.7086061214647649,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.06372604603696565,
+  "_raw": {
+   "branch_total": 302738.0,
+   "branch_combined": 214522.0,
+   "drain_separate_total": 920.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 8.819,
+   "area_separate": 0.562
+  }
+ },
+ {
+  "sgg_code": "26230",
+  "full_name": "부산광역시 부산진구",
+  "plant_count": 1,
+  "treatment_capacity": 340000.0,
+  "pipe_total_length": 948706.1,
+  "combined_sewer_ratio": 0.7201747642556313,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.8990606713889744,
+  "_raw": {
+   "branch_total": 930213.1,
+   "branch_combined": 669916.0,
+   "drain_separate_total": 24477.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 12.988,
+   "area_separate": 11.677
+  }
+ },
+ {
+  "sgg_code": "26260",
+  "full_name": "부산광역시 동래구",
+  "plant_count": 1,
+  "treatment_capacity": 452000.0,
+  "pipe_total_length": 559077.7,
+  "combined_sewer_ratio": 0.6396529079977734,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9402471562982727,
+  "_raw": {
+   "branch_total": 524379.7,
+   "branch_combined": 335421.0,
+   "drain_separate_total": 15964.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 14.242,
+   "area_separate": 13.391
+  }
+ },
+ {
+  "sgg_code": "26290",
+  "full_name": "부산광역시 남구",
+  "plant_count": 1,
+  "treatment_capacity": 340000.0,
+  "pipe_total_length": 461545.1,
+  "combined_sewer_ratio": 0.6311529589886822,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.5405195057885008,
+  "_raw": {
+   "branch_total": 430108.1,
+   "branch_combined": 271464.0,
+   "drain_separate_total": 11043.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 20.558,
+   "area_separate": 11.112
+  }
+ },
+ {
+  "sgg_code": "26320",
+  "full_name": "부산광역시 북구",
+  "plant_count": 1,
+  "treatment_capacity": 450000.0,
+  "pipe_total_length": 563108.6,
+  "combined_sewer_ratio": 0.5864677679890093,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.8942776735459662,
+  "_raw": {
+   "branch_total": 543298.4,
+   "branch_combined": 318627.0,
+   "drain_separate_total": 8133.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.66,
+   "area_separate": 9.533
+  }
+ },
+ {
+  "sgg_code": "26350",
+  "full_name": "부산광역시 해운대구",
+  "plant_count": 3,
+  "treatment_capacity": 652000.0,
+  "pipe_total_length": 956295.9,
+  "combined_sewer_ratio": 0.5721337421178098,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.5704034134988362,
+  "_raw": {
+   "branch_total": 891455.9,
+   "branch_combined": 510032.0,
+   "drain_separate_total": 14336.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 20.624000000000002,
+   "area_separate": 11.764
+  }
+ },
+ {
+  "sgg_code": "26380",
+  "full_name": "부산광역시 사하구",
+  "plant_count": 1,
+  "treatment_capacity": 450000.0,
+  "pipe_total_length": 916554.4,
+  "combined_sewer_ratio": 0.7035244750590047,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.4978734956112569,
+  "_raw": {
+   "branch_total": 865354.4,
+   "branch_combined": 608798.0,
+   "drain_separate_total": 12168.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 22.102,
+   "area_separate": 11.004
+  }
+ },
+ {
+  "sgg_code": "26410",
+  "full_name": "부산광역시 금정구",
+  "plant_count": 1,
+  "treatment_capacity": 452000.0,
+  "pipe_total_length": 617108.0,
+  "combined_sewer_ratio": 0.510167762621688,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.5965209214856606,
+  "_raw": {
+   "branch_total": 595067.0,
+   "branch_combined": 303584.0,
+   "drain_separate_total": 12038.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.635,
+   "area_separate": 6.344
+  }
+ },
+ {
+  "sgg_code": "26440",
+  "full_name": "부산광역시 강서구",
+  "plant_count": 7,
+  "treatment_capacity": 175250.0,
+  "pipe_total_length": 1415938.6,
+  "combined_sewer_ratio": 0.27518093535819943,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9056495038449763,
+  "_raw": {
+   "branch_total": 1204214.6,
+   "branch_combined": 331376.9,
+   "drain_separate_total": 7346.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 55.526999999999994,
+   "area_separate": 50.288
+  }
+ },
+ {
+  "sgg_code": "26470",
+  "full_name": "부산광역시 연제구",
+  "plant_count": 1,
+  "treatment_capacity": 452000.0,
+  "pipe_total_length": 722552.6,
+  "combined_sewer_ratio": 0.7487884703688046,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.4559394806787978,
+  "_raw": {
+   "branch_total": 702995.6,
+   "branch_combined": 526395.0,
+   "drain_separate_total": 9099.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 9.782,
+   "area_separate": 4.46
+  }
+ },
+ {
+  "sgg_code": "26500",
+  "full_name": "부산광역시 수영구",
+  "plant_count": 2,
+  "treatment_capacity": 792000.0,
+  "pipe_total_length": 304938.1,
+  "combined_sewer_ratio": 0.693938296061324,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.22002314814814813,
+  "_raw": {
+   "branch_total": 286779.1,
+   "branch_combined": 199007.0,
+   "drain_separate_total": 2976.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 8.64,
+   "area_separate": 1.901
+  }
+ },
+ {
+  "sgg_code": "26530",
+  "full_name": "부산광역시 사상구",
+  "plant_count": 1,
+  "treatment_capacity": 450000.0,
+  "pipe_total_length": 903321.9,
+  "combined_sewer_ratio": 0.6388677458104028,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9569340420391398,
+  "_raw": {
+   "branch_total": 879851.9,
+   "branch_combined": 562109.0,
+   "drain_separate_total": 14633.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 16.556,
+   "area_separate": 15.843
+  }
+ },
+ {
+  "sgg_code": "26710",
+  "full_name": "부산광역시 기장군",
+  "plant_count": 19,
+  "treatment_capacity": 283540.0,
+  "pipe_total_length": 754813.5,
+  "combined_sewer_ratio": 0.21179607793237037,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.8751828661712213,
+  "_raw": {
+   "branch_total": 723011.5,
+   "branch_combined": 153131.0,
+   "drain_separate_total": 8213.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 17.089,
+   "area_separate": 14.956
+  }
+ },
+ {
+  "sgg_code": "27110",
+  "full_name": "대구광역시 중구",
+  "plant_count": 2,
+  "treatment_capacity": 1080000.0,
+  "pipe_total_length": 267957.1,
+  "combined_sewer_ratio": 0.9267024171106807,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.08164422395464209,
+  "_raw": {
+   "branch_total": 261647.1,
+   "branch_combined": 242469.0,
+   "drain_separate_total": 1054.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 7.055,
+   "area_separate": 0.576
+  }
+ },
+ {
+  "sgg_code": "27140",
+  "full_name": "대구광역시 동구",
+  "plant_count": 2,
+  "treatment_capacity": 727000.0,
+  "pipe_total_length": 870690.25,
+  "combined_sewer_ratio": 0.45989952483031327,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.24035771382893686,
+  "_raw": {
+   "branch_total": 799451.25,
+   "branch_combined": 367667.25,
+   "drain_separate_total": 18240.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 40.032,
+   "area_separate": 9.622
+  }
+ },
+ {
+  "sgg_code": "27170",
+  "full_name": "대구광역시 서구",
+  "plant_count": 2,
+  "treatment_capacity": 920000.0,
+  "pipe_total_length": 534289.72,
+  "combined_sewer_ratio": 0.9591323777732423,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.05630630630630631,
+  "_raw": {
+   "branch_total": 529367.72,
+   "branch_combined": 507733.72,
+   "drain_separate_total": 637.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.32,
+   "area_separate": 0.75
+  }
+ },
+ {
+  "sgg_code": "27200",
+  "full_name": "대구광역시 남구",
+  "plant_count": 3,
+  "treatment_capacity": 1600000.0,
+  "pipe_total_length": 399005.02999999997,
+  "combined_sewer_ratio": 0.8583008010764418,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.059267241379310345,
+  "_raw": {
+   "branch_total": 396655.02999999997,
+   "branch_combined": 340449.33,
+   "drain_separate_total": 1966.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 9.280000000000001,
+   "area_separate": 0.55
+  }
+ },
+ {
+  "sgg_code": "27230",
+  "full_name": "대구광역시 북구",
+  "plant_count": 3,
+  "treatment_capacity": 1250000.0,
+  "pipe_total_length": 952095.38,
+  "combined_sewer_ratio": 0.44894970814546037,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.4630294328786791,
+  "_raw": {
+   "branch_total": 911861.78,
+   "branch_combined": 409380.08,
+   "drain_separate_total": 21877.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 27.86,
+   "area_separate": 12.899999999999999
+  }
+ },
+ {
+  "sgg_code": "27260",
+  "full_name": "대구광역시 수성구",
+  "plant_count": 3,
+  "treatment_capacity": 760750.0,
+  "pipe_total_length": 903135.3,
+  "combined_sewer_ratio": 0.7489476994919441,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.36833252180071707,
+  "_raw": {
+   "branch_total": 876104.3,
+   "branch_combined": 656156.3,
+   "drain_separate_total": 22905.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 22.591,
+   "area_separate": 8.321
+  }
+ },
+ {
+  "sgg_code": "27290",
+  "full_name": "대구광역시 달서구",
+  "plant_count": 1,
+  "treatment_capacity": 520000.0,
+  "pipe_total_length": 1044645.67,
+  "combined_sewer_ratio": 0.17713523269186066,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.3998428908091123,
+  "_raw": {
+   "branch_total": 1024163.67,
+   "branch_combined": 181415.47,
+   "drain_separate_total": 40218.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 25.46,
+   "area_separate": 10.18
+  }
+ },
+ {
+  "sgg_code": "27710",
+  "full_name": "대구광역시 달성군",
+  "plant_count": 15,
+  "treatment_capacity": 1228400.0,
+  "pipe_total_length": 1700826.3,
+  "combined_sewer_ratio": 0.3108184812378954,
+  "unconnected_ratio": null,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 816579.5,
+   "branch_combined": 253808.0,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 20.4,
+   "area_separate": 20.4
+  }
+ },
+ {
+  "sgg_code": "27720",
+  "full_name": "대구광역시 군위군",
+  "plant_count": 20,
+  "treatment_capacity": 3543.0,
+  "pipe_total_length": 300048.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 265273.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 9100.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 5.699999999999999,
+   "area_separate": 5.699999999999999
+  }
+ },
+ {
+  "sgg_code": "28110",
+  "full_name": "인천광역시 중구",
+  "plant_count": 5,
+  "treatment_capacity": 552000.0,
+  "pipe_total_length": 720256.0,
+  "combined_sewer_ratio": 0.39527195885907235,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.6672872340425532,
+  "_raw": {
+   "branch_total": 720256.0,
+   "branch_combined": 284697.0,
+   "drain_separate_total": 4772.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 37.6,
+   "area_separate": 25.09
+  }
+ },
+ {
+  "sgg_code": "28140",
+  "full_name": "인천광역시 동구",
+  "plant_count": 2,
+  "treatment_capacity": 475000.0,
+  "pipe_total_length": 180494.99,
+  "combined_sewer_ratio": 1.0,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.0013469021251122416,
+  "_raw": {
+   "branch_total": 176638.61,
+   "branch_combined": 176638.61,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 6.682,
+   "area_separate": 0.009
+  }
+ },
+ {
+  "sgg_code": "28177",
+  "full_name": "인천광역시 미추홀구",
+  "plant_count": 3,
+  "treatment_capacity": 750000.0,
+  "pipe_total_length": 594201.0,
+  "combined_sewer_ratio": 0.8482617600053031,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.0733068093474185,
+  "_raw": {
+   "branch_total": 591353.9,
+   "branch_combined": 501622.9,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 21.866999999999997,
+   "area_separate": 1.603
+  }
+ },
+ {
+  "sgg_code": "28185",
+  "full_name": "인천광역시 연수구",
+  "plant_count": 4,
+  "treatment_capacity": 472500.0,
+  "pipe_total_length": 719430.0,
+  "combined_sewer_ratio": 0.08793479455562628,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9232115936390606,
+  "_raw": {
+   "branch_total": 711206.87,
+   "branch_combined": 62539.83,
+   "drain_separate_total": 5406.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 41.126,
+   "area_separate": 37.968
+  }
+ },
+ {
+  "sgg_code": "28200",
+  "full_name": "인천광역시 남동구",
+  "plant_count": 4,
+  "treatment_capacity": 1595000.0,
+  "pipe_total_length": 965607.8700000001,
+  "combined_sewer_ratio": 0.3356931127290663,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.7206877426511369,
+  "_raw": {
+   "branch_total": 932590.0,
+   "branch_combined": 313064.04,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 36.06,
+   "area_separate": 25.988
+  }
+ },
+ {
+  "sgg_code": "28237",
+  "full_name": "인천광역시 부평구",
+  "plant_count": 2,
+  "treatment_capacity": 1250000.0,
+  "pipe_total_length": 568328.0,
+  "combined_sewer_ratio": 0.9328820559889858,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.07593914097212871,
+  "_raw": {
+   "branch_total": 557824.0,
+   "branch_combined": 520384.0,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 22.281000000000002,
+   "area_separate": 1.692
+  }
+ },
+ {
+  "sgg_code": "28245",
+  "full_name": "인천광역시 계양구",
+  "plant_count": 2,
+  "treatment_capacity": 940000.0,
+  "pipe_total_length": 297497.0,
+  "combined_sewer_ratio": 0.7062965572929946,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.23617920540997464,
+  "_raw": {
+   "branch_total": 275893.94,
+   "branch_combined": 194862.94,
+   "drain_separate_total": 3121.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 11.83,
+   "area_separate": 2.794
+  }
+ },
+ {
+  "sgg_code": "28260",
+  "full_name": "인천광역시 서구",
+  "plant_count": 4,
+  "treatment_capacity": 524000.0,
+  "pipe_total_length": 1399008.05,
+  "combined_sewer_ratio": 0.2534907388364034,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7240518709633901,
+  "_raw": {
+   "branch_total": 1343667.55,
+   "branch_combined": 340607.28,
+   "drain_separate_total": 13734.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 59.301,
+   "area_separate": 42.937
+  }
+ },
+ {
+  "sgg_code": "28710",
+  "full_name": "인천광역시 강화군",
+  "plant_count": 4,
+  "treatment_capacity": 10060.0,
+  "pipe_total_length": 190380.0,
+  "combined_sewer_ratio": 0.1656473287271051,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7219756621331426,
+  "_raw": {
+   "branch_total": 186559.0,
+   "branch_combined": 30903.0,
+   "drain_separate_total": 6974.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 6.984999999999999,
+   "area_separate": 5.043
+  }
+ },
+ {
+  "sgg_code": "28720",
+  "full_name": "인천광역시 옹진군",
+  "plant_count": 11,
+  "treatment_capacity": 4860.0,
+  "pipe_total_length": 122739.3,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 122739.3,
+   "branch_combined": 0.0,
+   "drain_separate_total": 3003.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 7.5939999999999985,
+   "area_separate": 7.5939999999999985
+  }
+ },
+ {
+  "sgg_code": "29110",
+  "full_name": "광주광역시 동구",
+  "plant_count": 1,
+  "treatment_capacity": 600000.0,
+  "pipe_total_length": 367395.38,
+  "combined_sewer_ratio": 0.7551105804823447,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.169831223628692,
+  "_raw": {
+   "branch_total": 353978.38,
+   "branch_combined": 267292.82,
+   "drain_separate_total": 10920.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 9.48,
+   "area_separate": 1.61
+  }
+ },
+ {
+  "sgg_code": "29140",
+  "full_name": "광주광역시 서구",
+  "plant_count": 3,
+  "treatment_capacity": 600085.0,
+  "pipe_total_length": 827245.54,
+  "combined_sewer_ratio": 0.37791469957025814,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.3840894965817278,
+  "_raw": {
+   "branch_total": 789399.54,
+   "branch_combined": 298325.69,
+   "drain_separate_total": 38074.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 24.134999999999998,
+   "area_separate": 9.27
+  }
+ },
+ {
+  "sgg_code": "29155",
+  "full_name": "광주광역시 남구",
+  "plant_count": 6,
+  "treatment_capacity": 616840.0,
+  "pipe_total_length": 514574.8,
+  "combined_sewer_ratio": 0.4626825191236868,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.6832319134550373,
+  "_raw": {
+   "branch_total": 505864.8,
+   "branch_combined": 234054.8,
+   "drain_separate_total": 907.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 14.79,
+   "area_separate": 10.105
+  }
+ },
+ {
+  "sgg_code": "29170",
+  "full_name": "광주광역시 북구",
+  "plant_count": 8,
+  "treatment_capacity": 600750.0,
+  "pipe_total_length": 1374441.3,
+  "combined_sewer_ratio": 0.35874613949062284,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.652389205248824,
+  "_raw": {
+   "branch_total": 1354128.3,
+   "branch_combined": 485788.3,
+   "drain_separate_total": 3859.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 40.39,
+   "area_separate": 26.35
+  }
+ },
+ {
+  "sgg_code": "29200",
+  "full_name": "광주광역시 광산구",
+  "plant_count": 12,
+  "treatment_capacity": 120750.0,
+  "pipe_total_length": 1531371.95,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.5829616052166297,
+  "_raw": {
+   "branch_total": 1484019.95,
+   "branch_combined": 0.0,
+   "drain_separate_total": 1451.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 61.649,
+   "area_separate": 35.939
+  }
+ },
+ {
+  "sgg_code": "30110",
+  "full_name": "대전광역시 동구",
+  "plant_count": 1,
+  "treatment_capacity": 900000.0,
+  "pipe_total_length": 631121.0,
+  "combined_sewer_ratio": 0.6513824758089646,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.19680851063829788,
+  "_raw": {
+   "branch_total": 600119.0,
+   "branch_combined": 390907.0,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 18.8,
+   "area_separate": 3.7
+  }
+ },
+ {
+  "sgg_code": "30140",
+  "full_name": "대전광역시 중구",
+  "plant_count": 1,
+  "treatment_capacity": 900000.0,
+  "pipe_total_length": 569523.9,
+  "combined_sewer_ratio": 0.8165479103378683,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.17073170731707318,
+  "_raw": {
+   "branch_total": 551282.9,
+   "branch_combined": 450148.9,
+   "drain_separate_total": 18158.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 16.4,
+   "area_separate": 2.8
+  }
+ },
+ {
+  "sgg_code": "30170",
+  "full_name": "대전광역시 서구",
+  "plant_count": 2,
+  "treatment_capacity": 901000.0,
+  "pipe_total_length": 762790.0,
+  "combined_sewer_ratio": 0.35830253232388465,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7082142857142857,
+  "_raw": {
+   "branch_total": 727790.0,
+   "branch_combined": 260769.0,
+   "drain_separate_total": 23138.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 28.0,
+   "area_separate": 19.83
+  }
+ },
+ {
+  "sgg_code": "30200",
+  "full_name": "대전광역시 유성구",
+  "plant_count": 1,
+  "treatment_capacity": 900000.0,
+  "pipe_total_length": 1082442.09,
+  "combined_sewer_ratio": 0.14406705000773978,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.949247658014175,
+  "_raw": {
+   "branch_total": 1016242.09,
+   "branch_combined": 146407.0,
+   "drain_separate_total": 23948.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 44.727,
+   "area_separate": 42.457
+  }
+ },
+ {
+  "sgg_code": "30230",
+  "full_name": "대전광역시 대덕구",
+  "plant_count": 1,
+  "treatment_capacity": 900000.0,
+  "pipe_total_length": 629904.0,
+  "combined_sewer_ratio": 0.40461562396809675,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7919896640826873,
+  "_raw": {
+   "branch_total": 629904.0,
+   "branch_combined": 254869.0,
+   "drain_separate_total": 10787.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 61.92,
+   "area_separate": 49.04
+  }
+ },
+ {
+  "sgg_code": "31110",
+  "full_name": "울산광역시 중구",
+  "plant_count": 1,
+  "treatment_capacity": 100000.0,
+  "pipe_total_length": 741904.6,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 741904.6,
+   "branch_combined": 0.0,
+   "drain_separate_total": 13205.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 37.002,
+   "area_separate": 37.002
+  }
+ },
+ {
+  "sgg_code": "31140",
+  "full_name": "울산광역시 남구",
+  "plant_count": 1,
+  "treatment_capacity": 250000.0,
+  "pipe_total_length": 1118726.92,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1079704.54,
+   "branch_combined": 0.0,
+   "drain_separate_total": 11436.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 56.007,
+   "area_separate": 56.007
+  }
+ },
+ {
+  "sgg_code": "31170",
+  "full_name": "울산광역시 동구",
+  "plant_count": 1,
+  "treatment_capacity": 140000.0,
+  "pipe_total_length": 395209.06,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 383986.2,
+   "branch_combined": 0.0,
+   "drain_separate_total": 13146.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 36.075,
+   "area_separate": 36.075
+  }
+ },
+ {
+  "sgg_code": "31200",
+  "full_name": "울산광역시 북구",
+  "plant_count": 1,
+  "treatment_capacity": 7000.0,
+  "pipe_total_length": 743291.97,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 701835.95,
+   "branch_combined": 0.0,
+   "drain_separate_total": 136.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 157.352,
+   "area_separate": 157.352
+  }
+ },
+ {
+  "sgg_code": "31710",
+  "full_name": "울산광역시 울주군",
+  "plant_count": 12,
+  "treatment_capacity": 281320.0,
+  "pipe_total_length": 1754776.3,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1663852.5799999998,
+   "branch_combined": 0.0,
+   "drain_separate_total": 15789.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 138.676,
+   "area_separate": 138.676
+  }
+ },
+ {
+  "sgg_code": "36110",
+  "full_name": "세종특별자치시 세종시",
+  "plant_count": 43,
+  "treatment_capacity": 1320067.0,
+  "pipe_total_length": 1680191.5699999998,
+  "combined_sewer_ratio": 0.05213247909462027,
+  "unconnected_ratio": 0.014938349668036675,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1664213.97,
+   "branch_combined": 86759.6,
+   "drain_separate_total": 12652.0,
+   "drain_separate_unconnected": 189.0,
+   "area_total": 42.63099999999999,
+   "area_separate": 42.63099999999999
+  }
+ },
+ {
+  "sgg_code": "41110",
+  "full_name": "경기도 수원시",
+  "plant_count": 44,
+  "treatment_capacity": 17194000.0,
+  "pipe_total_length": 1796861.4299999997,
+  "combined_sewer_ratio": 0.37831009642048297,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7626526458616012,
+  "_raw": {
+   "branch_total": 1705179.1800000002,
+   "branch_combined": 645086.5000000001,
+   "drain_separate_total": 65519.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 58.959999999999994,
+   "area_separate": 44.966
+  }
+ },
+ {
+  "sgg_code": "41130",
+  "full_name": "경기도 성남시",
+  "plant_count": 50,
+  "treatment_capacity": 21348000.0,
+  "pipe_total_length": 1474786.0,
+  "combined_sewer_ratio": 0.2764878470570458,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7950069348127601,
+  "_raw": {
+   "branch_total": 1429448.0,
+   "branch_combined": 395225.0,
+   "drain_separate_total": 31445.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 57.68,
+   "area_separate": 45.856
+  }
+ },
+ {
+  "sgg_code": "41150",
+  "full_name": "경기도 의정부시",
+  "plant_count": 30,
+  "treatment_capacity": 3240000.0,
+  "pipe_total_length": 827260.2,
+  "combined_sewer_ratio": 0.1772299582293969,
+  "unconnected_ratio": 0.00840701550949413,
+  "separate_ratio": 0.7869654921315586,
+  "_raw": {
+   "branch_total": 782129.0,
+   "branch_combined": 138616.68999999997,
+   "drain_separate_total": 13798.0,
+   "drain_separate_unconnected": 116.0,
+   "area_total": 24.719,
+   "area_separate": 19.453
+  }
+ },
+ {
+  "sgg_code": "41170",
+  "full_name": "경기도 안양시",
+  "plant_count": 31,
+  "treatment_capacity": 9300000.0,
+  "pipe_total_length": 701468.1900000001,
+  "combined_sewer_ratio": 0.541402953565987,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.4462200368776889,
+  "_raw": {
+   "branch_total": 642865.6100000001,
+   "branch_combined": 348049.33999999997,
+   "drain_separate_total": 2005.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 26.032000000000007,
+   "area_separate": 11.616000000000001
+  }
+ },
+ {
+  "sgg_code": "41190",
+  "full_name": "경기도 부천시",
+  "plant_count": 37,
+  "treatment_capacity": 28290000.0,
+  "pipe_total_length": 1009655.6600000001,
+  "combined_sewer_ratio": 0.6265396436467532,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.21340590760856812,
+  "_raw": {
+   "branch_total": 980926.6600000001,
+   "branch_combined": 614589.44,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 42.623000000000005,
+   "area_separate": 9.096
+  }
+ },
+ {
+  "sgg_code": "41210",
+  "full_name": "경기도 광명시",
+  "plant_count": 19,
+  "treatment_capacity": 29640000.0,
+  "pipe_total_length": 410279.33999999997,
+  "combined_sewer_ratio": 0.4387604397808188,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.6402510460251045,
+  "_raw": {
+   "branch_total": 396519.33999999997,
+   "branch_combined": 173977.0,
+   "drain_separate_total": 3692.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 11.95,
+   "area_separate": 7.650999999999999
+  }
+ },
+ {
+  "sgg_code": "41220",
+  "full_name": "경기도 평택시",
+  "plant_count": 36,
+  "treatment_capacity": 1497700.0,
+  "pipe_total_length": 2046533.1200000003,
+  "combined_sewer_ratio": 0.18761066175122534,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 2011348.7500000002,
+   "branch_combined": 377350.47,
+   "drain_separate_total": 10244.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 134.384,
+   "area_separate": 134.384
+  }
+ },
+ {
+  "sgg_code": "41250",
+  "full_name": "경기도 동두천시",
+  "plant_count": 8,
+  "treatment_capacity": 688000.0,
+  "pipe_total_length": 508131.93000000005,
+  "combined_sewer_ratio": 0.2069740002295568,
+  "unconnected_ratio": 0.27235772357723576,
+  "separate_ratio": 0.8847787937563499,
+  "_raw": {
+   "branch_total": 458012.8900000001,
+   "branch_combined": 94796.76,
+   "drain_separate_total": 1722.0,
+   "drain_separate_unconnected": 469.0,
+   "area_total": 43.30799999999999,
+   "area_separate": 38.318
+  }
+ },
+ {
+  "sgg_code": "41270",
+  "full_name": "경기도 안산시",
+  "plant_count": 30,
+  "treatment_capacity": 12819135.0,
+  "pipe_total_length": 1835658.35,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1275983.7400000002,
+   "branch_combined": 0.0,
+   "drain_separate_total": 71151.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 45.649,
+   "area_separate": 45.649
+  }
+ },
+ {
+  "sgg_code": "41280",
+  "full_name": "경기도 고양시",
+  "plant_count": 49,
+  "treatment_capacity": 12044800.0,
+  "pipe_total_length": 1993510.59,
+  "combined_sewer_ratio": 0.19111036946053203,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7646017468726813,
+  "_raw": {
+   "branch_total": 1907876.59,
+   "branch_combined": 364615.0,
+   "drain_separate_total": 68470.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 76.823,
+   "area_separate": 58.73899999999999
+  }
+ },
+ {
+  "sgg_code": "41290",
+  "full_name": "경기도 과천시",
+  "plant_count": 7,
+  "treatment_capacity": 210000.0,
+  "pipe_total_length": 207073.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 201783.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 25580.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 7.513,
+   "area_separate": 7.513
+  }
+ },
+ {
+  "sgg_code": "41310",
+  "full_name": "경기도 구리시",
+  "plant_count": 24,
+  "treatment_capacity": 1369600.0,
+  "pipe_total_length": 311762.39999999997,
+  "combined_sewer_ratio": 0.1978577401791709,
+  "unconnected_ratio": 0.05537178196461959,
+  "separate_ratio": 0.8697320782042,
+  "_raw": {
+   "branch_total": 293069.95999999996,
+   "branch_combined": 57986.16,
+   "drain_separate_total": 6953.0,
+   "drain_separate_unconnected": 385.0,
+   "area_total": 13.809999999999999,
+   "area_separate": 12.011000000000001
+  }
+ },
+ {
+  "sgg_code": "41360",
+  "full_name": "경기도 남양주시",
+  "plant_count": 33,
+  "treatment_capacity": 1911950.0,
+  "pipe_total_length": 1618053.4899999998,
+  "combined_sewer_ratio": 0.014167003565161818,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9720161772973759,
+  "_raw": {
+   "branch_total": 1314664.03,
+   "branch_combined": 18624.850000000002,
+   "drain_separate_total": 51676.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 110.27800000000005,
+   "area_separate": 107.19200000000006
+  }
+ },
+ {
+  "sgg_code": "41370",
+  "full_name": "경기도 오산시",
+  "plant_count": 8,
+  "treatment_capacity": 988300.0,
+  "pipe_total_length": 532292.72,
+  "combined_sewer_ratio": 0.2044743369421717,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.4435733819507748,
+  "_raw": {
+   "branch_total": 511163.56,
+   "branch_combined": 104519.83,
+   "drain_separate_total": 22318.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.97,
+   "area_separate": 4.866
+  }
+ },
+ {
+  "sgg_code": "41390",
+  "full_name": "경기도 시흥시",
+  "plant_count": 23,
+  "treatment_capacity": 3182000.0,
+  "pipe_total_length": 1305582.1,
+  "combined_sewer_ratio": 0.03374772344092754,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9841759787450183,
+  "_raw": {
+   "branch_total": 1233962.05,
+   "branch_combined": 41643.409999999996,
+   "drain_separate_total": 25103.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 51.187999999999995,
+   "area_separate": 50.37799999999999
+  }
+ },
+ {
+  "sgg_code": "41410",
+  "full_name": "경기도 군포시",
+  "plant_count": 14,
+  "treatment_capacity": 3009500.0,
+  "pipe_total_length": 364744.15,
+  "combined_sewer_ratio": 0.24018682912297068,
+  "unconnected_ratio": null,
+  "separate_ratio": 0.6807663410969198,
+  "_raw": {
+   "branch_total": 350609.15,
+   "branch_combined": 84211.7,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.309999999999999,
+   "area_separate": 9.061000000000002
+  }
+ },
+ {
+  "sgg_code": "41430",
+  "full_name": "경기도 의왕시",
+  "plant_count": 6,
+  "treatment_capacity": 1270000.0,
+  "pipe_total_length": 311396.2,
+  "combined_sewer_ratio": 0.22354174986036723,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.8016434603971696,
+  "_raw": {
+   "branch_total": 301505.2,
+   "branch_combined": 67399.0,
+   "drain_separate_total": 18642.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 17.524,
+   "area_separate": 14.048
+  }
+ },
+ {
+  "sgg_code": "41450",
+  "full_name": "경기도 하남시",
+  "plant_count": 14,
+  "treatment_capacity": 448000.0,
+  "pipe_total_length": 607250.09,
+  "combined_sewer_ratio": 0.16618828221606818,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7159353348729791,
+  "_raw": {
+   "branch_total": 487899.07999999996,
+   "branch_combined": 81083.11000000002,
+   "drain_separate_total": 8210.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 27.712000000000003,
+   "area_separate": 19.84
+  }
+ },
+ {
+  "sgg_code": "41460",
+  "full_name": "경기도 용인시",
+  "plant_count": 89,
+  "treatment_capacity": 3847013.0,
+  "pipe_total_length": 2468141.0,
+  "combined_sewer_ratio": 0.05534549308584155,
+  "unconnected_ratio": 0.33413249211356466,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 2234256.0,
+   "branch_combined": 123656.0,
+   "drain_separate_total": 7925.0,
+   "drain_separate_unconnected": 2648.0,
+   "area_total": 111.42100000000006,
+   "area_separate": 111.42100000000006
+  }
+ },
+ {
+  "sgg_code": "41480",
+  "full_name": "경기도 파주시",
+  "plant_count": 49,
+  "treatment_capacity": 1364170.0,
+  "pipe_total_length": 1225747.95,
+  "combined_sewer_ratio": 0.004338556764019812,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9919621749408983,
+  "_raw": {
+   "branch_total": 1187118.2700000003,
+   "branch_combined": 5150.379999999999,
+   "drain_separate_total": 42438.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 63.449999999999996,
+   "area_separate": 62.94
+  }
+ },
+ {
+  "sgg_code": "41500",
+  "full_name": "경기도 이천시",
+  "plant_count": 47,
+  "treatment_capacity": 426095.0,
+  "pipe_total_length": 1333492.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1120393.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 35323.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 50.21899999999999,
+   "area_separate": 50.21899999999999
+  }
+ },
+ {
+  "sgg_code": "41550",
+  "full_name": "경기도 안성시",
+  "plant_count": 28,
+  "treatment_capacity": 542438.0,
+  "pipe_total_length": 742269.4,
+  "combined_sewer_ratio": 0.16856257362504798,
+  "unconnected_ratio": 0.7433439829605963,
+  "separate_ratio": 0.9675233346119423,
+  "_raw": {
+   "branch_total": 437011.5999999999,
+   "branch_combined": 73663.8,
+   "drain_separate_total": 2817.0,
+   "drain_separate_unconnected": 2094.0,
+   "area_total": 39.105000000000004,
+   "area_separate": 37.83500000000001
+  }
+ },
+ {
+  "sgg_code": "41570",
+  "full_name": "경기도 김포시",
+  "plant_count": 25,
+  "treatment_capacity": 978050.0,
+  "pipe_total_length": 1044534.3600000001,
+  "combined_sewer_ratio": 0.06813348701331387,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.8770944513061919,
+  "_raw": {
+   "branch_total": 982431.15,
+   "branch_combined": 66936.46,
+   "drain_separate_total": 23731.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 42.911,
+   "area_separate": 37.637
+  }
+ },
+ {
+  "sgg_code": "41590",
+  "full_name": "경기도 화성시",
+  "plant_count": 64,
+  "treatment_capacity": 3582543.0,
+  "pipe_total_length": 2703638.7499999995,
+  "combined_sewer_ratio": 0.2861337922844285,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 2666602.1999999997,
+   "branch_combined": 763005.0,
+   "drain_separate_total": 325306.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 169.44499999999996,
+   "area_separate": 169.44499999999996
+  }
+ },
+ {
+  "sgg_code": "41610",
+  "full_name": "경기도 광주시",
+  "plant_count": 36,
+  "treatment_capacity": 613780.0,
+  "pipe_total_length": 1828324.3699999999,
+  "combined_sewer_ratio": 0.0016057817305772752,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1370659.51,
+   "branch_combined": 2200.98,
+   "drain_separate_total": 2472.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 84.00900000000004,
+   "area_separate": 84.00900000000004
+  }
+ },
+ {
+  "sgg_code": "41630",
+  "full_name": "경기도 양주시",
+  "plant_count": 25,
+  "treatment_capacity": 798736.0,
+  "pipe_total_length": 867092.46,
+  "combined_sewer_ratio": 0.13313361525168443,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9305470241553916,
+  "_raw": {
+   "branch_total": 730987.0600000002,
+   "branch_combined": 97318.95,
+   "drain_separate_total": 9303.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 120.46999999999998,
+   "area_separate": 112.10300000000001
+  }
+ },
+ {
+  "sgg_code": "41650",
+  "full_name": "경기도 포천시",
+  "plant_count": 33,
+  "treatment_capacity": 271123.0,
+  "pipe_total_length": 1685031.5899999999,
+  "combined_sewer_ratio": 0.12548785224636602,
+  "unconnected_ratio": 0.09054749649040711,
+  "separate_ratio": 0.9623627202860527,
+  "_raw": {
+   "branch_total": 1550820.4700000002,
+   "branch_combined": 194609.12999999995,
+   "drain_separate_total": 59836.0,
+   "drain_separate_unconnected": 5418.0,
+   "area_total": 86.138,
+   "area_separate": 82.89600000000002
+  }
+ },
+ {
+  "sgg_code": "41670",
+  "full_name": "경기도 여주시",
+  "plant_count": 38,
+  "treatment_capacity": 79374.0,
+  "pipe_total_length": 649506.0,
+  "combined_sewer_ratio": 0.010209412056975325,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 587693.0,
+   "branch_combined": 6000.0,
+   "drain_separate_total": 15891.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 23.811000000000003,
+   "area_separate": 23.811000000000003
+  }
+ },
+ {
+  "sgg_code": "41800",
+  "full_name": "경기도 연천군",
+  "plant_count": 15,
+  "treatment_capacity": 100365.0,
+  "pipe_total_length": 610663.3,
+  "combined_sewer_ratio": 0.2404070538088295,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 546581.3,
+   "branch_combined": 131402.0,
+   "drain_separate_total": 11070.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 32.939,
+   "area_separate": 32.939
+  }
+ },
+ {
+  "sgg_code": "41820",
+  "full_name": "경기도 가평군",
+  "plant_count": 22,
+  "treatment_capacity": 46480.0,
+  "pipe_total_length": 609047.2,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 513944.5,
+   "branch_combined": 0.0,
+   "drain_separate_total": 23531.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 58.434,
+   "area_separate": 58.434
+  }
+ },
+ {
+  "sgg_code": "41830",
+  "full_name": "경기도 양평군",
+  "plant_count": 63,
+  "treatment_capacity": 103174.0,
+  "pipe_total_length": 826612.3,
+  "combined_sewer_ratio": 0.08916555555325154,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 482249.0,
+   "branch_combined": 43000.0,
+   "drain_separate_total": 21570.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 62.004000000000005,
+   "area_separate": 62.004000000000005
+  }
+ },
+ {
+  "sgg_code": "43110",
+  "full_name": "충청북도 청주시",
+  "plant_count": 77,
+  "treatment_capacity": 9577752.0,
+  "pipe_total_length": 2237077.2,
+  "combined_sewer_ratio": 0.30447829056998454,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.5915169603397804,
+  "_raw": {
+   "branch_total": 2024272.4000000001,
+   "branch_combined": 616347.0,
+   "drain_separate_total": 63107.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 69.69200000000001,
+   "area_separate": 41.22399999999998
+  }
+ },
+ {
+  "sgg_code": "43130",
+  "full_name": "충청북도 충주시",
+  "plant_count": 83,
+  "treatment_capacity": 1008399.0,
+  "pipe_total_length": 1306126.91,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 665883.2200000001,
+   "branch_combined": 0.0,
+   "drain_separate_total": 51357.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 33.66,
+   "area_separate": 33.66
+  }
+ },
+ {
+  "sgg_code": "43150",
+  "full_name": "충청북도 제천시",
+  "plant_count": 51,
+  "treatment_capacity": 637348.0,
+  "pipe_total_length": 883838.5,
+  "combined_sewer_ratio": 0.39343678746286115,
+  "unconnected_ratio": 0.026454307739328286,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 668605.5,
+   "branch_combined": 263054.0,
+   "drain_separate_total": 29447.0,
+   "drain_separate_unconnected": 779.0,
+   "area_total": 53.07300000000001,
+   "area_separate": 53.07300000000001
+  }
+ },
+ {
+  "sgg_code": "43720",
+  "full_name": "충청북도 보은군",
+  "plant_count": 30,
+  "treatment_capacity": 13715.0,
+  "pipe_total_length": 542694.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 384901.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 8477.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 15.693999999999999,
+   "area_separate": 15.693999999999999
+  }
+ },
+ {
+  "sgg_code": "43730",
+  "full_name": "충청북도 옥천군",
+  "plant_count": 50,
+  "treatment_capacity": 59020.0,
+  "pipe_total_length": 689549.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.01437285869474388,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 632293.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 11967.0,
+   "drain_separate_unconnected": 172.0,
+   "area_total": 18.499000000000006,
+   "area_separate": 18.499000000000006
+  }
+ },
+ {
+  "sgg_code": "43740",
+  "full_name": "충청북도 영동군",
+  "plant_count": 36,
+  "treatment_capacity": 18495.0,
+  "pipe_total_length": 438155.3,
+  "combined_sewer_ratio": 0.0013844797655037397,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9979665258876896,
+  "_raw": {
+   "branch_total": 184907.0,
+   "branch_combined": 256.0,
+   "drain_separate_total": 7567.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 12.785999999999996,
+   "area_separate": 12.759999999999996
+  }
+ },
+ {
+  "sgg_code": "43745",
+  "full_name": "충청북도 증평군",
+  "plant_count": 2,
+  "treatment_capacity": 50000.0,
+  "pipe_total_length": 337933.0,
+  "combined_sewer_ratio": 0.06963378254808197,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.8959552953698777,
+  "_raw": {
+   "branch_total": 333545.0,
+   "branch_combined": 23226.0,
+   "drain_separate_total": 39324.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 37.58,
+   "area_separate": 33.67
+  }
+ },
+ {
+  "sgg_code": "43750",
+  "full_name": "충청북도 진천군",
+  "plant_count": 16,
+  "treatment_capacity": 68691.0,
+  "pipe_total_length": 310999.18,
+  "combined_sewer_ratio": 0.04352272271258601,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 222780.18,
+   "branch_combined": 9696.0,
+   "drain_separate_total": 8948.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 24.567999999999998,
+   "area_separate": 24.567999999999998
+  }
+ },
+ {
+  "sgg_code": "43760",
+  "full_name": "충청북도 괴산군",
+  "plant_count": 29,
+  "treatment_capacity": 19473.0,
+  "pipe_total_length": 290606.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 145932.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 7534.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 28.455000000000013,
+   "area_separate": 28.455000000000013
+  }
+ },
+ {
+  "sgg_code": "43770",
+  "full_name": "충청북도 음성군",
+  "plant_count": 15,
+  "treatment_capacity": 56060.0,
+  "pipe_total_length": 526843.9500000001,
+  "combined_sewer_ratio": 0.0038664413664605546,
+  "unconnected_ratio": 0.031097203207510266,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 488562.9500000001,
+   "branch_combined": 1889.0,
+   "drain_separate_total": 10226.0,
+   "drain_separate_unconnected": 318.0,
+   "area_total": 19.920000000000005,
+   "area_separate": 19.920000000000005
+  }
+ },
+ {
+  "sgg_code": "43800",
+  "full_name": "충청북도 단양군",
+  "plant_count": 40,
+  "treatment_capacity": 13707.0,
+  "pipe_total_length": 264842.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 179258.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 6570.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.068999999999997,
+   "area_separate": 10.068999999999997
+  }
+ },
+ {
+  "sgg_code": "44130",
+  "full_name": "충청남도 천안시",
+  "plant_count": 63,
+  "treatment_capacity": 7091276.0,
+  "pipe_total_length": 1588127.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.02085000936696357,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1588127.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 234868.0,
+   "drain_separate_unconnected": 4897.0,
+   "area_total": 71.202,
+   "area_separate": 71.202
+  }
+ },
+ {
+  "sgg_code": "44150",
+  "full_name": "충청남도 공주시",
+  "plant_count": 36,
+  "treatment_capacity": 199329.0,
+  "pipe_total_length": 648995.5100000001,
+  "combined_sewer_ratio": 0.010151261613239973,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 611628.41,
+   "branch_combined": 6208.799999999999,
+   "drain_separate_total": 15544.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 59.40899999999999,
+   "area_separate": 59.40899999999999
+  }
+ },
+ {
+  "sgg_code": "44180",
+  "full_name": "충청남도 보령시",
+  "plant_count": 54,
+  "treatment_capacity": 169089.0,
+  "pipe_total_length": 698549.0800000001,
+  "combined_sewer_ratio": 0.08386190798258278,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 655318.98,
+   "branch_combined": 54956.3,
+   "drain_separate_total": 12513.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 34.474000000000004,
+   "area_separate": 34.474000000000004
+  }
+ },
+ {
+  "sgg_code": "44200",
+  "full_name": "충청남도 아산시",
+  "plant_count": 32,
+  "treatment_capacity": 872020.0,
+  "pipe_total_length": 1301020.75,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1301020.75,
+   "branch_combined": 0.0,
+   "drain_separate_total": 16946.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 35.224000000000004,
+   "area_separate": 35.224000000000004
+  }
+ },
+ {
+  "sgg_code": "44210",
+  "full_name": "충청남도 서산시",
+  "plant_count": 26,
+  "treatment_capacity": 534050.0,
+  "pipe_total_length": 865960.2,
+  "combined_sewer_ratio": 0.044303117425420466,
+  "unconnected_ratio": 0.05380767989674089,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 776198.2,
+   "branch_combined": 34388.0,
+   "drain_separate_total": 12396.0,
+   "drain_separate_unconnected": 667.0,
+   "area_total": 20.718,
+   "area_separate": 20.718
+  }
+ },
+ {
+  "sgg_code": "44230",
+  "full_name": "충청남도 논산시",
+  "plant_count": 30,
+  "treatment_capacity": 158116.0,
+  "pipe_total_length": 724207.4,
+  "combined_sewer_ratio": 0.10714430700376715,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 724207.4,
+   "branch_combined": 77594.7,
+   "drain_separate_total": 17965.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 30.511,
+   "area_separate": 30.511
+  }
+ },
+ {
+  "sgg_code": "44250",
+  "full_name": "충청남도 계룡시",
+  "plant_count": 4,
+  "treatment_capacity": 108000.0,
+  "pipe_total_length": 225737.85,
+  "combined_sewer_ratio": 0.034996429528406425,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 215223.66999999998,
+   "branch_combined": 7532.0599999999995,
+   "drain_separate_total": 1811.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 6.64,
+   "area_separate": 6.64
+  }
+ },
+ {
+  "sgg_code": "44270",
+  "full_name": "충청남도 당진시",
+  "plant_count": 20,
+  "treatment_capacity": 166122.0,
+  "pipe_total_length": 602592.0,
+  "combined_sewer_ratio": 0.10832162560074231,
+  "unconnected_ratio": 0.02962647955205897,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 534547.0,
+   "branch_combined": 57903.0,
+   "drain_separate_total": 14109.0,
+   "drain_separate_unconnected": 418.0,
+   "area_total": 35.56,
+   "area_separate": 35.56
+  }
+ },
+ {
+  "sgg_code": "44710",
+  "full_name": "충청남도 금산군",
+  "plant_count": 43,
+  "treatment_capacity": 47070.0,
+  "pipe_total_length": 449641.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 261594.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 11991.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 12.122000000000002,
+   "area_separate": 12.122000000000002
+  }
+ },
+ {
+  "sgg_code": "44760",
+  "full_name": "충청남도 부여군",
+  "plant_count": 41,
+  "treatment_capacity": 21748.0,
+  "pipe_total_length": 661633.9,
+  "combined_sewer_ratio": 0.48710717499539624,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7564684340418756,
+  "_raw": {
+   "branch_total": 287819.00000000006,
+   "branch_combined": 140198.69999999998,
+   "drain_separate_total": 8299.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 25.122,
+   "area_separate": 19.003999999999998
+  }
+ },
+ {
+  "sgg_code": "44770",
+  "full_name": "충청남도 서천군",
+  "plant_count": 25,
+  "treatment_capacity": 15396.0,
+  "pipe_total_length": 314661.8,
+  "combined_sewer_ratio": 0.08473974143949355,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9402568953499952,
+  "_raw": {
+   "branch_total": 306821.8,
+   "branch_combined": 26000.0,
+   "drain_separate_total": 10935.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.043,
+   "area_separate": 9.443000000000001
+  }
+ },
+ {
+  "sgg_code": "44790",
+  "full_name": "충청남도 청양군",
+  "plant_count": 45,
+  "treatment_capacity": 15083.0,
+  "pipe_total_length": 349653.53000000014,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 335763.6300000001,
+   "branch_combined": 0.0,
+   "drain_separate_total": 8073.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 11.030999999999997,
+   "area_separate": 11.030999999999997
+  }
+ },
+ {
+  "sgg_code": "44800",
+  "full_name": "충청남도 홍성군",
+  "plant_count": 29,
+  "treatment_capacity": 29872.0,
+  "pipe_total_length": 444599.0,
+  "combined_sewer_ratio": 0.16110398318713026,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.33516106922549693,
+  "_raw": {
+   "branch_total": 172249.0,
+   "branch_combined": 27750.0,
+   "drain_separate_total": 8530.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 14.59,
+   "area_separate": 4.890000000000001
+  }
+ },
+ {
+  "sgg_code": "44810",
+  "full_name": "충청남도 예산군",
+  "plant_count": 26,
+  "treatment_capacity": 61317.0,
+  "pipe_total_length": 377033.0,
+  "combined_sewer_ratio": 0.2967095968385921,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.6221891333414368,
+  "_raw": {
+   "branch_total": 244195.0,
+   "branch_combined": 72455.0,
+   "drain_separate_total": 3415.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 32.908,
+   "area_separate": 20.475
+  }
+ },
+ {
+  "sgg_code": "44825",
+  "full_name": "충청남도 태안군",
+  "plant_count": 35,
+  "treatment_capacity": 21464.0,
+  "pipe_total_length": 294940.13,
+  "combined_sewer_ratio": 0.24793142636292015,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.6533384719144425,
+  "_raw": {
+   "branch_total": 208130.13,
+   "branch_combined": 51602.0,
+   "drain_separate_total": 38052.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.379000000000003,
+   "area_separate": 6.781000000000001
+  }
+ },
+ {
+  "sgg_code": "46110",
+  "full_name": "전라남도 목포시",
+  "plant_count": 92,
+  "treatment_capacity": 3613760.0,
+  "pipe_total_length": 867319.4000000001,
+  "combined_sewer_ratio": 0.40906052630079853,
+  "unconnected_ratio": 0.00010921799912625601,
+  "separate_ratio": 0.7499071962666384,
+  "_raw": {
+   "branch_total": 737289.4,
+   "branch_combined": 301595.99,
+   "drain_separate_total": 36624.0,
+   "drain_separate_unconnected": 4.0,
+   "area_total": 37.714000000000006,
+   "area_separate": 28.282000000000004
+  }
+ },
+ {
+  "sgg_code": "46130",
+  "full_name": "전라남도 여수시",
+  "plant_count": 53,
+  "treatment_capacity": 2204360.0,
+  "pipe_total_length": 1177182.0,
+  "combined_sewer_ratio": 0.37238151425762045,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7403379752777344,
+  "_raw": {
+   "branch_total": 762750.0,
+   "branch_combined": 284034.0,
+   "drain_separate_total": 94666.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 51.12799999999999,
+   "area_separate": 37.852
+  }
+ },
+ {
+  "sgg_code": "46150",
+  "full_name": "전라남도 순천시",
+  "plant_count": 75,
+  "treatment_capacity": 2091832.0,
+  "pipe_total_length": 1000667.1000000001,
+  "combined_sewer_ratio": 0.17778016662465368,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 773967.1,
+   "branch_combined": 137596.0,
+   "drain_separate_total": 51247.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 80.60000000000001,
+   "area_separate": 80.60000000000001
+  }
+ },
+ {
+  "sgg_code": "46170",
+  "full_name": "전라남도 나주시",
+  "plant_count": 53,
+  "treatment_capacity": 255009.0,
+  "pipe_total_length": 838227.0,
+  "combined_sewer_ratio": 0.13497630252194884,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.979573598876548,
+  "_raw": {
+   "branch_total": 714844.0,
+   "branch_combined": 96487.0,
+   "drain_separate_total": 41474.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 39.165000000000006,
+   "area_separate": 38.36500000000001
+  }
+ },
+ {
+  "sgg_code": "46230",
+  "full_name": "전라남도 광양시",
+  "plant_count": 53,
+  "treatment_capacity": 165734.0,
+  "pipe_total_length": 888994.5299999999,
+  "combined_sewer_ratio": 0.007975200932763311,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 804062.5,
+   "branch_combined": 6412.56,
+   "drain_separate_total": 8567.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 23.21899999999999,
+   "area_separate": 23.21899999999999
+  }
+ },
+ {
+  "sgg_code": "46710",
+  "full_name": "전라남도 담양군",
+  "plant_count": 60,
+  "treatment_capacity": 57013.0,
+  "pipe_total_length": 580803.1000000001,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 580803.1000000001,
+   "branch_combined": 0.0,
+   "drain_separate_total": 21702.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 27.548,
+   "area_separate": 27.548
+  }
+ },
+ {
+  "sgg_code": "46720",
+  "full_name": "전라남도 곡성군",
+  "plant_count": 53,
+  "treatment_capacity": 15343.0,
+  "pipe_total_length": 422609.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.01032130153361712,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 362873.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 17149.0,
+   "drain_separate_unconnected": 177.0,
+   "area_total": 8.882999999999997,
+   "area_separate": 8.882999999999997
+  }
+ },
+ {
+  "sgg_code": "46730",
+  "full_name": "전라남도 구례군",
+  "plant_count": 44,
+  "treatment_capacity": 12350.0,
+  "pipe_total_length": 429487.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.010081528885771894,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 123282.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 11407.0,
+   "drain_separate_unconnected": 115.0,
+   "area_total": 16.457,
+   "area_separate": 16.457
+  }
+ },
+ {
+  "sgg_code": "46770",
+  "full_name": "전라남도 고흥군",
+  "plant_count": 56,
+  "treatment_capacity": 17880.0,
+  "pipe_total_length": 623208.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 326577.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 20765.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 19.667,
+   "area_separate": 19.667
+  }
+ },
+ {
+  "sgg_code": "46780",
+  "full_name": "전라남도 보성군",
+  "plant_count": 52,
+  "treatment_capacity": 10644.0,
+  "pipe_total_length": 403659.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 140455.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 39869.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 9.600999999999999,
+   "area_separate": 9.600999999999999
+  }
+ },
+ {
+  "sgg_code": "46790",
+  "full_name": "전라남도 화순군",
+  "plant_count": 63,
+  "treatment_capacity": 87206.0,
+  "pipe_total_length": 615057.8400000001,
+  "combined_sewer_ratio": 0.026079304127409764,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9943763518385004,
+  "_raw": {
+   "branch_total": 549063.73,
+   "branch_combined": 14319.2,
+   "drain_separate_total": 31372.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 27.739999999999995,
+   "area_separate": 27.583999999999996
+  }
+ },
+ {
+  "sgg_code": "46800",
+  "full_name": "전라남도 장흥군",
+  "plant_count": 44,
+  "treatment_capacity": 9355.0,
+  "pipe_total_length": 395207.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 395207.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 9378.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 12.597999999999994,
+   "area_separate": 12.597999999999994
+  }
+ },
+ {
+  "sgg_code": "46810",
+  "full_name": "전라남도 강진군",
+  "plant_count": 56,
+  "treatment_capacity": 12108.0,
+  "pipe_total_length": 396668.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.14213926776740848,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 138423.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 12537.0,
+   "drain_separate_unconnected": 1782.0,
+   "area_total": 10.985999999999997,
+   "area_separate": 10.985999999999997
+  }
+ },
+ {
+  "sgg_code": "46820",
+  "full_name": "전라남도 해남군",
+  "plant_count": 54,
+  "treatment_capacity": 15110.0,
+  "pipe_total_length": 585589.83,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.026384615384615385,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 191587.72999999995,
+   "branch_combined": 0.0,
+   "drain_separate_total": 13000.0,
+   "drain_separate_unconnected": 343.0,
+   "area_total": 39.842999999999996,
+   "area_separate": 39.842999999999996
+  }
+ },
+ {
+  "sgg_code": "46830",
+  "full_name": "전라남도 영암군",
+  "plant_count": 43,
+  "treatment_capacity": 51553.0,
+  "pipe_total_length": 610202.0,
+  "combined_sewer_ratio": 0.11067430543902965,
+  "unconnected_ratio": 0.4086104916125279,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 375453.0,
+   "branch_combined": 41553.0,
+   "drain_separate_total": 10313.0,
+   "drain_separate_unconnected": 4214.0,
+   "area_total": 26.548000000000002,
+   "area_separate": 26.548000000000002
+  }
+ },
+ {
+  "sgg_code": "46840",
+  "full_name": "전라남도 무안군",
+  "plant_count": 38,
+  "treatment_capacity": 20335.0,
+  "pipe_total_length": 666521.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.007700770077007701,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 551578.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 18180.0,
+   "drain_separate_unconnected": 140.0,
+   "area_total": 12.304999999999998,
+   "area_separate": 12.304999999999998
+  }
+ },
+ {
+  "sgg_code": "46860",
+  "full_name": "전라남도 함평군",
+  "plant_count": 44,
+  "treatment_capacity": 14100.0,
+  "pipe_total_length": 535537.97,
+  "combined_sewer_ratio": 0.017307517156599193,
+  "unconnected_ratio": 0.009829430471234461,
+  "separate_ratio": 0.6899668782776703,
+  "_raw": {
+   "branch_total": 502093.97,
+   "branch_combined": 8690.0,
+   "drain_separate_total": 6918.0,
+   "drain_separate_unconnected": 68.0,
+   "area_total": 14.492,
+   "area_separate": 9.998999999999999
+  }
+ },
+ {
+  "sgg_code": "46870",
+  "full_name": "전라남도 영광군",
+  "plant_count": 39,
+  "treatment_capacity": 17404.0,
+  "pipe_total_length": 379239.29999999993,
+  "combined_sewer_ratio": 0.048748976668404435,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.7323232323232326,
+  "_raw": {
+   "branch_total": 342643.08999999997,
+   "branch_combined": 16703.5,
+   "drain_separate_total": 23418.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 19.205999999999996,
+   "area_separate": 14.065000000000003
+  }
+ },
+ {
+  "sgg_code": "46880",
+  "full_name": "전라남도 장성군",
+  "plant_count": 45,
+  "treatment_capacity": 26385.0,
+  "pipe_total_length": 457744.0,
+  "combined_sewer_ratio": 0.03107690710996496,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 443223.0,
+   "branch_combined": 13774.0,
+   "drain_separate_total": 10187.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 18.697999999999997,
+   "area_separate": 18.697999999999997
+  }
+ },
+ {
+  "sgg_code": "46890",
+  "full_name": "전라남도 완도군",
+  "plant_count": 46,
+  "treatment_capacity": 10905.0,
+  "pipe_total_length": 347105.5,
+  "combined_sewer_ratio": 0.02062858123947992,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 311606.50000000006,
+   "branch_combined": 6428.0,
+   "drain_separate_total": 11356.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.871,
+   "area_separate": 13.871
+  }
+ },
+ {
+  "sgg_code": "46900",
+  "full_name": "전라남도 진도군",
+  "plant_count": 45,
+  "treatment_capacity": 8378.0,
+  "pipe_total_length": 312568.50000000006,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.043741765480895915,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 140495.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 11385.0,
+   "drain_separate_unconnected": 498.0,
+   "area_total": 15.709999999999999,
+   "area_separate": 15.709999999999999
+  }
+ },
+ {
+  "sgg_code": "46910",
+  "full_name": "전라남도 신안군",
+  "plant_count": 42,
+  "treatment_capacity": 6756.0,
+  "pipe_total_length": 166447.0,
+  "combined_sewer_ratio": null,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 0.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 8877.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 12.341000000000001,
+   "area_separate": 12.341000000000001
+  }
+ },
+ {
+  "sgg_code": "47110",
+  "full_name": "경상북도 포항시",
+  "plant_count": 35,
+  "treatment_capacity": 4042818.0,
+  "pipe_total_length": 1818576.2399999998,
+  "combined_sewer_ratio": 0.43089693002183843,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.6047945205479452,
+  "_raw": {
+   "branch_total": 1663437.2399999998,
+   "branch_combined": 716770.0,
+   "drain_separate_total": 36716.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 134.32000000000002,
+   "area_separate": 81.23600000000002
+  }
+ },
+ {
+  "sgg_code": "47130",
+  "full_name": "경상북도 경주시",
+  "plant_count": 41,
+  "treatment_capacity": 1280058.0,
+  "pipe_total_length": 1974356.1,
+  "combined_sewer_ratio": 0.07961657900153199,
+  "unconnected_ratio": 0.03675406221540526,
+  "separate_ratio": 0.9051114985775901,
+  "_raw": {
+   "branch_total": 1426964.1,
+   "branch_combined": 113610.0,
+   "drain_separate_total": 104315.0,
+   "drain_separate_unconnected": 3834.0,
+   "area_total": 108.97,
+   "area_separate": 98.63
+  }
+ },
+ {
+  "sgg_code": "47150",
+  "full_name": "경상북도 김천시",
+  "plant_count": 53,
+  "treatment_capacity": 647292.0,
+  "pipe_total_length": 994489.0,
+  "combined_sewer_ratio": 0.12583391476168762,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 546069.0,
+   "branch_combined": 68714.0,
+   "drain_separate_total": 20444.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 27.644,
+   "area_separate": 27.644
+  }
+ },
+ {
+  "sgg_code": "47170",
+  "full_name": "경상북도 안동시",
+  "plant_count": 33,
+  "treatment_capacity": 716762.0,
+  "pipe_total_length": 1011082.7000000001,
+  "combined_sewer_ratio": 0.3714152946073726,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 983023.6,
+   "branch_combined": 365110.0,
+   "drain_separate_total": 44710.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 42.73000000000001,
+   "area_separate": 42.73000000000001
+  }
+ },
+ {
+  "sgg_code": "47190",
+  "full_name": "경상북도 구미시",
+  "plant_count": 53,
+  "treatment_capacity": 5076090.0,
+  "pipe_total_length": 1842915.1700000004,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.04164795423925119,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1736065.7799999996,
+   "branch_combined": 0.0,
+   "drain_separate_total": 42307.0,
+   "drain_separate_unconnected": 1762.0,
+   "area_total": 77.489,
+   "area_separate": 77.489
+  }
+ },
+ {
+  "sgg_code": "47210",
+  "full_name": "경상북도 영주시",
+  "plant_count": 57,
+  "treatment_capacity": 857330.0,
+  "pipe_total_length": 746020.0,
+  "combined_sewer_ratio": 0.017952787145407656,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9950482792770488,
+  "_raw": {
+   "branch_total": 705740.0,
+   "branch_combined": 12670.0,
+   "drain_separate_total": 18106.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 40.39,
+   "area_separate": 40.19
+  }
+ },
+ {
+  "sgg_code": "47230",
+  "full_name": "경상북도 영천시",
+  "plant_count": 35,
+  "treatment_capacity": 333543.0,
+  "pipe_total_length": 740183.0,
+  "combined_sewer_ratio": 0.0011229140990277207,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 255585.0,
+   "branch_combined": 287.0,
+   "drain_separate_total": 30551.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 173.53,
+   "area_separate": 173.53
+  }
+ },
+ {
+  "sgg_code": "47250",
+  "full_name": "경상북도 상주시",
+  "plant_count": 36,
+  "treatment_capacity": 272540.0,
+  "pipe_total_length": 888472.1,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.001284796573875803,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 888472.1,
+   "branch_combined": 0.0,
+   "drain_separate_total": 32690.0,
+   "drain_separate_unconnected": 42.0,
+   "area_total": 22.884,
+   "area_separate": 22.884
+  }
+ },
+ {
+  "sgg_code": "47280",
+  "full_name": "경상북도 문경시",
+  "plant_count": 34,
+  "treatment_capacity": 292993.0,
+  "pipe_total_length": 855425.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 727477.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 23251.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 27.414999999999996,
+   "area_separate": 27.414999999999996
+  }
+ },
+ {
+  "sgg_code": "47290",
+  "full_name": "경상북도 경산시",
+  "plant_count": 34,
+  "treatment_capacity": 675806.0,
+  "pipe_total_length": 1202620.0999999999,
+  "combined_sewer_ratio": 0.3660218554704157,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9843315798648494,
+  "_raw": {
+   "branch_total": 560463.8,
+   "branch_combined": 205142.0,
+   "drain_separate_total": 39477.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 97.52100000000002,
+   "area_separate": 95.993
+  }
+ },
+ {
+  "sgg_code": "47730",
+  "full_name": "경상북도 의성군",
+  "plant_count": 18,
+  "treatment_capacity": 26930.0,
+  "pipe_total_length": 377326.7,
+  "combined_sewer_ratio": 0.06965805005387836,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9988338810558677,
+  "_raw": {
+   "branch_total": 246202.7,
+   "branch_combined": 17150.0,
+   "drain_separate_total": 10786.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 94.33000000000001,
+   "area_separate": 94.22000000000001
+  }
+ },
+ {
+  "sgg_code": "47750",
+  "full_name": "경상북도 청송군",
+  "plant_count": 14,
+  "treatment_capacity": 13090.0,
+  "pipe_total_length": 211113.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": null,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 130629.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 0.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 6.318,
+   "area_separate": 6.318
+  }
+ },
+ {
+  "sgg_code": "47760",
+  "full_name": "경상북도 영양군",
+  "plant_count": 21,
+  "treatment_capacity": 4510.0,
+  "pipe_total_length": 265793.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0020635575732562937,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 198606.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 4846.0,
+   "drain_separate_unconnected": 10.0,
+   "area_total": 4.6419999999999995,
+   "area_separate": 4.6419999999999995
+  }
+ },
+ {
+  "sgg_code": "47770",
+  "full_name": "경상북도 영덕군",
+  "plant_count": 31,
+  "treatment_capacity": 39983.0,
+  "pipe_total_length": 369002.0,
+  "combined_sewer_ratio": 0.0293453170276509,
+  "unconnected_ratio": 0.0055234747677629925,
+  "separate_ratio": 0.9109825416159156,
+  "_raw": {
+   "branch_total": 244332.0,
+   "branch_combined": 7170.0,
+   "drain_separate_total": 7966.0,
+   "drain_separate_unconnected": 44.0,
+   "area_total": 9.852,
+   "area_separate": 8.975000000000001
+  }
+ },
+ {
+  "sgg_code": "47820",
+  "full_name": "경상북도 청도군",
+  "plant_count": 26,
+  "treatment_capacity": 34956.0,
+  "pipe_total_length": 416548.1,
+  "combined_sewer_ratio": 0.33850867437051213,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9433962264150944,
+  "_raw": {
+   "branch_total": 72902.12,
+   "branch_combined": 24678.0,
+   "drain_separate_total": 10074.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.197000000000001,
+   "area_separate": 12.450000000000001
+  }
+ },
+ {
+  "sgg_code": "47830",
+  "full_name": "경상북도 고령군",
+  "plant_count": 19,
+  "treatment_capacity": 9926.0,
+  "pipe_total_length": 396437.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.015909566673644546,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 389103.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 4777.0,
+   "drain_separate_unconnected": 76.0,
+   "area_total": 5.764,
+   "area_separate": 5.764
+  }
+ },
+ {
+  "sgg_code": "47840",
+  "full_name": "경상북도 성주군",
+  "plant_count": 19,
+  "treatment_capacity": 10380.0,
+  "pipe_total_length": 405878.0,
+  "combined_sewer_ratio": 0.09436262480090436,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9348837209302323,
+  "_raw": {
+   "branch_total": 315803.0,
+   "branch_combined": 29800.0,
+   "drain_separate_total": 7357.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.75,
+   "area_separate": 10.049999999999997
+  }
+ },
+ {
+  "sgg_code": "47850",
+  "full_name": "경상북도 칠곡군",
+  "plant_count": 17,
+  "treatment_capacity": 1197985.0,
+  "pipe_total_length": 1081818.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.04462421711899791,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 989678.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 26824.0,
+   "drain_separate_unconnected": 1197.0,
+   "area_total": 42.32699999999999,
+   "area_separate": 42.32699999999999
+  }
+ },
+ {
+  "sgg_code": "47900",
+  "full_name": "경상북도 예천군",
+  "plant_count": 48,
+  "treatment_capacity": 25777.0,
+  "pipe_total_length": 332137.26,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 76057.79999999999,
+   "branch_combined": 0.0,
+   "drain_separate_total": 6511.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 6.567999999999999,
+   "area_separate": 6.567999999999999
+  }
+ },
+ {
+  "sgg_code": "47920",
+  "full_name": "경상북도 봉화군",
+  "plant_count": 32,
+  "treatment_capacity": 7438.0,
+  "pipe_total_length": 354494.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.03827519379844961,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 354494.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 4128.0,
+   "drain_separate_unconnected": 158.0,
+   "area_total": 9.303,
+   "area_separate": 9.303
+  }
+ },
+ {
+  "sgg_code": "47930",
+  "full_name": "경상북도 울진군",
+  "plant_count": 21,
+  "treatment_capacity": 27310.0,
+  "pipe_total_length": 379062.8499999999,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 304466.51999999996,
+   "branch_combined": 0.0,
+   "drain_separate_total": 11760.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 20.875000000000004,
+   "area_separate": 20.875000000000004
+  }
+ },
+ {
+  "sgg_code": "47940",
+  "full_name": "경상북도 울릉군",
+  "plant_count": 3,
+  "treatment_capacity": 580.0,
+  "pipe_total_length": 31016.85,
+  "combined_sewer_ratio": 0.9922902590602344,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 9892.68,
+   "branch_combined": 9816.41,
+   "drain_separate_total": 316.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 0.258,
+   "area_separate": 0.258
+  }
+ },
+ {
+  "sgg_code": "48120",
+  "full_name": "경상남도 창원시",
+  "plant_count": 62,
+  "treatment_capacity": 18722940.0,
+  "pipe_total_length": 3958862.720000001,
+  "combined_sewer_ratio": 0.0017583881392546317,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 3952022.790000001,
+   "branch_combined": 6949.19,
+   "drain_separate_total": 197226.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 394.268,
+   "area_separate": 394.268
+  }
+ },
+ {
+  "sgg_code": "48170",
+  "full_name": "경상남도 진주시",
+  "plant_count": 62,
+  "treatment_capacity": 3437889.0,
+  "pipe_total_length": 1643268.0,
+  "combined_sewer_ratio": 0.006085434633912423,
+  "unconnected_ratio": 0.05558202318564396,
+  "separate_ratio": 0.9883942848300409,
+  "_raw": {
+   "branch_total": 1643268.0,
+   "branch_combined": 10000.0,
+   "drain_separate_total": 37782.0,
+   "drain_separate_unconnected": 2100.0,
+   "area_total": 38.773999999999994,
+   "area_separate": 38.324
+  }
+ },
+ {
+  "sgg_code": "48220",
+  "full_name": "경상남도 통영시",
+  "plant_count": 42,
+  "treatment_capacity": 490156.0,
+  "pipe_total_length": 622038.26,
+  "combined_sewer_ratio": 0.6583505058799832,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 322705.0,
+   "branch_combined": 212453.0,
+   "drain_separate_total": 15263.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 24.537,
+   "area_separate": 24.537
+  }
+ },
+ {
+  "sgg_code": "48240",
+  "full_name": "경상남도 사천시",
+  "plant_count": 40,
+  "treatment_capacity": 377290.0,
+  "pipe_total_length": 628124.0,
+  "combined_sewer_ratio": 0.24315163690302385,
+  "unconnected_ratio": 0.0942933221949564,
+  "separate_ratio": 0.9485422150232841,
+  "_raw": {
+   "branch_total": 428095.0,
+   "branch_combined": 104092.0,
+   "drain_separate_total": 38306.0,
+   "drain_separate_unconnected": 3612.0,
+   "area_total": 395.12,
+   "area_separate": 374.788
+  }
+ },
+ {
+  "sgg_code": "48250",
+  "full_name": "경상남도 김해시",
+  "plant_count": 40,
+  "treatment_capacity": 1764347.0,
+  "pipe_total_length": 1903696.4,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.05693214012681567,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 743938.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 66711.0,
+   "drain_separate_unconnected": 3798.0,
+   "area_total": 103.48400000000002,
+   "area_separate": 103.48400000000002
+  }
+ },
+ {
+  "sgg_code": "48270",
+  "full_name": "경상남도 밀양시",
+  "plant_count": 46,
+  "treatment_capacity": 222780.0,
+  "pipe_total_length": 858352.0,
+  "combined_sewer_ratio": 0.2789391506397212,
+  "unconnected_ratio": 0.31258996788838445,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 135137.0,
+   "branch_combined": 37695.0,
+   "drain_separate_total": 45155.0,
+   "drain_separate_unconnected": 14115.0,
+   "area_total": 73.57799999999999,
+   "area_separate": 73.57799999999999
+  }
+ },
+ {
+  "sgg_code": "48310",
+  "full_name": "경상남도 거제시",
+  "plant_count": 50,
+  "treatment_capacity": 280826.0,
+  "pipe_total_length": 676599.6699999999,
+  "combined_sewer_ratio": 0.08382144992891848,
+  "unconnected_ratio": 0.014413605645744496,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 506446.61999999994,
+   "branch_combined": 42451.09,
+   "drain_separate_total": 80202.0,
+   "drain_separate_unconnected": 1156.0,
+   "area_total": 37.635999999999996,
+   "area_separate": 37.635999999999996
+  }
+ },
+ {
+  "sgg_code": "48330",
+  "full_name": "경상남도 양산시",
+  "plant_count": 25,
+  "treatment_capacity": 1378485.0,
+  "pipe_total_length": 1788386.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 410830.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 52001.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 50.24,
+   "area_separate": 50.24
+  }
+ },
+ {
+  "sgg_code": "48720",
+  "full_name": "경상남도 의령군",
+  "plant_count": 23,
+  "treatment_capacity": 14266.0,
+  "pipe_total_length": 222364.0,
+  "combined_sewer_ratio": 0.381974716652136,
+  "unconnected_ratio": 0.023467383438436885,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 36704.0,
+   "branch_combined": 14020.0,
+   "drain_separate_total": 9673.0,
+   "drain_separate_unconnected": 227.0,
+   "area_total": 7.963999999999999,
+   "area_separate": 7.963999999999999
+  }
+ },
+ {
+  "sgg_code": "48730",
+  "full_name": "경상남도 함안군",
+  "plant_count": 27,
+  "treatment_capacity": 13925.0,
+  "pipe_total_length": 399848.0,
+  "combined_sewer_ratio": 0.004484983559646154,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 145374.0,
+   "branch_combined": 652.0,
+   "drain_separate_total": 10283.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.706,
+   "area_separate": 13.706
+  }
+ },
+ {
+  "sgg_code": "48740",
+  "full_name": "경상남도 창녕군",
+  "plant_count": 43,
+  "treatment_capacity": 33242.0,
+  "pipe_total_length": 563159.0999999999,
+  "combined_sewer_ratio": 0.4611040463380039,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9694169889700615,
+  "_raw": {
+   "branch_total": 321705.7,
+   "branch_combined": 148339.8,
+   "drain_separate_total": 13503.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.962000000000005,
+   "area_separate": 13.535000000000004
+  }
+ },
+ {
+  "sgg_code": "48820",
+  "full_name": "경상남도 고성군",
+  "plant_count": 35,
+  "treatment_capacity": 18429.0,
+  "pipe_total_length": 380337.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.04203783405064558,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 101277.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 9991.0,
+   "drain_separate_unconnected": 420.0,
+   "area_total": 13.722,
+   "area_separate": 13.722
+  }
+ },
+ {
+  "sgg_code": "48840",
+  "full_name": "경상남도 남해군",
+  "plant_count": 68,
+  "treatment_capacity": 14394.0,
+  "pipe_total_length": 607681.0,
+  "combined_sewer_ratio": 0.03272526671092369,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 213902.0,
+   "branch_combined": 7000.0,
+   "drain_separate_total": 16806.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 17.983,
+   "area_separate": 17.983
+  }
+ },
+ {
+  "sgg_code": "48850",
+  "full_name": "경상남도 하동군",
+  "plant_count": 64,
+  "treatment_capacity": 14351.0,
+  "pipe_total_length": 423663.8500000001,
+  "combined_sewer_ratio": 0.05096680714320153,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 226284.52999999997,
+   "branch_combined": 11533.0,
+   "drain_separate_total": 14723.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 19.998,
+   "area_separate": 19.998
+  }
+ },
+ {
+  "sgg_code": "48860",
+  "full_name": "경상남도 산청군",
+  "plant_count": 52,
+  "treatment_capacity": 9684.0,
+  "pipe_total_length": 503159.6,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 323171.6,
+   "branch_combined": 0.0,
+   "drain_separate_total": 12078.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 10.889999999999995,
+   "area_separate": 10.889999999999995
+  }
+ },
+ {
+  "sgg_code": "48870",
+  "full_name": "경상남도 함양군",
+  "plant_count": 54,
+  "treatment_capacity": 15251.0,
+  "pipe_total_length": 564450.2,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 548421.2,
+   "branch_combined": 0.0,
+   "drain_separate_total": 9283.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 7.497999999999999,
+   "area_separate": 7.497999999999999
+  }
+ },
+ {
+  "sgg_code": "48880",
+  "full_name": "경상남도 거창군",
+  "plant_count": 28,
+  "treatment_capacity": 26730.0,
+  "pipe_total_length": 388705.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 28546.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 21292.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 21.310000000000006,
+   "area_separate": 21.310000000000006
+  }
+ },
+ {
+  "sgg_code": "48890",
+  "full_name": "경상남도 합천군",
+  "plant_count": 28,
+  "treatment_capacity": 15954.0,
+  "pipe_total_length": 481259.6,
+  "combined_sewer_ratio": 0.007890763144397378,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9897854954034729,
+  "_raw": {
+   "branch_total": 278807.0,
+   "branch_combined": 2200.0,
+   "drain_separate_total": 16416.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 7.831999999999999,
+   "area_separate": 7.751999999999999
+  }
+ },
+ {
+  "sgg_code": "50110",
+  "full_name": "제주특별자치도 제주시",
+  "plant_count": 35,
+  "treatment_capacity": 2460965.0,
+  "pipe_total_length": 3133795.1599999997,
+  "combined_sewer_ratio": 0.033727331015577136,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9934045502993201,
+  "_raw": {
+   "branch_total": 2721643.7600000007,
+   "branch_combined": 91793.78,
+   "drain_separate_total": 77876.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 124.783,
+   "area_separate": 123.96000000000005
+  }
+ },
+ {
+  "sgg_code": "50130",
+  "full_name": "제주특별자치도 서귀포시",
+  "plant_count": 31,
+  "treatment_capacity": 416903.0,
+  "pipe_total_length": 2344564.9999999995,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.9999905657707294,
+  "_raw": {
+   "branch_total": 2210318.2000000007,
+   "branch_combined": 0.0,
+   "drain_separate_total": 59057.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 105.997,
+   "area_separate": 105.99600000000001
+  }
+ },
+ {
+  "sgg_code": "51110",
+  "full_name": "강원특별자치도 춘천시",
+  "plant_count": 35,
+  "treatment_capacity": 2712360.0,
+  "pipe_total_length": 1328847.2999999998,
+  "combined_sewer_ratio": 0.3233983317722059,
+  "unconnected_ratio": 0.0830987803243533,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1328847.2999999998,
+   "branch_combined": 429746.99999999994,
+   "drain_separate_total": 7461.0,
+   "drain_separate_unconnected": 620.0,
+   "area_total": 68.57699999999998,
+   "area_separate": 68.57699999999998
+  }
+ },
+ {
+  "sgg_code": "51130",
+  "full_name": "강원특별자치도 원주시",
+  "plant_count": 53,
+  "treatment_capacity": 2687833.0,
+  "pipe_total_length": 1320368.25,
+  "combined_sewer_ratio": 0.19051769912124805,
+  "unconnected_ratio": 0.014620395013307187,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1248162.25,
+   "branch_combined": 237797.0,
+   "drain_separate_total": 57112.0,
+   "drain_separate_unconnected": 835.0,
+   "area_total": 101.35799999999999,
+   "area_separate": 101.35799999999999
+  }
+ },
+ {
+  "sgg_code": "51150",
+  "full_name": "강원특별자치도 강릉시",
+  "plant_count": 29,
+  "treatment_capacity": 1591548.0,
+  "pipe_total_length": 1194816.8,
+  "combined_sewer_ratio": 0.32372853088291076,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.43399000294031154,
+  "_raw": {
+   "branch_total": 1084068.8,
+   "branch_combined": 350944.0,
+   "drain_separate_total": 5618.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 34.010000000000005,
+   "area_separate": 14.759999999999998
+  }
+ },
+ {
+  "sgg_code": "51170",
+  "full_name": "강원특별자치도 동해시",
+  "plant_count": 10,
+  "treatment_capacity": 530000.0,
+  "pipe_total_length": 674830.6400000001,
+  "combined_sewer_ratio": 0.17400236154567333,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.14600239457230277,
+  "_raw": {
+   "branch_total": 640529.6400000001,
+   "branch_combined": 111453.67,
+   "drain_separate_total": 7457.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 30.068,
+   "area_separate": 4.39
+  }
+ },
+ {
+  "sgg_code": "51190",
+  "full_name": "강원특별자치도 태백시",
+  "plant_count": 10,
+  "treatment_capacity": 240057.0,
+  "pipe_total_length": 339554.2,
+  "combined_sewer_ratio": 0.9023664564760455,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.0,
+  "_raw": {
+   "branch_total": 275940.0,
+   "branch_combined": 248999.0,
+   "drain_separate_total": 2634.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 14.193999999999999,
+   "area_separate": 0.0
+  }
+ },
+ {
+  "sgg_code": "51210",
+  "full_name": "강원특별자치도 속초시",
+  "plant_count": 8,
+  "treatment_capacity": 368000.0,
+  "pipe_total_length": 489339.0,
+  "combined_sewer_ratio": 0.28742269684764776,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 0.6330445544554456,
+  "_raw": {
+   "branch_total": 451631.0,
+   "branch_combined": 129809.0,
+   "drain_separate_total": 5132.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 16.16,
+   "area_separate": 10.23
+  }
+ },
+ {
+  "sgg_code": "51230",
+  "full_name": "강원특별자치도 삼척시",
+  "plant_count": 26,
+  "treatment_capacity": 113233.0,
+  "pipe_total_length": 659293.5,
+  "combined_sewer_ratio": 0.19219492535022362,
+  "unconnected_ratio": 0.023447565060551404,
+  "separate_ratio": 0.6383070611099115,
+  "_raw": {
+   "branch_total": 610025.9400000001,
+   "branch_combined": 117243.89,
+   "drain_separate_total": 11643.0,
+   "drain_separate_unconnected": 273.0,
+   "area_total": 18.523999999999997,
+   "area_separate": 11.824
+  }
+ },
+ {
+  "sgg_code": "51720",
+  "full_name": "강원특별자치도 홍천군",
+  "plant_count": 40,
+  "treatment_capacity": 36430.0,
+  "pipe_total_length": 516202.0,
+  "combined_sewer_ratio": 0.0012304712307887717,
+  "unconnected_ratio": 0.2998348017621145,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 503872.0,
+   "branch_combined": 620.0,
+   "drain_separate_total": 10896.0,
+   "drain_separate_unconnected": 3267.0,
+   "area_total": 18.81,
+   "area_separate": 18.81
+  }
+ },
+ {
+  "sgg_code": "51730",
+  "full_name": "강원특별자치도 횡성군",
+  "plant_count": 19,
+  "treatment_capacity": 14800.0,
+  "pipe_total_length": 300446.0,
+  "combined_sewer_ratio": 0.3442570734326511,
+  "unconnected_ratio": 0.007929730389166768,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 219766.0,
+   "branch_combined": 75656.0,
+   "drain_separate_total": 8197.0,
+   "drain_separate_unconnected": 65.0,
+   "area_total": 10.504000000000001,
+   "area_separate": 10.504000000000001
+  }
+ },
+ {
+  "sgg_code": "51750",
+  "full_name": "강원특별자치도 영월군",
+  "plant_count": 27,
+  "treatment_capacity": 15254.0,
+  "pipe_total_length": 424620.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 384450.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 8626.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 13.764000000000003,
+   "area_separate": 13.764000000000003
+  }
+ },
+ {
+  "sgg_code": "51760",
+  "full_name": "강원특별자치도 평창군",
+  "plant_count": 29,
+  "treatment_capacity": 17733.0,
+  "pipe_total_length": 417511.8,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.020799442249593306,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 317045.8,
+   "branch_combined": 0.0,
+   "drain_separate_total": 8606.0,
+   "drain_separate_unconnected": 179.0,
+   "area_total": 35.68,
+   "area_separate": 35.68
+  }
+ },
+ {
+  "sgg_code": "51770",
+  "full_name": "강원특별자치도 정선군",
+  "plant_count": 20,
+  "treatment_capacity": 36875.0,
+  "pipe_total_length": 584203.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 423077.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 159.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 14.708,
+   "area_separate": 14.708
+  }
+ },
+ {
+  "sgg_code": "51780",
+  "full_name": "강원특별자치도 철원군",
+  "plant_count": 44,
+  "treatment_capacity": 17437.0,
+  "pipe_total_length": 435573.19000000006,
+  "combined_sewer_ratio": 0.04339810465713844,
+  "unconnected_ratio": 0.09202813599062133,
+  "separate_ratio": 0.8508709905508776,
+  "_raw": {
+   "branch_total": 417391.5,
+   "branch_combined": 18114.0,
+   "drain_separate_total": 8530.0,
+   "drain_separate_unconnected": 785.0,
+   "area_total": 15.557,
+   "area_separate": 13.237000000000002
+  }
+ },
+ {
+  "sgg_code": "51790",
+  "full_name": "강원특별자치도 화천군",
+  "plant_count": 23,
+  "treatment_capacity": 9108.0,
+  "pipe_total_length": 274353.5,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.05931670509327185,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 231051.7,
+   "branch_combined": 0.0,
+   "drain_separate_total": 4771.0,
+   "drain_separate_unconnected": 283.0,
+   "area_total": 14.270999999999999,
+   "area_separate": 14.270999999999999
+  }
+ },
+ {
+  "sgg_code": "51800",
+  "full_name": "강원특별자치도 양구군",
+  "plant_count": 31,
+  "treatment_capacity": 16936.0,
+  "pipe_total_length": 488766.52,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0543653536051601,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 319835.5,
+   "branch_combined": 0.0,
+   "drain_separate_total": 4341.0,
+   "drain_separate_unconnected": 236.0,
+   "area_total": 18.263,
+   "area_separate": 18.263
+  }
+ },
+ {
+  "sgg_code": "51810",
+  "full_name": "강원특별자치도 인제군",
+  "plant_count": 34,
+  "treatment_capacity": 13875.0,
+  "pipe_total_length": 285960.4,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 263119.7,
+   "branch_combined": 0.0,
+   "drain_separate_total": 6974.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 15.74,
+   "area_separate": 15.74
+  }
+ },
+ {
+  "sgg_code": "51820",
+  "full_name": "강원특별자치도 고성군",
+  "plant_count": 14,
+  "treatment_capacity": 14913.0,
+  "pipe_total_length": 437076.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.14236739358156367,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 286460.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 10501.0,
+   "drain_separate_unconnected": 1495.0,
+   "area_total": 21.46,
+   "area_separate": 21.46
+  }
+ },
+ {
+  "sgg_code": "51830",
+  "full_name": "강원특별자치도 양양군",
+  "plant_count": 23,
+  "treatment_capacity": 15491.0,
+  "pipe_total_length": 436268.26999999996,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.014391691394658753,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 436040.26999999996,
+   "branch_combined": 0.0,
+   "drain_separate_total": 13480.0,
+   "drain_separate_unconnected": 194.0,
+   "area_total": 12.657999999999998,
+   "area_separate": 12.657999999999998
+  }
+ },
+ {
+  "sgg_code": "52110",
+  "full_name": "전북특별자치도 전주시",
+  "plant_count": 420,
+  "treatment_capacity": 14704725.0,
+  "pipe_total_length": 2057847.0,
+  "combined_sewer_ratio": 0.15013390694254722,
+  "unconnected_ratio": 0.0011279097672186225,
+  "separate_ratio": 0.8185219831618334,
+  "_raw": {
+   "branch_total": 2057847.0,
+   "branch_combined": 308952.61,
+   "drain_separate_total": 166680.0,
+   "drain_separate_unconnected": 188.0,
+   "area_total": 203.10999999999999,
+   "area_separate": 166.24999999999997
+  }
+ },
+ {
+  "sgg_code": "52130",
+  "full_name": "전북특별자치도 군산시",
+  "plant_count": 40,
+  "treatment_capacity": 3211020.0,
+  "pipe_total_length": 1364677.4300000002,
+  "combined_sewer_ratio": 0.0826381520357222,
+  "unconnected_ratio": 0.44673298771659425,
+  "separate_ratio": 0.7334416443117845,
+  "_raw": {
+   "branch_total": 1333033.56,
+   "branch_combined": 110159.43000000001,
+   "drain_separate_total": 21411.0,
+   "drain_separate_unconnected": 9565.0,
+   "area_total": 52.934000000000005,
+   "area_separate": 38.824000000000005
+  }
+ },
+ {
+  "sgg_code": "52140",
+  "full_name": "전북특별자치도 익산시",
+  "plant_count": 812,
+  "treatment_capacity": 4045993.0,
+  "pipe_total_length": 1403518.0,
+  "combined_sewer_ratio": 0.3294031515420483,
+  "unconnected_ratio": 0.22004735595895816,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 1369996.0,
+   "branch_combined": 451281.0,
+   "drain_separate_total": 101360.0,
+   "drain_separate_unconnected": 22304.0,
+   "area_total": 47.334999999999994,
+   "area_separate": 47.334999999999994
+  }
+ },
+ {
+  "sgg_code": "52180",
+  "full_name": "전북특별자치도 정읍시",
+  "plant_count": 45,
+  "treatment_capacity": 887986.0,
+  "pipe_total_length": 844008.0,
+  "combined_sewer_ratio": 0.1614483615841862,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 798088.0,
+   "branch_combined": 128850.0,
+   "drain_separate_total": 14722.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 27.288999999999998,
+   "area_separate": 27.288999999999998
+  }
+ },
+ {
+  "sgg_code": "52190",
+  "full_name": "전북특별자치도 남원시",
+  "plant_count": 76,
+  "treatment_capacity": 556939.0,
+  "pipe_total_length": 670188.0,
+  "combined_sewer_ratio": 0.20903850527783682,
+  "unconnected_ratio": 0.0012376237623762376,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 536394.0,
+   "branch_combined": 112127.0,
+   "drain_separate_total": 16160.0,
+   "drain_separate_unconnected": 20.0,
+   "area_total": 67.846,
+   "area_separate": 67.846
+  }
+ },
+ {
+  "sgg_code": "52210",
+  "full_name": "전북특별자치도 김제시",
+  "plant_count": 65,
+  "treatment_capacity": 110942.0,
+  "pipe_total_length": 594894.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 387624.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 12317.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 68.391,
+   "area_separate": 68.391
+  }
+ },
+ {
+  "sgg_code": "52710",
+  "full_name": "전북특별자치도 완주군",
+  "plant_count": 28,
+  "treatment_capacity": 54819.0,
+  "pipe_total_length": 791309.97,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 394723.35,
+   "branch_combined": 0.0,
+   "drain_separate_total": 27326.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 24.223,
+   "area_separate": 24.223
+  }
+ },
+ {
+  "sgg_code": "52720",
+  "full_name": "전북특별자치도 진안군",
+  "plant_count": 47,
+  "treatment_capacity": 7708.0,
+  "pipe_total_length": 506191.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 417039.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 10396.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 9.363999999999999,
+   "area_separate": 9.363999999999999
+  }
+ },
+ {
+  "sgg_code": "52730",
+  "full_name": "전북특별자치도 무주군",
+  "plant_count": 33,
+  "treatment_capacity": 16855.0,
+  "pipe_total_length": 305453.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.029158699808795412,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 305453.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 4184.0,
+   "drain_separate_unconnected": 122.0,
+   "area_total": 12.931,
+   "area_separate": 12.931
+  }
+ },
+ {
+  "sgg_code": "52740",
+  "full_name": "전북특별자치도 장수군",
+  "plant_count": 20,
+  "treatment_capacity": 11905.0,
+  "pipe_total_length": 265353.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.015392132909846078,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 265353.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 4093.0,
+   "drain_separate_unconnected": 63.0,
+   "area_total": 5.590000000000001,
+   "area_separate": 5.590000000000001
+  }
+ },
+ {
+  "sgg_code": "52750",
+  "full_name": "전북특별자치도 임실군",
+  "plant_count": 39,
+  "treatment_capacity": 15367.0,
+  "pipe_total_length": 411390.3499999999,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.0,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 242364.8,
+   "branch_combined": 0.0,
+   "drain_separate_total": 2572.0,
+   "drain_separate_unconnected": 0.0,
+   "area_total": 9.947000000000001,
+   "area_separate": 9.947000000000001
+  }
+ },
+ {
+  "sgg_code": "52770",
+  "full_name": "전북특별자치도 순창군",
+  "plant_count": 40,
+  "treatment_capacity": 32851.0,
+  "pipe_total_length": 287301.0,
+  "combined_sewer_ratio": 0.026957813942751617,
+  "unconnected_ratio": 0.013002680965147452,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 138624.0,
+   "branch_combined": 3737.0,
+   "drain_separate_total": 7460.0,
+   "drain_separate_unconnected": 97.0,
+   "area_total": 8.042000000000002,
+   "area_separate": 8.042000000000002
+  }
+ },
+ {
+  "sgg_code": "52790",
+  "full_name": "전북특별자치도 고창군",
+  "plant_count": 51,
+  "treatment_capacity": 57504.0,
+  "pipe_total_length": 683156.2000000001,
+  "combined_sewer_ratio": 0.38093272802311184,
+  "unconnected_ratio": 1.0,
+  "separate_ratio": 0.9997224843203644,
+  "_raw": {
+   "branch_total": 53306.0,
+   "branch_combined": 20306.0,
+   "drain_separate_total": 47.0,
+   "drain_separate_unconnected": 47.0,
+   "area_total": 36.03400000000001,
+   "area_separate": 36.02400000000002
+  }
+ },
+ {
+  "sgg_code": "52800",
+  "full_name": "전북특별자치도 부안군",
+  "plant_count": 39,
+  "treatment_capacity": 26078.0,
+  "pipe_total_length": 943211.0,
+  "combined_sewer_ratio": 0.0,
+  "unconnected_ratio": 0.07047872340425532,
+  "separate_ratio": 1.0,
+  "_raw": {
+   "branch_total": 737993.0,
+   "branch_combined": 0.0,
+   "drain_separate_total": 21808.0,
+   "drain_separate_unconnected": 1537.0,
+   "area_total": 53.18199999999999,
+   "area_separate": 53.18199999999999
+  }
+ }
+]

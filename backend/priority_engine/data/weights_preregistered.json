@@ -1,0 +1,65 @@
+{
+ "registered_at": "2026-07-31",
+ "revised_at": "2026-08-03",
+ "revision": 3,
+ "note": "1차(7-31)는 지반침하 이력 수신 전에 고정한 값. 2차(8-03)는 포아송 회귀 판정(규칙 2·4·5)에 따른 가중치 개정. 3차(8-03)는 지표 정의·축 구성 변경. 근거·판정규칙은 가중치 사전 등록 문서",
+ "model_version": "risk-v2",
+ "occurrence_weights": {
+  "combined_sewer_ratio": 0.35,
+  "aged_ratio_25y": 0.25,
+  "subsidence_per_km": 0.2,
+  "concrete_ratio": 0.15,
+  "heavy_rain_zone_ratio": 0.05
+ },
+ "impact": {
+  "feature": "large_diameter_ratio",
+  "features": [
+   "large_diameter_ratio",
+   "population"
+  ],
+  "floor": 0.5,
+  "span": 1.0,
+  "combine": "mean_of_percentiles"
+ },
+ "rain_trigger": {
+  "span": 0.2,
+  "applies_to_score": false,
+  "field": "triggered_score"
+ },
+ "priority_target_multiplier": 1.0,
+ "removed_features": {
+  "pipe_mean_age_years": "실측 노후율과 r=0.941: 거의 같은 것을 잼",
+  "facility_avg_age_years": "대리의 대리. 실측 노후율이 있으면 불필요",
+  "unconnected_ratio": "규칙 2 실행: 회귀에서 유의하지 않음 (z=-1.58, p=0.1135)"
+ },
+ "renamed_features": {
+  "sewer_subsidence_per_km": "3차 개정에서 subsidence_per_km 으로 교체. 원인 미기재 84.7%를 하수 원인 0건으로 세면 조사가 부실한 지자체가 안전해 보입니다. 가중치 0.20은 그대로"
+ },
+ "first_registration": {
+  "registered_at": "2026-07-31",
+  "occurrence_weights": {
+   "aged_ratio_25y": 0.4,
+   "concrete_ratio": 0.2,
+   "sewer_subsidence_per_km": 0.2,
+   "combined_sewer_ratio": 0.15,
+   "unconnected_ratio": 0.05
+  },
+  "impact": {
+   "feature": "large_diameter_ratio",
+   "floor": 0.5,
+   "span": 1.0
+  },
+  "priority_target_multiplier": 1.2
+ },
+ "second_revision": {
+  "revised_at": "2026-08-03",
+  "occurrence_weights": {
+   "combined_sewer_ratio": 0.35,
+   "aged_ratio_25y": 0.25,
+   "sewer_subsidence_per_km": 0.2,
+   "concrete_ratio": 0.15,
+   "heavy_rain_zone_ratio": 0.05
+  },
+  "priority_target_multiplier": 1.0
+ }
+}

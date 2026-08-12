@@ -1,0 +1,9 @@
+# Runtime traces and operator/session exports are local evidence, not source.
+run_records/heartbeat-traces.jsonl
+run_records/vl-session-export/
+run_records/vl-analysis-*.md
+run_records/vl-discord-*.json
+run_records/vl-replay-plan.json
+
+# Manual conflict/backup copies.
+*.orig

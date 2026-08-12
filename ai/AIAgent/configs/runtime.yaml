@@ -1,0 +1,5 @@
+perception: opencv-pipe
+decision: qwen2.5-vl-3b-instruct-awq
+control_mode: simulation-no-motor
+camera_snapshot_url: http://192.168.100.246:8081/snapshot.jpg
+camera_health_url: http://192.168.100.246:8081/health

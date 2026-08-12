@@ -1,0 +1,9 @@
+name: segformer-b2
+role: perception
+repo_id: nvidia/segformer-b2-finetuned-ade-512-512
+weights: models/segformer-b2/weights
+runtime: transformers
+device: cuda
+fallback: opencv-pipe
+safe_for_motor_control: false
+note: ADE20K baseline; PipeCheckkk 관로 데이터 fine-tuning 전에는 관로 mask를 모터 제어에 사용하지 않는다.

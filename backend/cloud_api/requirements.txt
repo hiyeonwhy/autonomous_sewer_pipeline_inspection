@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pymongo
+pydantic-settings
+python-multipart
+jinja2
+weasyprint
+pillow

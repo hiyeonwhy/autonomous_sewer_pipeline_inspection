@@ -1,0 +1,17 @@
+[Unit]
+Description=PipeCheckkk Cloud START/STOP command relay
+After=network-online.target pipecheckkk-ai.service
+Wants=network-online.target
+Requires=pipecheckkk-ai.service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ssafy/S15P11C102/ai/AIAgent
+ExecStart=/home/ssafy/S15P11C102/ai/AIAgent/scripts/run_cloud_command_relay.sh
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

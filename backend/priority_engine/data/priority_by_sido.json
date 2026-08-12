@@ -1,0 +1,309 @@
+{
+ "meta": {
+  "model_version": "risk-v2",
+  "generated_at": "2026-08-03T06:45:27+00:00",
+  "batch_id": "risk-v2-66c464f28ad4",
+  "input_digest": "66c464f28ad40f54a9fa86c3e512e6ac1e89e0d6bb4954e0449de7ae11a01268",
+  "district_count": 229,
+  "admin_basis": "2026-07-01 개편 전 (광주=29, 전남=46)",
+  "occurrence_weights": {
+   "combined_sewer_ratio": 0.35,
+   "aged_ratio_25y": 0.25,
+   "subsidence_per_km": 0.2,
+   "concrete_ratio": 0.15,
+   "heavy_rain_zone_ratio": 0.05
+  },
+  "impact": {
+   "features": [
+    "large_diameter_ratio",
+    "population"
+   ],
+   "floor": 0.5,
+   "span": 1.0
+  },
+  "rain_trigger": {
+   "span": 0.2,
+   "applies_to_score": false,
+   "field": "triggered_score"
+  },
+  "display_names": {
+   "aged_ratio_25y": "실측 노후율 (25년 이상 경과)",
+   "concrete_ratio": "콘크리트관 비율",
+   "subsidence_per_km": "km당 침하 (원인 무관)",
+   "combined_sewer_ratio": "합류식 비율",
+   "unconnected_ratio": "배수설비 미연결률",
+   "heavy_rain_zone_ratio": "집중강우 중점관리구역 비율",
+   "large_diameter_ratio": "대구경 비율 (500mm 이상)",
+   "population": "주민등록 인구"
+  },
+  "grades": {
+   "5": {
+    "label": "최우선",
+    "share": 0.1,
+    "description": "즉시 점검 대상. 로봇 투입 최우선 배정"
+   },
+   "4": {
+    "label": "우선",
+    "share": 0.2,
+    "description": "우선 점검 대상. 5등급 처리 후 순차 투입"
+   },
+   "3": {
+    "label": "보통",
+    "share": 0.4,
+    "description": "일반 점검 주기 적용"
+   },
+   "2": {
+    "label": "관찰",
+    "share": 0.2,
+    "description": "경과 관찰. 지표 악화 시 재평가"
+   },
+   "1": {
+    "label": "양호",
+    "share": 0.1,
+    "description": "양호. 법정 주기 점검으로 충분"
+   }
+  },
+  "coverage": {
+   "combined_sewer_ratio": 228,
+   "aged_ratio_25y": 171,
+   "subsidence_per_km": 176,
+   "concrete_ratio": 229,
+   "heavy_rain_zone_ratio": 229,
+   "large_diameter_ratio": 229,
+   "population": 229
+  },
+  "sources": {
+   "master": 229,
+   "sewer": 229,
+   "pipe_age": 229,
+   "facilities": 229,
+   "subsidence": 176,
+   "rainfall": 229,
+   "manholes": 229,
+   "population": 229
+  }
+ },
+ "sido": [
+  {
+   "sido_code": "11",
+   "sido_name": "서울특별시",
+   "district_count": 25,
+   "weighted_score": 1.065871,
+   "rank": 1,
+   "grade_counts": {
+    "5": 15,
+    "4": 10
+   },
+   "top_district": "서울특별시 영등포구"
+  },
+  {
+   "sido_code": "28",
+   "sido_name": "인천광역시",
+   "district_count": 10,
+   "weighted_score": 0.871174,
+   "rank": 2,
+   "grade_counts": {
+    "5": 3,
+    "4": 5,
+    "3": 1,
+    "1": 1
+   },
+   "top_district": "인천광역시 부평구"
+  },
+  {
+   "sido_code": "30",
+   "sido_name": "대전광역시",
+   "district_count": 5,
+   "weighted_score": 0.835276,
+   "rank": 3,
+   "grade_counts": {
+    "5": 1,
+    "4": 3,
+    "3": 1
+   },
+   "top_district": "대전광역시 서구"
+  },
+  {
+   "sido_code": "29",
+   "sido_name": "광주광역시",
+   "district_count": 5,
+   "weighted_score": 0.823224,
+   "rank": 4,
+   "grade_counts": {
+    "5": 2,
+    "4": 2,
+    "3": 1
+   },
+   "top_district": "광주광역시 북구"
+  },
+  {
+   "sido_code": "41",
+   "sido_name": "경기도",
+   "district_count": 31,
+   "weighted_score": 0.648693,
+   "rank": 5,
+   "grade_counts": {
+    "5": 2,
+    "4": 8,
+    "3": 20,
+    "2": 1
+   },
+   "top_district": "경기도 부천시"
+  },
+  {
+   "sido_code": "27",
+   "sido_name": "대구광역시",
+   "district_count": 9,
+   "weighted_score": 0.630441,
+   "rank": 6,
+   "grade_counts": {
+    "4": 5,
+    "3": 3,
+    "2": 1
+   },
+   "top_district": "대구광역시 수성구"
+  },
+  {
+   "sido_code": "26",
+   "sido_name": "부산광역시",
+   "district_count": 16,
+   "weighted_score": 0.598044,
+   "rank": 7,
+   "grade_counts": {
+    "4": 5,
+    "3": 11
+   },
+   "top_district": "부산광역시 금정구"
+  },
+  {
+   "sido_code": "52",
+   "sido_name": "전북특별자치도",
+   "district_count": 14,
+   "weighted_score": 0.470909,
+   "rank": 8,
+   "grade_counts": {
+    "4": 2,
+    "3": 4,
+    "2": 6,
+    "1": 2
+   },
+   "top_district": "전북특별자치도 익산시"
+  },
+  {
+   "sido_code": "50",
+   "sido_name": "제주특별자치도",
+   "district_count": 2,
+   "weighted_score": 0.460436,
+   "rank": 9,
+   "grade_counts": {
+    "3": 2
+   },
+   "top_district": "제주특별자치도 제주시"
+  },
+  {
+   "sido_code": "43",
+   "sido_name": "충청북도",
+   "district_count": 11,
+   "weighted_score": 0.452584,
+   "rank": 10,
+   "grade_counts": {
+    "4": 1,
+    "3": 3,
+    "2": 5,
+    "1": 2
+   },
+   "top_district": "충청북도 청주시"
+  },
+  {
+   "sido_code": "36",
+   "sido_name": "세종특별자치시",
+   "district_count": 1,
+   "weighted_score": 0.449498,
+   "rank": 11,
+   "grade_counts": {
+    "3": 1
+   },
+   "top_district": "세종특별자치시 세종시"
+  },
+  {
+   "sido_code": "51",
+   "sido_name": "강원특별자치도",
+   "district_count": 18,
+   "weighted_score": 0.444337,
+   "rank": 12,
+   "grade_counts": {
+    "4": 3,
+    "3": 5,
+    "2": 4,
+    "1": 6
+   },
+   "top_district": "강원특별자치도 강릉시"
+  },
+  {
+   "sido_code": "48",
+   "sido_name": "경상남도",
+   "district_count": 18,
+   "weighted_score": 0.415423,
+   "rank": 13,
+   "grade_counts": {
+    "3": 9,
+    "2": 8,
+    "1": 1
+   },
+   "top_district": "경상남도 창원시"
+  },
+  {
+   "sido_code": "44",
+   "sido_name": "충청남도",
+   "district_count": 15,
+   "weighted_score": 0.401205,
+   "rank": 14,
+   "grade_counts": {
+    "3": 11,
+    "2": 3,
+    "1": 1
+   },
+   "top_district": "충청남도 계룡시"
+  },
+  {
+   "sido_code": "31",
+   "sido_name": "울산광역시",
+   "district_count": 5,
+   "weighted_score": 0.382297,
+   "rank": 15,
+   "grade_counts": {
+    "3": 4,
+    "2": 1
+   },
+   "top_district": "울산광역시 남구"
+  },
+  {
+   "sido_code": "47",
+   "sido_name": "경상북도",
+   "district_count": 22,
+   "weighted_score": 0.371689,
+   "rank": 16,
+   "grade_counts": {
+    "4": 1,
+    "3": 8,
+    "2": 6,
+    "1": 7
+   },
+   "top_district": "경상북도 포항시"
+  },
+  {
+   "sido_code": "46",
+   "sido_name": "전라남도",
+   "district_count": 22,
+   "weighted_score": 0.3397,
+   "rank": 17,
+   "grade_counts": {
+    "4": 1,
+    "3": 7,
+    "2": 11,
+    "1": 3
+   },
+   "top_district": "전라남도 여수시"
+  }
+ ]
+}

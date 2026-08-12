@@ -1,0 +1,18 @@
+name: qwen2.5-vl-3b-instruct-awq
+role: decision
+repo_id: Qwen/Qwen2.5-VL-3B-Instruct-AWQ
+weights: models/qwen2.5-vl-3b-instruct-awq/weights
+runtime: transformers-awq
+quantization: AWQ-4bit
+device_map: auto
+load_policy: lazy-event-only
+allowed_actions:
+  - FOLLOW_PIPE
+  - SLOW_DOWN
+  - STOP
+  - AVOID_LEFT
+  - AVOID_RIGHT
+  - REACQUIRE_CENTER
+  - ABORT_MISSION
+  - REQUEST_OPERATOR
+fallback: STOP

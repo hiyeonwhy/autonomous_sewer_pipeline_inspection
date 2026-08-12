@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pipecheckkk.local/schemas/telemetry.schema.json",
+  "title": "PipeCheckkk Telemetry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["timestamp", "robot", "camera", "sensor", "agent", "safety"],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "robot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["connected", "mode"],
+      "properties": {
+        "connected": { "type": "boolean" },
+        "mode": { "enum": ["IDLE", "MONITOR", "AUTO", "MANUAL", "RETURN", "STOPPED"] },
+        "heartbeatAgeMs": { "type": ["integer", "null"], "minimum": 0 }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["connected", "name", "streamUrl"],
+      "properties": {
+        "connected": { "type": "boolean" },
+        "name": { "type": ["string", "null"] },
+        "streamUrl": { "type": "string" },
+        "frameAgeMs": { "type": ["integer", "null"], "minimum": 0 }
+      }
+    },
+    "sensor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "frontDistanceM": { "type": ["number", "null"], "minimum": 0 }
+      }
+    },
+    "agent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["connected", "action"],
+      "properties": {
+        "connected": { "type": "boolean" },
+        "action": {
+          "enum": ["UNAVAILABLE", "FOLLOW_PIPE", "STEER_LEFT", "STEER_RIGHT", "SLOW_DOWN", "STOP", "AVOID_LEFT", "AVOID_RIGHT", "RETURN_HOME"]
+        },
+        "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "reason": { "type": ["string", "null"] }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "emergencyStop"],
+      "properties": {
+        "status": { "enum": ["SAFE", "WARNING", "STOPPED", "UNKNOWN"] },
+        "emergencyStop": { "type": "boolean" },
+        "commandTtlValid": { "type": ["boolean", "null"] }
+      }
+    }
+  }
+}

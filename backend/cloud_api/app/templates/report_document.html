@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>하수관로 현황 조사 보고서 {{ report.report_no }}</title>
+<style>
+  /* 인쇄 우선. 브라우저 인쇄(Ctrl+P)로 A4 그대로 나온다. */
+  /* 쪽수는 **PDF 페이지 카운터**에서 받는다. 본문에 파이썬이 계산한 숫자를 박아
+     넣으면 실제 페이지 나눔과 어긋난다 — 결함 소견이 길어져 한 면이 넘칠 때
+     푸터만 다음 장으로 밀려 「- 2 -」만 있는 빈 페이지가 생겼고, 머리글은 (2/2)인데
+     실제로는 3장이었다. 페이지 여백 상자에 두면 어떻게 나뉘든 번호가 맞는다. */
+  @page {
+    size: A4 portrait;
+    margin: 20mm;
+
+    @top-right {
+      color: #1a1a1c;
+      content: "(" counter(page) "/" counter(pages) ")";
+      font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
+      font-size: 9pt;
+      margin-bottom: 4mm;
+    }
+
+    @bottom-center {
+      color: #55585f;
+      content: "- " counter(page) " -";
+      font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
+      font-size: 9pt;
+      margin-top: 6mm;
+    }
+  }
+
+  :root {
+    --ink: #1a1a1c;
+    --ink-soft: #55585f;
+    --rule: #9aa0a8;
+    --label: #eef0f3;
+    --accent: #0f458f;
+
+    /* 심각도 색. 노란색 계열은 흰 바탕과 인쇄에서 읽히도록 어두운 앰버를 쓴다
+       (순수 노랑은 대비가 3:1 미만이라 본문 글씨로 못 쓴다). 경미는 본문색 유지. */
+    --sev-critical: #ba1a1a;
+    --sev-warning: #8f6200;
+    --sev-normal: var(--ink);
+
+    --sans: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", "Nanum Gothic",
+      "NanumGothic", sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: #f4f5f7;
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 10.5pt;
+    line-height: 1.55;
+    margin: 0;
+    padding: 16px;
+  }
+
+  /* 화면에서도 A4 전체(210mm)를 그리고 안쪽 20mm를 여백으로 둔다.
+     그래야 본문 폭이 인쇄영역 170mm와 정확히 같아진다. */
+  .page {
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 16px;
+    max-width: 100%;
+    min-height: 297mm;
+    padding: 20mm;
+    width: 210mm;
+  }
+
+  .page-main { flex: 1 1 auto; }
+
+  .page-foot {
+    color: var(--ink-soft);
+    font-size: 9pt;
+    padding-top: 6mm;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 17pt;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin: 0 0 6mm;
+    text-align: center;
+  }
+
+  .doc-no { font-size: 9pt; margin: 0 0 2mm; text-align: right; }
+
+  h2 {
+    border-bottom: 1.5px solid var(--ink);
+    font-size: 11pt;
+    font-weight: 700;
+    margin: 7mm 0 3mm;
+    padding-bottom: 1.5mm;
+  }
+
+  table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  th, td {
+    border: 0.7px solid var(--rule);
+    padding: 1.6mm 2mm;
+    text-align: center;
+    vertical-align: middle;
+    word-break: keep-all;
+  }
+
+  th { background: var(--label); font-size: 9.5pt; font-weight: 600; }
+  td { font-size: 10pt; }
+  td.num { font-variant-numeric: tabular-nums; }
+  td.text { text-align: left; }
+  td.empty { color: #9aa0a8; }
+  td.grade { font-size: 11pt; font-weight: 700; }
+  .grade-class { font-size: 8pt; font-weight: 400; color: #6b7280; }
+  /* 상태등급이 어떻게 나온 값인지 양식 안에서 밝힌다. 근거 없는 숫자로 보이면 안 된다. */
+  .grade-basis {
+    font-size: 7.5pt;
+    line-height: 1.5;
+    color: #6b7280;
+    margin: 1mm 0 0;
+  }
+
+  .spacer { height: 2.5mm; }
+
+  /* 종합 평가는 줄바꿈으로 나뉜 항목 묶음이다. 항목마다 한 줄을 차지하되 길면
+     자연스럽게 넘어가야 하므로 `pre-line` 이 아니라 항목별 <p> 로 쌓는다.
+     양끝 맞춤은 하지 않는다 — 짧은 항목에서 글자 사이가 벌어져 보기 나쁘다. */
+  p.assessment {
+    margin: 0 0 1.2mm;
+    text-indent: 0;
+  }
+  p.assessment:last-of-type { margin-bottom: 3mm; }
+
+  ol.recs { margin: 0; padding-left: 6mm; }
+  ol.recs li { margin-bottom: 1mm; }
+
+  .stat-row {
+    display: flex;
+    gap: 6mm;
+    margin-bottom: 3mm;
+  }
+
+  .stat {
+    border: 0.7px solid var(--rule);
+    flex: 1;
+    padding: 2mm 3mm;
+  }
+
+  .stat .k { color: var(--ink-soft); display: block; font-size: 8.5pt; }
+
+  .stat .v {
+    display: block;
+    font-size: 13pt;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+  }
+
+
+  /* 결함 사진 4행 2열 — 사진 67.3 × 50.5mm */
+  .defect-rows { display: flex; flex-direction: column; gap: 5mm; }
+
+  .defect-row {
+    break-inside: avoid;
+    display: grid;
+    gap: 4mm;
+    grid-template-columns: 67.3mm 1fr;
+    page-break-inside: avoid;
+  }
+
+  .shot { display: flex; flex-direction: column; gap: 1.2mm; margin: 0; }
+
+  /* 상자 크기는 양식이 정한 값이므로 고정이다. 사진은 `contain` 으로 넣는다 —
+     `cover` 는 상자를 채우려고 넘치는 부분을 잘라내는데, 결함별 크롭은 비율이
+     제각각이라(가로로 긴 1024x381, 세로로 긴 511x1024) 잘린 쪽에 결함이나 라벨이
+     들어 있었다. 판독 근거 사진에서 화면 밖으로 밀려나는 부분이 있으면 안 된다.
+     남는 자리는 배경색으로 남긴다. */
+  .shot img {
+    background: #111;
+    border: 0.7px solid var(--rule);
+    display: block;
+    height: 50.5mm;
+    object-fit: contain;
+    width: 67.3mm;
+  }
+
+  .shot .no-image {
+    align-items: center;
+    background: #f0f1f3;
+    border: 0.7px dashed var(--rule);
+    color: var(--ink-soft);
+    display: flex;
+    font-size: 9pt;
+    height: 50.5mm;
+    justify-content: center;
+    width: 67.3mm;
+  }
+
+  .shot figcaption { font-size: 8.5pt; text-align: center; }
+
+  /* 심각도 색은 캡션·소견 어디서든 같게 적용된다. */
+  .sev-critical { color: var(--sev-critical); font-weight: 700; }
+  .sev-warning { color: var(--sev-warning); font-weight: 700; }
+  .sev-normal { color: var(--sev-normal); }
+
+  .reading {
+    border: 0.7px solid var(--rule);
+    display: flex;
+    flex-direction: column;
+    gap: 1.8mm;
+    min-width: 0;
+    padding: 2.5mm 3mm;
+  }
+
+  .reading-head {
+    align-items: baseline;
+    border-bottom: 0.7px solid var(--rule);
+    display: flex;
+    gap: 3mm;
+    padding-bottom: 1.2mm;
+  }
+
+  .reading-head .pos {
+    font-size: 12pt;
+    font-variant-numeric: tabular-nums;
+    font-weight: 800;
+  }
+
+  .reading-head .kind { font-size: 10pt; font-weight: 700; }
+
+  .reading-head .src {
+    font-size: 7.5pt;
+    font-weight: 700;
+    margin-left: auto;
+    padding: 0.3mm 1.5mm;
+  }
+
+  .src-vision { background: #e6edf7; color: var(--accent); }
+  .src-metadata { background: #f7eee9; color: #9a3412; }
+
+  /* 탐지 결과 / 사진 판독을 구분하는 소제목. 둘이 어긋나는 걸 보이게 하는 장치다. */
+  .reading-label {
+    font-size: 7.5pt;
+    font-weight: 700;
+    color: #6b7280;
+    letter-spacing: 0.2pt;
+    margin: 1.6mm 0 0.4mm;
+  }
+  .reading-label:first-of-type { margin-top: 1mm; }
+
+  .reading-facts {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 8.5pt;
+    gap: 0.5mm 5mm;
+  }
+
+  .reading-facts b { font-size: 9.5pt; font-variant-numeric: tabular-nums; }
+  .reading-body { font-size: 9.5pt; line-height: 1.6; margin: 0; }
+
+  .fail {
+    border-top: 0.7px dashed var(--rule);
+    color: #9a3412;
+    font-size: 8pt;
+    margin: 0;
+    padding-top: 1.2mm;
+  }
+
+  .note {
+    border: 0.7px dashed var(--rule);
+    color: var(--ink-soft);
+    font-size: 9pt;
+    margin: 3mm 0 0;
+    padding: 2.5mm 3mm;
+  }
+
+  /* 좁은 화면에서는 210mm가 넘치므로 1열로 접는다. 인쇄에는 영향이 없다. */
+  @media screen and (max-width: 860px) {
+    .page { padding: 8mm; width: 100%; }
+    .defect-row { grid-template-columns: 1fr; }
+
+    .shot img, .shot .no-image {
+      aspect-ratio: 4 / 3;
+      height: auto;
+      width: 100%;
+    }
+
+    .stat-row { flex-wrap: wrap; }
+  }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+
+    /* @page 여백이 이미 20mm를 주므로 페이지 자체 패딩은 없앤다. */
+    .page {
+      box-shadow: none;
+      margin: 0;
+      min-height: auto;
+      padding: 0;
+      page-break-after: always;
+      width: auto;
+    }
+
+    .page:last-child { page-break-after: auto; }
+
+    /* 화면 미리보기용 쪽수 표시는 인쇄에서 숨긴다. 인쇄에서는 위 @page 여백 상자가
+       실제 페이지 번호를 찍는다. 둘을 같이 두면 번호가 두 번 나온다. */
+    .doc-no,
+    .page-foot { display: none; }
+  }
+</style>
+</head>
+<body>
+
+{#- 1면: 조사 개요와 관로 제원 -#}
+<section class="page">
+  <div class="page-main">
+    <p class="doc-no">({{ page_no }}/{{ page_total }})</p>
+    <h1>하수관로 현황 조사 보고서</h1>
+
+    <table>
+      <colgroup>
+        <col style="width:16%" /><col style="width:34%" />
+        <col style="width:16%" /><col style="width:34%" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <th scope="row">보고서번호</th>
+          <td class="num">{{ report.report_no }}</td>
+          <th scope="row">조사일자</th>
+          <td class="num">{{ report.inspection_date }}</td>
+        </tr>
+        {#- 프론트 「점검 기본 설정」의 두 필드와 이름을 맞춘다. 보고서를 보는 사람과
+            점검을 시작한 사람이 같은 말을 쓰게 하려는 것이다. #}
+        <tr>
+          <th scope="row">점검 위치</th>
+          <td class="text">
+            {%- if report.survey_location %}{{ report.survey_location }}
+            {%- else %}<span class="empty">미입력</span>{% endif -%}
+          </td>
+          <th scope="row">조사자</th>
+          <td>{{ report.operator_name }} ({{ report.operator_role }})</td>
+        </tr>
+        <tr>
+          <th scope="row">점검 구간</th>
+          <td class="text">
+            {%- if report.inspection_section %}{{ report.inspection_section }}
+            {%- else %}<span class="empty">미입력</span>{% endif -%}
+          </td>
+          <th scope="row">조사목적</th>
+          <td>{{ report.survey_purpose }}</td>
+        </tr>
+        <tr>
+          <th scope="row">점검 로봇</th>
+          <td class="text">{{ report.robot_name }} ({{ report.robot_model }})</td>
+          <th scope="row">주행 시간</th>
+          <td class="num">{{ report.duration }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="spacer"></div>
+
+    <table>
+      {#- 총주행거리·미주행거리는 로봇에 주행계가 없어 실측되지 않는다. 빈 칸이나
+          0m 로 채우면 「끝까지 주행했다」로 읽혀 사실과 다른 기록이 남는다. #}
+      <colgroup>
+        <col style="width:19%" /><col style="width:11%" /><col style="width:20%" />
+        <col style="width:14%" /><col style="width:18%" /><col style="width:18%" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>관로번호</th><th>구분</th><th>관종</th><th>규격</th>
+          <th>배수방식</th><th>연장</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          {{ cell(report.pipe_no) }}
+          {{ cell(report.pipe_category) }}
+          {{ cell(report.pipe_type) }}
+          {{ cell(report.diameter_mm) }}
+          {{ cell(report.drainage_type) }}
+          {{ cell(report.pipe_length_m, "m") }}
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="spacer"></div>
+
+    <table>
+      <colgroup>
+        <col style="width:30%" /><col style="width:20%" />
+        <col style="width:30%" /><col style="width:20%" />
+      </colgroup>
+      <tbody>
+        {#- 환경부 지침 표 6.1: 조사구간(맨홀 대 맨홀) 상태는 정수 등급이 아니라
+            단위구간 등급의 평균인 '상태점수'로 제시한다. 점수를 앞세우고 환산 등급을
+            괄호로 덧붙여, 근거를 물었을 때 산정 경로가 보이게 한다. #}
+        <tr>
+          <th scope="row">하수관로(암거) 구조적 상태점수</th>
+          <td class="grade num">
+            {%- if report.structural_grade is not none %}{{ report.structural_grade }}
+              {%- if report.structural_grade_class %} <span class="grade-class">({{ report.structural_grade_class }}등급)</span>{% endif -%}
+            {%- else %}<span class="empty">미산정</span>{% endif -%}
+          </td>
+          <th scope="row">하수관로(암거) 운영적 상태점수</th>
+          <td class="grade num">
+            {%- if report.operational_grade is not none %}{{ report.operational_grade }}
+              {%- if report.operational_grade_class %} <span class="grade-class">({{ report.operational_grade_class }}등급)</span>{% endif -%}
+            {%- else %}<span class="empty">미산정</span>{% endif -%}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    {%- if report.segment_count %}
+    {#- 각주는 두 문장으로 나눈다. 앞은 지침을 따른 부분, 뒤는 따르지 못한 부분이다.
+        둘을 한 문장에 섞으면 어디까지가 지침 근거인지 읽는 사람이 알 수 없다. #}
+    {#- 각주는 **지침을 읽지 않은 사람도 읽히게** 쓴다. 「표 5.6」이나 「제6장 1.1」
+        같은 출처 번호는 넣지 않는다 — 어디에 있는지보다 무슨 규칙인지가 필요하다.
+        출처 번호는 `grading.py` 주석에 남겨 두었다.
+
+        두 문장으로 나눈다. 앞은 지침을 따른 계산, 뒤는 따르지 못한 부분이다. #}
+    <p class="grade-basis">
+      산정 근거 — 환경부 「하수관로 CCTV 조사 지침」. 관로를 단위구간(본)
+      {{ report.segment_count }}개소({{ report.segment_length_m }}m씩)로 나눠, 구간마다 결함점수가
+      가장 높은 결함 하나로 1~5등급을 정하고 그 평균을 조사구간 상태점수로 삼음
+      (1등급 매우 좋음 · 5등급 매우 나쁨). 결함점수는 결함 종류와 등급(대·중·소),
+      {# `{#-` 로 쓰면 앞 줄바꿈까지 먹어 「대·중·소),관종」처럼 공백이 사라진다.
+          결함 등급을 무엇으로 정했는지는 **같은 문장 안에** 이어 붙인다. 줄을 나눠 두면
+          「단, …」 같은 주의사항으로 읽혀 눈길이 그쪽으로 쏠린다. 산정 방법의 한
+          부분으로 이어 쓰면 사실만 전달된다.
+          「관경·관둘레는 미측정」이라는 부정형은 넣지 않는다 — 면적을 기준으로 썼다고
+          밝히는 것으로 충분하고, 없는 정보를 한 번 더 적는 것은 방어적으로만 읽힌다. #}
+      {% if report.grade_score_basis %}관종({{ report.grade_score_basis }}){% else %}관종{% endif %}에
+      따른 지침 배점표를
+      {%- if report.grade_scores_estimated %} 적용하며, 결함 등급은 탐지 영역이
+      화면에서 차지하는 면적을 기준으로 산정함.
+      {%- else %} 적용함.
+      {%- endif %}
+    </p>
+    {%- endif %}
+
+    <h2>조사 결과 요약</h2>
+
+    <div class="stat-row">
+      <div class="stat"><span class="k">확인 결함</span><span class="v">{{ report.total_defect_count }}건</span></div>
+      <div class="stat">
+        <span class="k">심각 등급</span>
+        <span class="v{% if report.critical_defect_count %} sev-critical{% endif %}">{{ report.critical_defect_count }}건</span>
+      </div>
+      <div class="stat"><span class="k">사진 판독</span><span class="v">{{ vision_count }}건</span></div>
+    </div>
+
+    {#- 줄바꿈을 항목 구분으로 쓴다. 옛 보고서는 한 덩어리 문단이라 한 줄로 나온다. #}
+    {%- if report.assessment %}
+    {%- for line in report.assessment.split('\n') if line.strip() %}
+    <p class="assessment">{{ line }}</p>
+    {%- endfor %}
+    {%- else %}
+    <p class="note">종합 평가가 아직 생성되지 않았습니다. <code>llm_report</code> 요약을 실행한 뒤 다시 출력하십시오.</p>
+    {%- endif %}
+
+    {%- if report.recommendations %}
+    <h2>조치 권고</h2>
+    <ol class="recs">
+      {%- for item in report.recommendations %}
+      <li>{{ item }}</li>
+      {%- endfor %}
+    </ol>
+    {%- endif %}
+  </div>
+  <div class="page-foot">- {{ page_no }} -</div>
+</section>
+
+{#- 2면 이후: 결함 사진과 판독 소견 (한 면 4건) -#}
+{%- for group in rows | batch(defects_per_page) %}
+<section class="page">
+  <div class="page-main">
+    <p class="doc-no">({{ page_no + loop.index }}/{{ page_total }})</p>
+    <h2>결함 사진 및 판독 소견{% if page_total > 2 %} ({{ loop.index }}/{{ page_total - 1 }}){% endif %}</h2>
+
+    <div class="defect-rows">
+      {%- for row in group %}
+      <div class="defect-row">
+        <figure class="shot">
+          {%- if row.image_path %}
+          <img src="{{ row.image_path }}" alt="{{ row.type_label }}" />
+          {%- else %}
+          <div class="no-image">결함 사진 없음</div>
+          {%- endif %}
+          <figcaption>
+            (상태){{ row.type_label }}
+            <span class="sev-{{ row.severity_class }}">({{ row.severity_label }})</span>
+            {%- if row.position_label %} [{{ row.position_label }}]{% endif %}
+          </figcaption>
+        </figure>
+
+        <div class="reading">
+          <div class="reading-head">
+            {%- if row.position_label %}<span class="pos">{{ row.position_label }}</span>{% endif %}
+            <span class="kind">{{ row.type_label }}</span>
+            <span class="src src-{{ row.source }}">{{ row.source }}</span>
+          </div>
+          <div class="reading-facts">
+            <span>심각도 <b class="sev-{{ row.severity_class }}">{{ row.severity_label }}</b></span>
+            {%- if row.confidence_label %}<span>신뢰도 <b>{{ row.confidence_label }}</b></span>{% endif %}
+          </div>
+          {#- 코드가 만든 「탐지 결과」 문장은 싣지 않는다. "1.6m 지점에서 표면 손상
+              탐지됨. 심각도 심각 등급으로 분류됨. 탐지 신뢰도 99%."는 바로 위
+              `reading-head`(위치·종류)와 `reading-facts`(심각도·신뢰도)를 문장으로
+              다시 쓴 것뿐이어서 같은 값이 한 칸에 두 번 나온다.
+              값은 `observations[].description` 에 그대로 남아 API 로 나간다. #}
+          <p class="reading-label">사진 판독</p>
+          <p class="reading-body">{{ row.photo_description }}</p>
+          {%- if row.failure_code %}
+          <p class="fail">{{ row.failure_code }}</p>
+          {%- endif %}
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+  <div class="page-foot">- {{ page_no + loop.index }} -</div>
+</section>
+{%- endfor %}
+
+{%- if not rows %}
+<section class="page">
+  <div class="page-main">
+    <p class="doc-no">({{ page_no + 1 }}/{{ page_total }})</p>
+    <h2>결함 사진 및 판독 소견</h2>
+    <p class="note">이번 조사에서 확인된 결함이 없습니다.</p>
+  </div>
+  <div class="page-foot">- {{ page_no + 1 }} -</div>
+</section>
+{%- endif %}
+
+</body>
+</html>

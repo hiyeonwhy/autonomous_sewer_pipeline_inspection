@@ -1,0 +1,105 @@
+name: sewer-cloud
+
+# 이 파일에는 호스트 절대/상대 경로 바인드 마운트가 없다. 상대 경로 마운트는
+# compose 파일이 있는 디렉터리 기준으로 풀리는데, Jenkins 워크스페이스는 도커
+# 볼륨 안이라 호스트에 존재하지 않아 엉뚱한 빈 디렉터리가 붙는다 (2026-08-03에
+# 우선순위 경계 파일이 이 이유로 404가 났다). 그래서 엔진 산출물은 이미지에 굽고,
+# 데이터는 named volume 으로만 다룬다. 덕분에 호스트든 Jenkins든 같은 결과가 나온다.
+#
+# 비밀값은 이 파일 옆 .env 한 곳에만 있다 (git 추적 안 함, .env.example 참고).
+# compose 의 ${...} 치환과 컨테이너 env_file 이 같은 파일을 읽는다.
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: sewer-mongodb
+    restart: unless-stopped
+    environment:
+      # 값이 없으면 compose 가 여기서 멈춘다 — 빈 값으로 조용히 뜨면 인증이
+      # 깨진 채 돌기 때문이다.
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER:?infra/docker/.env 에 MONGO_USER 를 설정하세요}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:?infra/docker/.env 에 MONGO_PASSWORD 를 설정하세요}
+      MONGO_INITDB_DATABASE: sewer_inspection
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - sewer-cloud
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "mongosh",
+          "--quiet",
+          "--username",
+          "${MONGO_USER}",
+          "--password",
+          "${MONGO_PASSWORD}",
+          "--authenticationDatabase",
+          "admin",
+          "--eval",
+          "db.adminCommand('ping')"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  cloud-api:
+    # 커밋별로 태그를 남긴다. up -d --build 가 이 태그로 빌드하므로 이전 커밋의
+    # 이미지가 로컬에 그대로 남아 롤백이 된다:
+    #   GIT_COMMIT=<이전커밋> docker-compose -f ... up -d --no-build
+    # Jenkins 컨테이너에는 docker CLI 가 없어 docker tag 를 쓸 수 없다. 그래서
+    # 태깅을 compose 쪽에서 처리한다.
+    image: sewer-cloud-cloud-api:${GIT_COMMIT:-latest}
+    build:
+      # 컨텍스트가 backend/ 인 이유: Dockerfile 이 priority_engine/data 를 이미지에
+      # 굽는데, docker 는 빌드 컨텍스트 밖을 COPY 할 수 없다.
+      context: ../../backend
+      dockerfile: cloud_api/Dockerfile
+      args:
+        GIT_COMMIT: ${GIT_COMMIT:-unknown}
+    container_name: sewer-cloud-api
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # 자격증명이 MONGODB_URL 안에 또 박히지 않게 여기서 조립한다. .env 에는
+      # MONGO_USER/MONGO_PASSWORD 만 있으면 된다.
+      MONGODB_URL: mongodb://${MONGO_USER}:${MONGO_PASSWORD}@mongodb:27017/sewer_inspection?authSource=admin
+      # 선택값: telemetry 쓰기 인증에만 사용한다. 영상 WebSocket upload는 keyless다.
+      AGENT_PUBLISH_KEY: "${AGENT_PUBLISH_KEY:-}"
+    ports:
+      - "127.0.0.1:8001:8000"
+    volumes:
+      - media_data:/app/media
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - sewer-cloud
+
+  frontend:
+    # cloud-api 와 같은 이유로 커밋별 태그를 남긴다.
+    image: sewer-cloud-frontend:${GIT_COMMIT:-latest}
+    build:
+      context: ../../frontend
+      args:
+        # CI가 배포 커밋을 넘긴다. 비어 있으면 build-info.json 이 unknown 으로 찍혀
+        # 배포 후 스모크 테스트에서 걸린다.
+        GIT_COMMIT: ${GIT_COMMIT:-unknown}
+    container_name: sewer-frontend
+    restart: unless-stopped
+    ports:
+      # 호스트 nginx 가 / → 8002 로 프록시한다. 이 번호를 바꾸면 사이트가 502가 된다.
+      - "127.0.0.1:8002:80"
+    depends_on:
+      - cloud-api
+    networks:
+      - sewer-cloud
+
+volumes:
+  mongodb_data:
+  media_data:
+
+networks:
+  sewer-cloud:
+    driver: bridge

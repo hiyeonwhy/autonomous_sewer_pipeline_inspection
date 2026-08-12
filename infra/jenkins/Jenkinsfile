@@ -1,0 +1,245 @@
+// 저장소의 유일한 파이프라인. backend/Jenkinsfile 은 흡수해 삭제했다.
+//
+// 배포가 Jenkins 안에서 성립하는 이유:
+//   compose 파일에 호스트 경로 바인드 마운트가 하나도 없다. 상대 경로 마운트는
+//   compose 파일 위치 기준으로 풀리는데 Jenkins 워크스페이스는 도커 볼륨 안이라
+//   호스트에 존재하지 않아, 예전에는 엔진 산출물 자리에 빈 디렉터리가 붙어
+//   경계 GeoJSON 이 404가 났다 (2026-08-03). 지금은 산출물을 이미지에 굽고
+//   데이터는 named volume 으로만 다루므로 호스트든 Jenkins든 결과가 같다.
+//
+// 배포 후 검증을 127.0.0.1 로 하면 안 된다 — Jenkins 컨테이너의 localhost 는
+// 호스트가 아니다. 공개 URL 로 확인하고, 커밋 해시까지 대조한다.
+
+pipeline {
+  agent any
+
+  options {
+    disableConcurrentBuilds()
+    buildDiscarder(logRotator(daysToKeepStr: '14', numToKeepStr: '30'))
+    timestamps()
+  }
+
+  environment {
+    PUBLIC_ORIGIN = 'https://i15c102.p.ssafy.io'
+    COMPOSE_FILE  = 'infra/docker/docker-compose.prod.yml'
+  }
+
+  stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+        script {
+          env.GIT_COMMIT_SHORT = sh(
+            script: 'git rev-parse --short HEAD', returnStdout: true,
+          ).trim()
+          echo "빌드 대상 커밋 ${env.GIT_COMMIT_SHORT}"
+        }
+      }
+    }
+
+    stage('Frontend Verify') {
+      steps {
+        dir('frontend') {
+          sh '''
+            set -e
+            npm ci
+            npm run lint
+            npm run test
+          '''
+        }
+      }
+    }
+
+    stage('Setup Python') {
+      steps {
+        dir('backend/cloud_api') {
+          sh '''
+            set -e
+            python3 --version
+            python3 -m venv .venv
+            . .venv/bin/activate
+            pip install --upgrade pip
+            pip install -r requirements.txt
+          '''
+        }
+      }
+    }
+
+    stage('Backend Sanity Check') {
+      steps {
+        dir('backend/cloud_api') {
+          sh '''
+            set -e
+            . .venv/bin/activate
+            python -m compileall app
+            MONGODB_URL='mongodb://localhost:27017' python -c "import app.main; print('backend import ok')"
+          '''
+        }
+      }
+    }
+
+    stage('Deploy') {
+      when {
+        // 평범한 파이프라인 잡에서는 branch 조건이 매칭되지 않아 스테이지가 조용히
+        // 건너뛰어진다. 예전 배포가 한 번도 돌지 않은 원인으로 의심되는 부분이라
+        // GIT_BRANCH 도 함께 본다.
+        anyOf {
+          branch 'develop'
+          expression { (env.GIT_BRANCH ?: '').endsWith('develop') }
+        }
+      }
+      steps {
+        // Jenkins Credentials(Secret file, ID: cloud-api-env-file)에 등록된
+        // infra/docker/.env 전체 내용을 배포 시점에 파일로 만든다.
+        // infra/docker/.env.example 의 Mongo 키를 채운 값이어야 한다.
+        // 영상 WebSocket publisher는 AGENT_PUBLISH_KEY 없이 동작한다.
+        withCredentials([file(credentialsId: 'cloud-api-env-file', variable: 'DEPLOY_ENV_FILE')]) {
+          sh '''
+            set -e
+            # Jenkins sh의 기본 xtrace가 credential 파일에서 읽은 값을 로그에
+            # 출력하지 않도록 이 secret 처리·배포 block 전체에서 비활성화한다.
+            set +x
+
+            cp "$DEPLOY_ENV_FILE" infra/docker/.env
+
+            # Deploy credential file can still contain legacy Mongo key names.
+            # Normalize them before compose interpolation to avoid hard-to-read failures.
+            get_env() {
+              awk -F= -v key="$1" '
+                /^[[:space:]]*#/ { next }
+                $1 == key {
+                  val = substr($0, index($0, "=") + 1)
+                  sub(/\r$/, "", val)
+                  print val
+                  exit
+                }
+              ' infra/docker/.env
+            }
+
+            set_env() {
+              key="$1"
+              value="$2"
+              file="$3"
+              awk -v key="$key" -v value="$value" '
+                BEGIN { replaced = 0 }
+                /^[[:space:]]*#/ { print; next }
+                $1 == key {
+                  print key "=" value
+                  replaced = 1
+                  next
+                }
+                { print }
+                END {
+                  if (!replaced) {
+                    print key "=" value
+                  }
+                }
+              ' "$file" > "$file.tmp"
+              mv "$file.tmp" "$file"
+            }
+
+            MONGO_USER_VALUE="$(get_env MONGO_USER || true)"
+            if [ -z "$MONGO_USER_VALUE" ]; then
+              LEGACY_MONGO_USER="$(get_env MONGO_INITDB_ROOT_USERNAME || true)"
+              if [ -n "$LEGACY_MONGO_USER" ]; then
+                set_env MONGO_USER "$LEGACY_MONGO_USER" infra/docker/.env
+                echo "Mapped legacy MONGO_INITDB_ROOT_USERNAME to MONGO_USER"
+              else
+                echo "DEPLOY_ENV_FILE is missing MONGO_USER (or legacy MONGO_INITDB_ROOT_USERNAME)."
+                exit 1
+              fi
+            fi
+
+            MONGO_PASSWORD_VALUE="$(get_env MONGO_PASSWORD || true)"
+            if [ -z "$MONGO_PASSWORD_VALUE" ]; then
+              LEGACY_MONGO_PASSWORD="$(get_env MONGO_INITDB_ROOT_PASSWORD || true)"
+              if [ -n "$LEGACY_MONGO_PASSWORD" ]; then
+                set_env MONGO_PASSWORD "$LEGACY_MONGO_PASSWORD" infra/docker/.env
+                echo "Mapped legacy MONGO_INITDB_ROOT_PASSWORD to MONGO_PASSWORD"
+              else
+                echo "DEPLOY_ENV_FILE is missing MONGO_PASSWORD (or legacy MONGO_INITDB_ROOT_PASSWORD)."
+                exit 1
+              fi
+            fi
+
+            # 이 컨테이너의 docker-compose 는 이름만 v1 형식이고 실제로는 v2 다
+            # (Compose v2.26.1). 최상단 name: 키와 ${VAR:?} 문법을 쓰므로 v2 가 필요하다.
+            if ! command -v docker-compose >/dev/null 2>&1; then
+              echo "docker-compose is not available"
+              exit 1
+            fi
+            docker-compose version
+
+            # --remove-orphans: 이 compose 파일이 sewer-cloud 프로젝트를 단독으로
+            # 소유하므로, 파일에서 사라진 서비스의 낡은 컨테이너를 정리한다.
+            # (web -> frontend 개명 때 남는 컨테이너가 여기서 치워진다)
+            GIT_COMMIT="$GIT_COMMIT_SHORT" \
+              docker-compose -f "$COMPOSE_FILE" up -d --build --remove-orphans
+
+            docker-compose -f "$COMPOSE_FILE" ps
+          '''
+        }
+      }
+    }
+
+    stage('Verify Deploy') {
+      when {
+        anyOf {
+          branch 'develop'
+          expression { (env.GIT_BRANCH ?: '').endsWith('develop') }
+        }
+      }
+      steps {
+        sh '''
+          set -e
+
+          commit_of() {
+            curl -sf --max-time 10 "$1" 2>/dev/null \
+              | python3 -c "import json,sys; print(json.load(sys.stdin).get('commit',''))" 2>/dev/null \
+              || true
+          }
+
+          echo "기대 커밋 $GIT_COMMIT_SHORT"
+
+          # 컨테이너가 받을 준비를 마칠 때까지 기다린다. 여기서 조급하게 판정하면
+          # 멀쩡한 배포를 실패로 처리한다.
+          for i in $(seq 1 24); do
+            API="$(commit_of "$PUBLIC_ORIGIN/api/health")"
+            WEB="$(commit_of "$PUBLIC_ORIGIN/build-info.json")"
+            if [ "$API" = "$GIT_COMMIT_SHORT" ] && [ "$WEB" = "$GIT_COMMIT_SHORT" ]; then
+              echo "API $API / 프론트 $WEB — 일치"
+              break
+            fi
+            if [ "$i" -eq 24 ]; then
+              echo "커밋 불일치: API '${API:-없음}' / 프론트 '${WEB:-없음}'"
+              exit 1
+            fi
+            sleep 5
+          done
+
+          # 이미지에 구운 엔진 산출물이 실제로 읽히는지 본다. 산출물이 빠지면
+          # 여기서 404 가 나므로 배포 사고를 바로 잡아낸다.
+          curl -fsS --max-time 20 -o /dev/null "$PUBLIC_ORIGIN/api/priority/districts/geojson"
+          echo "priority/districts/geojson OK"
+
+          # 호스트 nginx 를 거친 공개 경로. 컨테이너만 멀쩡하고 프록시 포트가
+          # 어긋난 경우를 잡는다 (프론트를 8002 이외로 옮기면 여기서 걸린다).
+          for path in / /api/health /docs; do
+            code="$(curl -s -o /dev/null -w '%{http_code}' --max-time 15 "$PUBLIC_ORIGIN$path")"
+            if [ "$code" != "200" ]; then
+              echo "공개 경로 $path -> $code"
+              exit 1
+            fi
+          done
+          echo "공개 경로 / /api/health /docs 모두 200"
+        '''
+      }
+    }
+  }
+
+  post {
+    always {
+      cleanWs()
+    }
+  }
+}

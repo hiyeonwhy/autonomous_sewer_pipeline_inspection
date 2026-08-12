@@ -1,0 +1,17 @@
+# 빌드 컨텍스트에서 뺄 것들. .gitignore 는 docker COPY 에 적용되지 않으므로
+# 여기서 따로 막지 않으면 node_modules 와 이전 dist 가 이미지로 딸려 들어간다.
+node_modules
+dist
+build
+coverage
+.git
+
+# 로컬 전용 설정. .env.production 은 빌드에 필요하므로 남긴다.
+.env
+.env.local
+.env.development
+
+# 개발 중에만 쓰는 산출물
+tests
+find_images
+*.log

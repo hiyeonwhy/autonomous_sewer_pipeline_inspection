@@ -1,0 +1,82 @@
+# 서버(EC2) Nginx 설정 예시 — SSL 종료 + 리버스 프록시.
+#
+# 실제 서버 설정 파일(예: /etc/nginx/sites-available/i15c102)에 반영할 때는
+# 아래 placeholder를 실제 값으로 바꿔서 사용한다. 이 파일 자체는 참고용이며,
+# 실수로 Certbot이 관리하는 실제 설정을 덮어쓰지 않도록 .example 확장자를 유지한다.
+
+server {
+    listen 80;
+    server_name YOUR_DOMAIN; # 예: i15c102.p.ssafy.io
+
+    # Certbot이 갱신 시 사용하는 challenge 경로. 건드리지 말 것.
+    location /.well-known/acme-challenge/ {
+        root /var/www/certbot; # 실제 경로는 서버의 Certbot 설정을 따른다.
+    }
+
+    location / {
+        return 301 https://$host$request_uri;
+    }
+}
+
+server {
+    listen 443 ssl;
+    server_name YOUR_DOMAIN; # 예: i15c102.p.ssafy.io
+
+    # Certbot이 발급/관리 중인 실제 인증서 경로로 교체할 것. 함부로 새로 발급받지 말 것.
+    ssl_certificate     /etc/letsencrypt/live/YOUR_DOMAIN/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/YOUR_DOMAIN/privkey.pem;
+
+    # 결함 캡처 업로드 상한(백엔드 10MB)에 맞춘 여유값. frontend 컨테이너 nginx와 동일하게 맞춘다.
+    client_max_body_size 12m;
+
+    # 프론트엔드 (frontend 컨테이너)
+    # 포트는 compose 의 frontend 서비스와 반드시 같아야 한다. 실제 서버는 8002 로
+    # 돌고 있어서 여기 번호를 바꾸면 사이트 전체가 502 가 된다.
+    location / {
+        proxy_pass http://127.0.0.1:8002;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    # 백엔드 API (cloud-api 컨테이너)
+    location /api/ {
+        proxy_pass http://127.0.0.1:8001;
+        # 보고서 PDF 생성이 nginx 기본값 60초를 넘긴다. 결함 3건 기준으로 WeasyPrint
+        # 렌더가 58초, 여기에 요약 생성(LLM)이 붙으면 확실히 초과한다 — 결함 1건당
+        # 비전 호출 1회이므로 결함이 늘면 더 길어진다. 이 값이 없으면 프론트의
+        # 「보고서 출력」이 504 로 실패한다. 서버는 끝까지 렌더하므로 로그에는 흔적이
+        # 남지 않아 원인을 찾기 어렵다.
+        proxy_read_timeout 300s;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    # FastAPI WebSocket 이벤트·실시간 YOLO frame relay.
+    # 일반 /api 요청과 분리해 hop-by-hop Upgrade header를 정확히 전달한다.
+    location /ws/ {
+        proxy_pass http://127.0.0.1:8001;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_read_timeout 300s;
+        proxy_send_timeout 300s;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    # 결함 이미지 등 정적 미디어 (cloud-api 컨테이너, /api 밖에 마운트됨)
+    # 이 라우트가 빠지면 요청이 frontend 컨테이너로 가서 결함 사진이 전부 404가 된다.
+    location /media/ {
+        proxy_pass http://127.0.0.1:8001;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
